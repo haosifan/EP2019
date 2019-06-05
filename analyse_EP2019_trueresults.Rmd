@@ -1,0 +1,89 @@
+---
+title: "analyse_EP2019_trueresults"
+author: "Stefan Hauﬂner"
+date: "5 Juni 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(rvest)
+library(countrycode)
+library(janitor)
+library(lubridate)
+library(openxlsx)
+```
+
+# Download all results from EP-Homepage
+
+The german landing page is used here, but the code should work with other languages, too. You just need to change the url.
+
+```{r}
+url <- "https://europawahlergebnis.eu/tools/datenblatter-herunterladen/"
+
+html <- read_html(url)
+
+links <- html %>% 
+  html_node(".download-datasheets--arrow-list") %>% 
+  html_nodes("ul div") %>% .[3] %>% 
+  html_nodes("ul li") %>% 
+  html_nodes(".download-datasheets--link") %>% 
+  html_attr("href") %>% 
+  paste0("https://europawahlergebnis.eu",.)
+
+cntry <- html %>% 
+  html_node(".download-datasheets--arrow-list") %>% 
+  html_nodes("ul div") %>% .[3] %>% 
+  html_nodes("ul li") %>% 
+  html_nodes(".download-datasheets--link") %>% 
+  html_text() %>%
+  tbl_df() %>% 
+  mutate(id = rownames(.))
+
+link_data <- tibble(cntry = cntry, links = links)
+```
+
+Make list of all results in all countries (or subnational entities). Basic data cleaning: Percentage points as numeric and update time as date-class and not as character values.
+
+```{r}
+results_ep19_national <- lapply(links, read.csv2) %>% 
+  bind_rows(.id = "id") %>%
+  left_join(., cntry, by = c("id" = "id")) %>% 
+  tbl_df() %>% 
+  mutate(VOTES_PERCENT = as.numeric(VOTES_PERCENT),
+         UPDATE_TIME = ymd_hm(UPDATE_TIME))
+```
+
+So far the parties have just an ID like XX01, XX02... So we download the list for national party names and combine them with our data.
+
+```{r}
+list_party_names <- read_csv2("https://europawahlergebnis.eu/data-sheets/csv/2019-2024/election-results/parties.csv") %>% 
+  mutate(DIVISION_ID = str_to_lower(DIVISION_ID))
+
+results_ep19_national <- left_join(results_ep19_national, list_party_names, 
+                                   by = c("value" = "DIVISION_ID","PARTY_ID" = "ID"))
+```
+
+Final data cleaning:
+ + Selection of variables
+ + save as CSV and XLSX
+
+```{r}
+results_ep19_national <- results_ep19_national %>% 
+  select(DIVISION_ID = value, 
+         PARTY_ID, 
+         ACRONYM, 
+         LABEL, 
+         VOTES_PERCENT, 
+         UPDATE_STATUS, 
+         UPDATE_TIME)
+
+
+write_csv2(results_ep19_national, "outputs/results_ep19_national.csv")
+write.xlsx(results_ep19_national, "outputs/results_ep19_national.xlsx")
+```
+
+
+
