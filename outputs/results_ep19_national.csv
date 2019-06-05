@@ -101,14 +101,14 @@ ee;EE06;EKRE;Eesti Konservatiivne Rahvaerakond;12,70;FINAL;2019-05-28T12:57:00Z
 ee;EE07;Eesti 200;Erakond Eesti 200; 3,20;FINAL;2019-05-28T12:57:00Z
 ee;EE08;ERE;Elurikkuse Erakond; 0,90;FINAL;2019-05-28T12:57:00Z
 ee;EE90;Other parties;Other parties; 7,20;FINAL;2019-05-28T12:57:00Z
-ie;IE01;FF;Fianna Fáil Party;16,55;ESTIMATE;2019-05-28T14:38:00Z
-ie;IE02;FG;Fine Gael Party;29,59;ESTIMATE;2019-05-28T14:38:00Z
-ie;IE03;LAB;Labour Party; 3,14;ESTIMATE;2019-05-28T14:38:00Z
-ie;IE04;GP;Green Party;11,37;ESTIMATE;2019-05-28T14:38:00Z
-ie;IE05;SF;Sinn Féin;11,68;ESTIMATE;2019-05-28T14:38:00Z
-ie;IE06;Ind.;Independents;23,92;ESTIMATE;2019-05-28T14:38:00Z
-ie;IE07;SD;Social Democrats; 1,21;ESTIMATE;2019-05-28T14:38:00Z
-ie;IE90;Other parties;Other parties; 2,54;ESTIMATE;2019-05-28T14:38:00Z
+ie;IE01;FF;Fianna Fáil Party;16,55;PROVISIONAL;2019-06-05T17:03:00Z
+ie;IE02;FG;Fine Gael Party;29,59;PROVISIONAL;2019-06-05T17:03:00Z
+ie;IE03;LAB;Labour Party; 3,14;PROVISIONAL;2019-06-05T17:03:00Z
+ie;IE04;GP;Green Party;11,37;PROVISIONAL;2019-06-05T17:03:00Z
+ie;IE05;SF;Sinn Féin;11,68;PROVISIONAL;2019-06-05T17:03:00Z
+ie;IE06;Ind.;Independents;23,92;PROVISIONAL;2019-06-05T17:03:00Z
+ie;IE07;SD;Social Democrats; 1,21;PROVISIONAL;2019-06-05T17:03:00Z
+ie;IE90;Other parties;Other parties; 2,54;PROVISIONAL;2019-06-05T17:03:00Z
 el;EL01;Ν.Δ/N.D.;Νέα Δημοκρατία/New Democracy;33,12;FINAL;2019-06-03T11:52:00Z
 el;EL02;Coal. KINAL/ΚΙΝΑΛ ( ΠΑΣΟΚ + ΔΗΣΥ + ΚΙΔΗΣΟ / PASOK + DISI + KIDISO);Coalition Κίνημα Αλλαγής/Movement for Change (Πανελλήνιο Σοσιαλιστικό Κίνημα + Δημοκρατική Συμπαράταξη + Κίνημα Δημοκρατών Σοσιαλιστών / Panhellenic Socialist Movement + Democratic Alignment + Movement of Democratic Socialists); 7,72;FINAL;2019-06-03T11:52:00Z
 el;EL03;KKE;Κομμουνιστικό Κόμμα Ελλάδας/Communist Party of Greece; 5,35;FINAL;2019-06-03T11:52:00Z
@@ -235,20 +235,20 @@ mt;MT02;PL/MLP;Partit Laburista/Malta Labour Party;54,29;OFFICIAL;2019-05-29T16:
 mt;MT03;AD/DA;Alternattiva Demokratika/Democratic Alternative; 0,72;OFFICIAL;2019-05-29T16:46:00Z
 mt;MT04;PD;Partit Demokratiku/Democratic Party; 2,03;OFFICIAL;2019-05-29T16:46:00Z
 mt;MT90;Other parties;Other parties; 5,06;OFFICIAL;2019-05-29T16:46:00Z
-nl;NL01;CDA;Christen-Democratisch Appèl;12,10;PROVISIONAL;2019-05-27T11:41:00Z
-nl;NL02;PvdA;Partij van de Arbeid;18,90;PROVISIONAL;2019-05-27T11:41:00Z
-nl;NL03;SP;Socialistische Partij; 3,40;PROVISIONAL;2019-05-27T11:41:00Z
-nl;NL04;VVD;Volkspartij voor Vrijheid en Democratie;14,60;PROVISIONAL;2019-05-27T11:41:00Z
-nl;NL05;GroenLinks;GroenLinks;10,90;PROVISIONAL;2019-05-27T11:41:00Z
-nl;NL06;PVV;Partij voor de Vrijheid; 3,50;PROVISIONAL;2019-05-27T11:41:00Z
-nl;NL07;D66;Democraten 66; 7,00;PROVISIONAL;2019-05-27T11:41:00Z
-nl;NL08;PvdD;Partij voor de Dieren; 4,00;PROVISIONAL;2019-05-27T11:41:00Z
-nl;NL09;Coalition CU - SGP;ChristenUnie - Staatkundig Gereformeerde Partij; 6,80;PROVISIONAL;2019-05-27T11:41:00Z
-nl;NL10;50+;50Plus; 3,90;PROVISIONAL;2019-05-27T11:41:00Z
-nl;NL11;DENK;DENK; 1,10;PROVISIONAL;2019-05-27T11:41:00Z
-nl;NL12;FvD;Forum voor Democratie;10,90;PROVISIONAL;2019-05-27T11:41:00Z
-nl;NL13;Volt;Volt; 1,90;PROVISIONAL;2019-05-27T11:41:00Z
-nl;NL90;Other parties;Other parties; 1,00;PROVISIONAL;2019-05-27T11:41:00Z
+nl;NL01;CDA;Christen-Democratisch Appèl;12,18;FINAL;2019-06-05T17:03:00Z
+nl;NL02;PvdA;Partij van de Arbeid;19,01;FINAL;2019-06-05T17:03:00Z
+nl;NL03;SP;Socialistische Partij; 3,37;FINAL;2019-06-05T17:03:00Z
+nl;NL04;VVD;Volkspartij voor Vrijheid en Democratie;14,64;FINAL;2019-06-05T17:03:00Z
+nl;NL05;GroenLinks;GroenLinks;10,90;FINAL;2019-06-05T17:03:00Z
+nl;NL06;PVV;Partij voor de Vrijheid; 3,53;FINAL;2019-06-05T17:03:00Z
+nl;NL07;D66;Democraten 66; 7,09;FINAL;2019-06-05T17:03:00Z
+nl;NL08;PvdD;Partij voor de Dieren; 4,02;FINAL;2019-06-05T17:03:00Z
+nl;NL09;Coalition CU - SGP;ChristenUnie - Staatkundig Gereformeerde Partij; 6,83;FINAL;2019-06-05T17:03:00Z
+nl;NL10;50+;50Plus; 3,91;FINAL;2019-06-05T17:03:00Z
+nl;NL11;DENK;DENK; 1,10;FINAL;2019-06-05T17:03:00Z
+nl;NL12;FvD;Forum voor Democratie;10,96;FINAL;2019-06-05T17:03:00Z
+nl;NL13;Volt;Volt; 1,93;FINAL;2019-06-05T17:03:00Z
+nl;NL90;Other parties;Other parties; 0,53;FINAL;2019-06-05T17:03:00Z
 at;AT01;SPÖ;Sozialdemokratische Partei Österreich;23,90;FINAL;2019-05-28T14:38:00Z
 at;AT02;ÖVP;Österreichische Volkspartei;34,60;FINAL;2019-05-28T14:38:00Z
 at;AT03;FPÖ;Freiheitliche Partei Österreichs;17,20;FINAL;2019-05-28T14:38:00Z
@@ -329,23 +329,23 @@ se;SE07;MP;Miljöpartiet de Gröna;11,52;FINAL;2019-06-03T11:52:00Z
 se;SE08;SD;Sverigedemokraterna;15,34;FINAL;2019-06-03T11:52:00Z
 se;SE09;FI;Feministiskt Initiativ; 0,77;FINAL;2019-06-03T11:52:00Z
 se;SE90;Other parties;Other parties; 1,73;FINAL;2019-06-03T11:52:00Z
-uk;UK01;SF;Sinn Féin; 0,62;FINAL;2019-05-29T11:55:00Z
-uk;UK02;DUP;Democratic Unionist Party; 0,59;FINAL;2019-05-29T11:55:00Z
-uk;UK03;UUP;Ulster Unionist Party; 0,25;FINAL;2019-05-29T11:55:00Z
-uk;UK04;SDLP;Social Democratic & Labour Party; 0,37;FINAL;2019-05-29T11:55:00Z
-uk;UK05;TUV;Traditional Unionist Voice; 0,29;FINAL;2019-05-29T11:55:00Z
-uk;UK06;APNI;Alliance Party; 0,50;FINAL;2019-05-29T11:55:00Z
-uk;UK07;Cons.;Conservative and Unionist Party; 8,85;FINAL;2019-05-29T11:55:00Z
-uk;UK08;Lab.;Labour Party;13,72;FINAL;2019-05-29T11:55:00Z
-uk;UK09;UKIP;United Kingdom Independence Party; 3,21;FINAL;2019-05-29T11:55:00Z
-uk;UK10;SNP;Scottish National Party; 3,50;FINAL;2019-05-29T11:55:00Z
-uk;UK11;PL-PW;Plaid Cymru - Party of Wales; 0,97;FINAL;2019-05-29T11:55:00Z
-uk;UK12;Lib dems;Liberal Democrats;19,76;FINAL;2019-05-29T11:55:00Z
-uk;UK13;GP;Green Party;11,77;FINAL;2019-05-29T11:55:00Z
-uk;UK14;Change UK;Change UK; 3,31;FINAL;2019-05-29T11:55:00Z
-uk;UK15;Brexit Party;Brexit Party;30,75;FINAL;2019-05-29T11:55:00Z
-uk;UK90;Other parties NI;Other parties Northern Ireland; 0,10;FINAL;2019-05-29T11:55:00Z
-uk;UK91;Other parties GB;Other parties Great Britain; 1,48;FINAL;2019-05-29T11:55:00Z
+uk;UK01;SF;Sinn Féin; 0,62;FINAL;2019-06-05T17:03:00Z
+uk;UK02;DUP;Democratic Unionist Party; 0,59;FINAL;2019-06-05T17:03:00Z
+uk;UK03;UUP;Ulster Unionist Party; 0,25;FINAL;2019-06-05T17:03:00Z
+uk;UK04;SDLP;Social Democratic & Labour Party; 0,37;FINAL;2019-06-05T17:03:00Z
+uk;UK05;TUV;Traditional Unionist Voice; 0,29;FINAL;2019-06-05T17:03:00Z
+uk;UK06;APNI;Alliance Party; 0,50;FINAL;2019-06-05T17:03:00Z
+uk;UK07;Cons.;Conservative and Unionist Party; 8,84;FINAL;2019-06-05T17:03:00Z
+uk;UK08;Lab.;Labour Party;13,72;FINAL;2019-06-05T17:03:00Z
+uk;UK09;UKIP;United Kingdom Independence Party; 3,21;FINAL;2019-06-05T17:03:00Z
+uk;UK10;SNP;Scottish National Party; 3,50;FINAL;2019-06-05T17:03:00Z
+uk;UK11;PL-PW;Plaid Cymru - Party of Wales; 0,97;FINAL;2019-06-05T17:03:00Z
+uk;UK12;Lib dems;Liberal Democrats;19,75;FINAL;2019-06-05T17:03:00Z
+uk;UK13;GP;Green Party;11,76;FINAL;2019-06-05T17:03:00Z
+uk;UK14;Change UK;Change UK; 3,31;FINAL;2019-06-05T17:03:00Z
+uk;UK15;Brexit Party;Brexit Party;30,74;FINAL;2019-06-05T17:03:00Z
+uk;UK90;Other parties NI;Other parties Northern Ireland; 0,10;FINAL;2019-06-05T17:03:00Z
+uk;UK91;Other parties GB;Other parties Great Britain; 1,48;FINAL;2019-06-05T17:03:00Z
 gb;UK07;Cons.;Conservative and Unionist Party; 9,09;FINAL;2019-05-29T11:55:00Z
 gb;UK08;Lab.;Labour Party;14,10;FINAL;2019-05-29T11:55:00Z
 gb;UK09;UKIP;United Kingdom Independence Party; 3,30;FINAL;2019-05-29T11:55:00Z

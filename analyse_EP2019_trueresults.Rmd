@@ -14,6 +14,7 @@ library(countrycode)
 library(janitor)
 library(lubridate)
 library(openxlsx)
+library(data.table)
 ```
 
 # Download all results from EP-Homepage
@@ -49,10 +50,11 @@ Make list of all results in all countries (or subnational entities). Basic data 
 
 ```{r}
 results_ep19_national <- lapply(links, read.csv2) %>% 
-  bind_rows(.id = "id") %>%
-  left_join(., cntry, by = c("id" = "id")) %>% 
+  data.table::rbindlist(idcol = TRUE) %>%
+  mutate(.id = as.character(.id)) %>% 
+  left_join(., cntry, by = c(".id" = "id")) %>% 
   tbl_df() %>% 
-  mutate(VOTES_PERCENT = as.numeric(VOTES_PERCENT),
+  mutate(VOTES_PERCENT = as.numeric(as.character(VOTES_PERCENT)),
          UPDATE_TIME = ymd_hm(UPDATE_TIME))
 ```
 
@@ -85,5 +87,49 @@ write_csv2(results_ep19_national, "outputs/results_ep19_national.csv")
 write.xlsx(results_ep19_national, "outputs/results_ep19_national.xlsx")
 ```
 
+# Download all group affiliations
 
+```{r}
+links_breakdownparties <- html %>% 
+  html_node(".download-datasheets--arrow-list") %>% 
+  html_nodes("ul div") %>% .[5] %>% 
+  html_nodes("ul li") %>% 
+  html_nodes(".download-datasheets--link") %>% 
+  html_attr("href") %>% 
+  paste0("https://europawahlergebnis.eu",.)
 
+cntry_breakdownparties <- html %>% 
+  html_node(".download-datasheets--arrow-list") %>% 
+  html_nodes("ul div") %>% .[5] %>% 
+  html_nodes("ul li") %>% 
+  html_nodes(".download-datasheets--link") %>% 
+  html_text() %>%
+  tbl_df() %>% 
+  mutate(id = rownames(.))
+```
+
+Combine datasets like before. Finish datasets on Seats in the EP2019 per MS.
+
+```{r}
+seats_ep19_national <- lapply(links_breakdownparties, read.csv2) %>% 
+  data.table::rbindlist(idcol = TRUE) %>%
+  mutate(.id = as.character(.id)) %>% 
+  left_join(., cntry_breakdownparties, by = c(".id" = "id")) %>% 
+  tbl_df() %>% 
+  select(DIVISION_ID = value,
+         PARTY_ID, SEATS_TOTAL, GROUP_ID, UPDATE_STATUS, UPDATE_TIME) %>% 
+  mutate_if(is.factor, as.character)
+
+seats_ep19_national %>% 
+  select(DIVISION_ID, PARTY_ID, SEATS_TOTAL, GROUP_ID) 
+  
+```
+
+Join with percentage-results
+
+```{r}
+results_and_seats_ep19_national <- left_join(results_ep19_national, 
+                                             select(seats_ep19_national, DIVISION_ID, PARTY_ID, SEATS_TOTAL, GROUP_ID), 
+                                             by = c("DIVISION_ID", "PARTY_ID")) %>% 
+  select(DIVISION_ID:VOTES_PERCENT, SEATS_TOTAL, GROUP_ID, everything())
+```
