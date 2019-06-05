@@ -1,0 +1,61 @@
+---
+title: "analysis_EP2019_turnout"
+author: "Stefan Hauﬂner"
+date: "5 Juni 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(openxlsx)
+library(tidyverse)
+library(maptools)
+library(rgdal)
+library(sp)
+library(janitor)
+library(maps)
+library(ggthemes)
+library(viridis)
+```
+
+```{r}
+turnout_ep19 <- openxlsx::read.xlsx(xlsxFile = "../../turnout_EU_2014.xlsx", sheet = 3)
+
+shp <- readOGR("../EP2019/mat/NUTS_2013_10M_SH/data/NUTS_RG_10M_2013.shp")
+```
+
+Vorbereiten der Karte (SHP-File)
+
+```{r}
+shp_lv0 <- shp[shp$STAT_LEVL_==0,]
+
+shp_eu <- shp_lv0 %>% 
+  fortify(region = "NUTS_ID") %>% 
+  filter(id %in% turnout_ep19$ISO) %>% 
+  tbl_df()
+  
+plot_df <- left_join(shp_eu, turnout_ep19, by = c("id" = "ISO")) %>% 
+  janitor::clean_names() %>% 
+  mutate(category_turnout=cut(difference, breaks=c(-Inf, 0, 5, 10, Inf), labels=c("negative","low","middle","high")))
+```
+
+# Map
+
+```{r}
+
+ggplot()+
+  geom_map(data = plot_df,
+           map = plot_df, 
+           aes(x = long, y = lat, map_id = id, group = group, fill = category_turnout)) +
+  geom_path(data = plot_df,
+            aes(x = long, y = lat, group = group))+
+  coord_map("mercator")+
+  scale_x_continuous(limits = c(-15,44))+
+  scale_y_continuous(limits = c(32,69))+
+  theme_map() +
+  theme(legend.position = "right")+
+  scale_fill_viridis_d(name = "difference in turnout")
+ggsave(filename = "gfx/map_turnout_differences.png", device = "png", dpi = 300)
+
+```
+
