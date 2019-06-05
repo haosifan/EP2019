@@ -1,0 +1,365 @@
+DIVISION_ID;PARTY_ID;ACRONYM;LABEL;VOTES_PERCENT;UPDATE_STATUS;UPDATE_TIME
+be;BE01;CD&V;Christen-Democratisch & Vlaams; 8,90;PROVISIONAL;2019-06-04T15:48:00Z
+be;BE02;Groen;Groen; 7,57;PROVISIONAL;2019-06-04T15:48:00Z
+be;BE03;N-VA;Nieuw-Vlaamse Alliantie;13,73;PROVISIONAL;2019-06-04T15:48:00Z
+be;BE04;sp.a;Socialistische Partij - Anders; 6,25;PROVISIONAL;2019-06-04T15:48:00Z
+be;BE05;VI.Belang;Vlaams Belang;11,68;PROVISIONAL;2019-06-04T15:48:00Z
+be;BE06;Open VLD;Open Vlaamse Liberalen en Democraten; 9,76;PROVISIONAL;2019-06-04T15:48:00Z
+be;BE07;PVDA-PTB;Partij van de Arbeid van België; 3,03;PROVISIONAL;2019-06-04T15:48:00Z
+be;BE08;PS;Parti Socialiste;10,19;PROVISIONAL;2019-06-04T15:48:00Z
+be;BE09;MR;Mouvement Réformateur; 7,36;PROVISIONAL;2019-06-04T15:48:00Z
+be;BE10;cdH;Centre Démocrate Humaniste; 3,41;PROVISIONAL;2019-06-04T15:48:00Z
+be;BE11;ECOLO;Ecologistes Confédérés pour l'Organisation de Luttes Originales; 7,60;PROVISIONAL;2019-06-04T15:48:00Z
+be;BE12;PTB-PVDA;Parti du Travail de Belgique; 5,57;PROVISIONAL;2019-06-04T15:48:00Z
+be;BE13;DéFI;Démocrate Fédéraliste Indépendant; 2,26;PROVISIONAL;2019-06-04T15:48:00Z
+be;BE14;PP;Parti Populaire; 1,78;PROVISIONAL;2019-06-04T15:48:00Z
+be;BE15;CSP;Christlich Soziale Partei; 0,22;PROVISIONAL;2019-06-04T15:48:00Z
+be;BE16;SP;Sozialistische Partei; 0,07;PROVISIONAL;2019-06-04T15:48:00Z
+be;BE17;PFF;Partei für Freiheit und Fortschritt; 0,07;PROVISIONAL;2019-06-04T15:48:00Z
+be;BE18;ProDG;Pro deutschsprachige Gemeinschaft; 0,08;PROVISIONAL;2019-06-04T15:48:00Z
+be;BE19;ECOLO (G.);Ecologistes Confédérés pour l'Organisation de Luttes Originales (G.); 0,10;PROVISIONAL;2019-06-04T15:48:00Z
+be;BE90;Other parties F.;Other parties from Dutch-speaking electoral college; 0,29;PROVISIONAL;2019-06-04T15:48:00Z
+be;BE91;Other parties W.;Other parties from French-speaking electoral college; 0,00;PROVISIONAL;2019-06-04T15:48:00Z
+be;BE92;Other parties G.;Other parties from German-speaking electoral college; 0,08;PROVISIONAL;2019-06-04T15:48:00Z
+fbe;BE01;CD&V;Christen-Democratisch & Vlaams;14,53;PROVISIONAL;2019-05-27T10:18:00Z
+fbe;BE02;Groen;Groen;12,37;PROVISIONAL;2019-05-27T10:18:00Z
+fbe;BE03;N-VA;Nieuw-Vlaamse Alliantie;22,44;PROVISIONAL;2019-05-27T10:18:00Z
+fbe;BE04;sp.a;Socialistische Partij - Anders;10,21;PROVISIONAL;2019-05-27T10:18:00Z
+fbe;BE05;VI.Belang;Vlaams Belang;19,08;PROVISIONAL;2019-05-27T10:18:00Z
+fbe;BE06;Open VLD;Open Vlaamse Liberalen en Democraten;15,95;PROVISIONAL;2019-05-27T10:18:00Z
+fbe;BE07;PVDA-PTB;Partij van de Arbeid van België; 4,95;PROVISIONAL;2019-05-27T10:18:00Z
+fbe;BE90;Other parties F.;Other parties from Dutch-speaking electoral college; 0,47;PROVISIONAL;2019-05-27T10:18:00Z
+gbe;BE15;CSP;Christlich Soziale Partei;34,90;PROVISIONAL;2019-05-26T23:51:00Z
+gbe;BE16;SP;Sozialistische Partei;11,40;PROVISIONAL;2019-05-26T23:51:00Z
+gbe;BE17;PFF;Partei für Freiheit und Fortschritt;11,50;PROVISIONAL;2019-05-26T23:51:00Z
+gbe;BE18;ProDG;Pro deutschsprachige Gemeinschaft;13,10;PROVISIONAL;2019-05-26T23:51:00Z
+gbe;BE19;ECOLO (G.);Ecologistes Confédérés pour l'Organisation de Luttes Originales (G.);16,40;PROVISIONAL;2019-05-26T23:51:00Z
+gbe;BE92;Other parties G.;Other parties from German-speaking electoral college;12,70;PROVISIONAL;2019-05-26T23:51:00Z
+wbe;BE08;PS;Parti Socialiste;26,69;PROVISIONAL;2019-05-27T10:18:00Z
+wbe;BE09;MR;Mouvement Réformateur;19,29;PROVISIONAL;2019-05-27T10:18:00Z
+wbe;BE10;cdH;Centre Démocrate Humaniste; 8,94;PROVISIONAL;2019-05-27T10:18:00Z
+wbe;BE11;ECOLO;Ecologistes Confédérés pour l'Organisation de Luttes Originales;19,91;PROVISIONAL;2019-05-27T10:18:00Z
+wbe;BE12;PTB-PVDA;Parti du Travail de Belgique;14,59;PROVISIONAL;2019-05-27T10:18:00Z
+wbe;BE13;DéFI;Démocrate Fédéraliste Indépendant; 5,92;PROVISIONAL;2019-05-27T10:18:00Z
+wbe;BE14;PP;Parti Populaire; 4,66;PROVISIONAL;2019-05-27T10:18:00Z
+wbe;BE91;Other parties W.;Other parties from French-speaking electoral college; 0,00;PROVISIONAL;2019-05-27T10:18:00Z
+bg;BG01;BSP/БСП;Bulgarska sotsialisticheska partiya/Българска социалистическа партия;24,26;FINAL;2019-06-03T11:52:00Z
+bg;BG02;DPS/ДПС;Dvizhenie za prava i svobodi/Движение за права и свободи;16,55;FINAL;2019-06-03T11:52:00Z
+bg;BG03;GERB/ГЕРБ;Coalition (Grazhdani za evropeysko razvitie na Balgariya + Sayuz na demokratichnite sili / Граждани за европейско развитие на България + Съюз на демократичните сили);31,07;FINAL;2019-06-03T11:52:00Z
+bg;BG04;Koalitsiya za Bulgaria/Коалиция за България;Koalitsiya za Bulgaria / Коалиция за България ( Alternativa za balgarsko vazrazhdane et al. / Алтернатива за българско възраждане и други); 0,86;FINAL;2019-06-03T11:52:00Z
+bg;BG05;Volya/Воля;Volya / Воля; 3,62;FINAL;2019-06-03T11:52:00Z
+bg;BG06;Demokratichna Bulgaria/Демократична България;Demokratichna Bulgaria / Демократична България; 6,06;FINAL;2019-06-03T11:52:00Z
+bg;BG07;ATAKA/АТАКА;Partiya Ataka/Партия Атака; 1,07;FINAL;2019-06-03T11:52:00Z
+bg;BG08;VMRO/ВМРО;VMRO - Bulgarsko Natsionalno Dvizhenie / ВМРО - Българско национално движение; 7,36;FINAL;2019-06-03T11:52:00Z
+bg;BG09;NFSB/НФСБ;Natsionalen Front za Spasenie na Bulgaria/Национален фронт за спасение на България; 1,15;FINAL;2019-06-03T11:52:00Z
+bg;BG90;Other parties;Other parties; 8,00;FINAL;2019-06-03T11:52:00Z
+cz;CZ01;ODS;Občanská demokratická strana;14,54;FINAL;2019-05-29T16:46:00Z
+cz;CZ02;ČSSD;Česká strana sociálně demokratická; 3,95;FINAL;2019-05-29T16:46:00Z
+cz;CZ03;KSČM;Komunistická strana Čech a Moravy; 6,94;FINAL;2019-05-29T16:46:00Z
+cz;CZ04;KDU-ČSL;Křesťanská a demokratická unie – Československá strana lidová; 7,24;FINAL;2019-05-29T16:46:00Z
+cz;CZ05;TOP 09 + STAN;STAROSTOVÉ (STAN) s regionálními partnery a TOP 09;11,65;FINAL;2019-05-29T16:46:00Z
+cz;CZ06;ANO 2011;ANO 2011;21,18;FINAL;2019-05-29T16:46:00Z
+cz;CZ07;Piráti;Česká pirátská strana;13,95;FINAL;2019-05-29T16:46:00Z
+cz;CZ08;SPD;Svoboda a přímá demokracie; 9,14;FINAL;2019-05-29T16:46:00Z
+cz;CZ09;HLAS;HLAS; 2,38;FINAL;2019-05-29T16:46:00Z
+cz;CZ10;EU TROLL;ANO, vytrollíme europarlament; 1,56;FINAL;2019-05-29T16:46:00Z
+cz;CZ11;Vědci pro ČR;Vědci pro Českou republiku; 0,82;FINAL;2019-05-29T16:46:00Z
+cz;CZ12;Coal ROZUMNÍ ND;Koalice Rozumní, ND; 0,78;FINAL;2019-05-29T16:46:00Z
+cz;CZ90;Other parties;Other parties; 5,87;FINAL;2019-05-29T16:46:00Z
+dk;DK01;A (S);Socialdemokratiet;21,48;FINAL;2019-05-28T18:06:00Z
+dk;DK02;B (RV);Det Radikale Venstre;10,07;FINAL;2019-05-28T18:06:00Z
+dk;DK03;C (KF);Det Konservative Folkeparti; 6,18;FINAL;2019-05-28T18:06:00Z
+dk;DK04;F (SF);Socialistisk Folkeparti;13,23;FINAL;2019-05-28T18:06:00Z
+dk;DK05;I (LA);Liberal Alliance; 2,20;FINAL;2019-05-28T18:06:00Z
+dk;DK06;N;Folkebevægelsen mod EU; 3,70;FINAL;2019-05-28T18:06:00Z
+dk;DK07;O (DF);Dansk Folkeparti;10,76;FINAL;2019-05-28T18:06:00Z
+dk;DK08;V (V);Venstre, Danmarks Liberale Parti;23,50;FINAL;2019-05-28T18:06:00Z
+dk;DK09;Ø (EL);"""Enhedslisten, de Rød-Grønne"""; 5,51;FINAL;2019-05-28T18:06:00Z
+dk;DK10;Å;Alternativet; 3,37;FINAL;2019-05-28T18:06:00Z
+dk;DK90;Other parties;Other parties; 0,00;FINAL;2019-05-28T18:06:00Z
+de;DE01;CDU - CSU;Christlich Demokratische Union Deutschlands / Christlich-Soziale Union in Bayern e.V.;28,90;FINAL;2019-05-27T10:18:00Z
+de;DE02;SPD;Sozialdemokratische Partei Deutschlands;15,80;FINAL;2019-05-27T10:18:00Z
+de;DE03;GRÜNE;Bündnis 90/Die Grünen;20,50;FINAL;2019-05-27T10:18:00Z
+de;DE04;DIE LINKE;DIE LINKE; 5,50;FINAL;2019-05-27T10:18:00Z
+de;DE05;AfD;Alternative für Deutschland;11,00;FINAL;2019-05-27T10:18:00Z
+de;DE06;FDP;Freie Demokratische Partei; 5,40;FINAL;2019-05-27T10:18:00Z
+de;DE07;FREIE WÄHLER;FREIE WÄHLER; 2,20;FINAL;2019-05-27T10:18:00Z
+de;DE08;PIRATEN;Piratenpartei Deutschland; 0,70;FINAL;2019-05-27T10:18:00Z
+de;DE09;Tierschutzpartei;PARTEI MENSCH UMWELT TIERSCHUTZ; 1,40;FINAL;2019-05-27T10:18:00Z
+de;DE10;NPD;Nationaldemokratische Partei Deutschlands; 0,30;FINAL;2019-05-27T10:18:00Z
+de;DE11;FAMILIE;Familien-Partei Deutschlands; 0,70;FINAL;2019-05-27T10:18:00Z
+de;DE12;ÖDP;Ökologisch-Demokratische Partei; 1,00;FINAL;2019-05-27T10:18:00Z
+de;DE13;Die PARTEI;Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative; 2,40;FINAL;2019-05-27T10:18:00Z
+de;DE14;VOLT;VOLT; 0,70;FINAL;2019-05-27T10:18:00Z
+de;DE90;Other parties;Other parties; 3,50;FINAL;2019-05-27T10:18:00Z
+ee;EE01;RE;Eesti Reformierakond;26,20;FINAL;2019-05-28T12:57:00Z
+ee;EE02;KE;Eesti Keskerakond;14,40;FINAL;2019-05-28T12:57:00Z
+ee;EE03;Isamaa;Isamaa Erakond;10,30;FINAL;2019-05-28T12:57:00Z
+ee;EE04;SDE;Sotsiaaldemokraatlik Erakond;23,30;FINAL;2019-05-28T12:57:00Z
+ee;EE05;EER;Erakond Eestimaa Rohelised; 1,80;FINAL;2019-05-28T12:57:00Z
+ee;EE06;EKRE;Eesti Konservatiivne Rahvaerakond;12,70;FINAL;2019-05-28T12:57:00Z
+ee;EE07;Eesti 200;Erakond Eesti 200; 3,20;FINAL;2019-05-28T12:57:00Z
+ee;EE08;ERE;Elurikkuse Erakond; 0,90;FINAL;2019-05-28T12:57:00Z
+ee;EE90;Other parties;Other parties; 7,20;FINAL;2019-05-28T12:57:00Z
+ie;IE01;FF;Fianna Fáil Party;16,55;ESTIMATE;2019-05-28T14:38:00Z
+ie;IE02;FG;Fine Gael Party;29,59;ESTIMATE;2019-05-28T14:38:00Z
+ie;IE03;LAB;Labour Party; 3,14;ESTIMATE;2019-05-28T14:38:00Z
+ie;IE04;GP;Green Party;11,37;ESTIMATE;2019-05-28T14:38:00Z
+ie;IE05;SF;Sinn Féin;11,68;ESTIMATE;2019-05-28T14:38:00Z
+ie;IE06;Ind.;Independents;23,92;ESTIMATE;2019-05-28T14:38:00Z
+ie;IE07;SD;Social Democrats; 1,21;ESTIMATE;2019-05-28T14:38:00Z
+ie;IE90;Other parties;Other parties; 2,54;ESTIMATE;2019-05-28T14:38:00Z
+el;EL01;Ν.Δ/N.D.;Νέα Δημοκρατία/New Democracy;33,12;FINAL;2019-06-03T11:52:00Z
+el;EL02;Coal. KINAL/ΚΙΝΑΛ ( ΠΑΣΟΚ + ΔΗΣΥ + ΚΙΔΗΣΟ / PASOK + DISI + KIDISO);Coalition Κίνημα Αλλαγής/Movement for Change (Πανελλήνιο Σοσιαλιστικό Κίνημα + Δημοκρατική Συμπαράταξη + Κίνημα Δημοκρατών Σοσιαλιστών / Panhellenic Socialist Movement + Democratic Alignment + Movement of Democratic Socialists); 7,72;FINAL;2019-06-03T11:52:00Z
+el;EL03;KKE;Κομμουνιστικό Κόμμα Ελλάδας/Communist Party of Greece; 5,35;FINAL;2019-06-03T11:52:00Z
+el;EL04;ΣΥ.ΡΙ.ΖΑ./SY.RΙ.ΖΑ.;Συνασπισμός Ριζοσπαστικής Αριστεράς/Coalition of the Radical Left;23,76;FINAL;2019-06-03T11:52:00Z
+el;EL05;X.A.;Χρυσή Αυγή/Golden Dawn; 4,88;FINAL;2019-06-03T11:52:00Z
+el;EL06;ΑΝ.ΕΛ/ANEL;Ανεξάρτητοι Έλληνες/Independent Greeks; 0,80;FINAL;2019-06-03T11:52:00Z
+el;EL07;E.K.;Ένωση Κεντρώων / Union of Centrists; 1,45;FINAL;2019-06-03T11:52:00Z
+el;EL08;ΛΑΕ/LAE;Λαϊκή Ενότητα-Μέτωπο ανατροπής / Popular Unity; 0,56;FINAL;2019-06-03T11:52:00Z
+el;EL09;ΕΛ/EL;Ελληνική Λύση / Greek Solution; 4,18;FINAL;2019-06-03T11:52:00Z
+el;EL10;To Potami;Το Ποτάμι/The River; 1,52;FINAL;2019-06-03T11:52:00Z
+el;EL11;Πλεύση Ελευθερίας /Course of Freedom;Πλεύση Ελευθερίας /Course of Freedom; 1,61;FINAL;2019-06-03T11:52:00Z
+el;EL12;ΑΝΤ.ΑΡ.ΣΥ.Α/ANT.AR.SY.A;Αντικαπιταλιστική Αριστερή Συνεργασία για την Ανατροπή/Front of the Greek Anticapitalist Left ; 0,64;FINAL;2019-06-03T11:52:00Z
+el;EL13;ΜέΡΑ25/DiEM25;Μέτωπο Ευρωπαϊκής Ρεαλιστικής Ανυπακοής /European Realistic Disobedience Front; 2,99;FINAL;2019-06-03T11:52:00Z
+el;EL14;Ο.Π./O.P.;Οικολόγοι Πράσινοι/Ecologist Greens; 0,87;FINAL;2019-06-03T11:52:00Z
+el;EL90;Other parties;Other parties;10,55;FINAL;2019-06-03T11:52:00Z
+es;ES01;PSOE/PSC;Partido Socialista Obrero Español + Partido de los Socialistas de Cataluña;32,84;PROVISIONAL;2019-05-27T10:18:00Z
+es;ES02;PP;Partido Popular;20,13;PROVISIONAL;2019-05-27T10:18:00Z
+es;ES03;Coal (UP + IU + Catalunya en Comú + Barcelona en Comú);Coalition Unidas Podemos Cambiar Europa (Unidas Podemos + Izquierda Unida + Catalunya en Comú + Barcelona en Comú);10,05;PROVISIONAL;2019-05-27T10:18:00Z
+es;ES04;Coal (EAJ-PNV + CC + CxG + Atarrabia Taldea + El Pi + Demòcrates Valencians);Coalition por una Europa Solidaria (Euzko Alderdi Jeltzalea - Partido Nacionalista Vasco + Coalición Canaria + Compromiso por Galicia + Atarrabia Taldea + Proposta per les Illes Balears y Demòcrates Valencians); 2,83;PROVISIONAL;2019-05-27T10:18:00Z
+es;ES05;C's;Ciudadanos - Partido de la Ciudadanía;12,17;PROVISIONAL;2019-05-27T10:18:00Z
+es;ES06;Coal (PdCat + JXCat);Coal LLIURES PER EUROPA (JUNTS) (Partit Demòcrata Europeu Català  + Junts per Catalunya); 4,58;PROVISIONAL;2019-05-27T10:18:00Z
+es;ES07;VOX;VOX; 6,20;PROVISIONAL;2019-05-27T10:18:00Z
+es;ES08;Coal (ERC + Bildu + BNG);Coalition Ahora Repúblicas (Esquerra Republicana de Catalunya + Euskal Herria Bildu + El Bloque Nacionalista Galego); 5,61;PROVISIONAL;2019-05-27T10:18:00Z
+es;ES09;Coal (Compromís + En Marea +CHA + PCAS + Caballas + NC + Mès + CpM + Iniciativa + Izquierda Andalucista + PvE);Coalition Compromiso por Europa (Compromís + En Marea +Chunta Aragonesista + Partido Castellano + Coalición Caballas + Nueva Canarias + Més per Mallorca + Coalición por Melilla + Iniciativa del Pueblo Andaluz + Izquierda Andalucista + Verdes de Europa); 1,32;PROVISIONAL;2019-05-27T10:18:00Z
+es;ES10;PACMA;Partido Animalista Contra el Maltrato Animal ; 1,31;PROVISIONAL;2019-05-27T10:18:00Z
+es;ES90;Other parties;Other parties; 2,96;PROVISIONAL;2019-05-27T10:18:00Z
+fr;FR01;FI;France insoumise; 6,31;FINAL;2019-05-29T11:55:00Z
+fr;FR02;Coal (PS + RDG + PP + N);Coalition Envie d'Europe écologique et sociale (Parti Socialiste + Radicaux de Gauche + Place publique + Nouvelle Donne); 6,19;FINAL;2019-05-29T11:55:00Z
+fr;FR03;EELV;Europe écologie-Les verts;13,47;FINAL;2019-05-29T11:55:00Z
+fr;FR04;LR;Les Républicains - Union de la droite et du centre; 8,48;FINAL;2019-05-29T11:55:00Z
+fr;FR05;RN;Rassemblement national;23,31;FINAL;2019-05-29T11:55:00Z
+fr;FR06;DLF + CNIP;Debout la France + CNIP; 3,51;FINAL;2019-05-29T11:55:00Z
+fr;FR07;Coal (LREM + MoDem + A + MRSL);Coalition Renaissance (La Republique En marche! + MoDem + Agir + Mouvement radical, social et libéral);22,41;FINAL;2019-05-29T11:55:00Z
+fr;FR08;PCF;Parti communiste français; 2,49;FINAL;2019-05-29T11:55:00Z
+fr;FR09;UDI;Union des Démocrates et Indépendants; 2,50;FINAL;2019-05-29T11:55:00Z
+fr;FR10;Generation.s;Generation.s; 3,27;FINAL;2019-05-29T11:55:00Z
+fr;FR90;Other parties;Other parties; 8,06;FINAL;2019-05-29T11:55:00Z
+hr;HR01;HDZ;Hrvatska demokratska zajednica;22,72;FINAL;2019-05-27T10:39:00Z
+hr;HR02;SDP;Socijaldemokratska partija Hrvatske;18,71;FINAL;2019-05-27T10:39:00Z
+hr;HR03;HNS;Hrvatska narodna stranka; 2,60;FINAL;2019-05-27T10:39:00Z
+hr;HR04;MOST;Most nezavisnih lista; 4,67;FINAL;2019-05-27T10:39:00Z
+hr;HR05;Coal (PAMETNO + UK);Coalition (Pametno + Unija Kvarnera coalition); 1,40;FINAL;2019-05-27T10:39:00Z
+hr;HR06;ŽIVI ZID;Živi zid; 5,66;FINAL;2019-05-27T10:39:00Z
+hr;HR07;Bandić Milan 365;Bandić Milan 365 - Stranka rada i solidarnosti; 1,97;FINAL;2019-05-27T10:39:00Z
+hr;HR08;Coal (NHR + HSP);Coalition (Neovisni za Hrvatsku + Hrvatska Stranka Prava); 4,37;FINAL;2019-05-27T10:39:00Z
+hr;HR09;START;Stranka antikorupcije, razvoja i transparentnosti; 2,02;FINAL;2019-05-27T10:39:00Z
+hr;HR10;Coal Hrv. Suverenisti;Coalition Hrvatski suverenisti (HRAST - Pokret za uspješnu Hrvatsku + Hrvatska konzervativna stranka - HKS + Hrvatska stranka prava de. Ante Starrčević - HSP AS + Ujedinjeni hrvatski domoljubi - UHD); 8,52;FINAL;2019-05-27T10:39:00Z
+hr;HR11;Coal AMS (HL + PGS + HSU + IDS + HSS + GLAS + Demokrati);Coalition Amsterdamska koalicija (Hrvatski laburisti + Primorsko goranski savez + Hrvatska stranka umirovljenika + Istarski demokratski sabor + Hrvatska seljačka stranka + Građansko-liberalni savez + Demokrati); 5,19;FINAL;2019-05-27T10:39:00Z
+hr;HR12;Coal. Zelena ljevica;Coalition Zelena ljevica (Možemo! - politička platforma + Nova ljevica + Održivi razvoj Hrvatske - ORaH); 1,79;FINAL;2019-05-27T10:39:00Z
+hr;HR13;Mislav Kolakušić;Independent Mislav Kolakušić; 7,89;FINAL;2019-05-27T10:39:00Z
+hr;HR14;Marijana Petir;Independent Marijana Petir; 4,40;FINAL;2019-05-27T10:39:00Z
+hr;HR90;Other parties;Other parties; 8,09;FINAL;2019-05-27T10:39:00Z
+it;IT01;LN;Lega Salvini Premier;34,33;PROVISIONAL;2019-05-27T14:26:00Z
+it;IT02;PD;Partito Democratico (con Siamo Europei);22,69;PROVISIONAL;2019-05-27T14:26:00Z
+it;IT03;FI;Forza Italia; 8,79;PROVISIONAL;2019-05-27T14:26:00Z
+it;IT04;FDI;Fratelli d'Italia; 6,46;PROVISIONAL;2019-05-27T14:26:00Z
+it;IT05;M5S;Movimento Cinque Stelle;17,07;PROVISIONAL;2019-05-27T14:26:00Z
+it;IT06;Coal +E (+E + IC + PDE et al.);Coalition +Europa (+ Europa - Italia in Comune - Partito Democratico Europeo).; 3,09;PROVISIONAL;2019-05-27T14:26:00Z
+it;IT07;Coal La Sinistra (SI + RC);Coalition La Sinistra (Sinistra italiana + Rifondazione comunista + Altra Europa con Tsipras + Partito del Sud + Transform Itali + Convergenza Socialista); 1,74;PROVISIONAL;2019-05-27T14:26:00Z
+it;IT08;SVP;Südtiroler Volkspartei (Partito popolare sudtirolese); 0,53;PROVISIONAL;2019-05-27T14:26:00Z
+it;IT09;FdV (Verdi+Possibile et al.);Coalition Federazione dei Verdi (Verdi + Possibile + Green Italia et al.).; 2,29;PROVISIONAL;2019-05-27T14:26:00Z
+it;IT90;Other parties;Other parties; 3,01;PROVISIONAL;2019-05-27T14:26:00Z
+cy;CY01;ΔΗΣΥ/DISY;Δημοκρατικός Συναγερμός/Democratic Rally;29,02;FINAL;2019-05-27T01:28:00Z
+cy;CY02;ΑΚΕΛ/ΑΚΕL;Ανορθωτικό Κόμμα Εργαζόμενου Λαού/Progressive Party of Working People;27,49;FINAL;2019-05-27T01:28:00Z
+cy;CY03;ΔΗΚΟ/DIKO;Δημοκρατικό Κόμμα/Democratic Party;13,80;FINAL;2019-05-27T01:28:00Z
+cy;CY04;ΕΔΕΚ/ EDEK;ΕΔΕΚ Κίνημα Σοσιαλδημοκρατών/Movement for Social Democrats EDEK;10,58;FINAL;2019-05-27T01:28:00Z
+cy;CY05;ΕΛΑΜ/ELAM;Εθνικό Λαϊκό Μέτωπο/National Popular Front; 8,25;FINAL;2019-05-27T01:28:00Z
+cy;CY06;Συμμαχία-Οικολόγοι/Symmaxia-Ecologist;Συμμαχία Πολιτών-Κίνημα Οικολόγων/Citizens Alliance-Movement of Ecologist; 3,29;FINAL;2019-05-27T01:28:00Z
+cy;CY07;ΔHΠΑ/DIPA;Δημοκρατική Παράταξη / Democratic Alingment; 3,80;FINAL;2019-05-27T01:28:00Z
+cy;CY90;Other parties;Other parties; 3,77;FINAL;2019-05-27T01:28:00Z
+lv;LV01;JV;Jaunā Vienotība;26,24;FINAL;2019-06-04T15:48:00Z
+lv;LV02;Coal. NA (TB/LNNK+VL!);Coalition Nacionālā apvienība (Tēvzemei un Brīvībai/LNNK + Visu Latvijai!);16,40;FINAL;2019-06-04T15:48:00Z
+lv;LV03;Saskaņa SDP;Saskaņa Sociāldemokrātiskā partija;17,45;FINAL;2019-06-04T15:48:00Z
+lv;LV04;Coal. ZZS (LZS+LZP);Coalition Zaļo un Zemnieku Savienība (Latvijas Zemnieku Savienība + Latvijas Zaļā Partija); 5,34;FINAL;2019-06-04T15:48:00Z
+lv;LV05;LRA;Latvijas Reģionu apvienība; 4,98;FINAL;2019-06-04T15:48:00Z
+lv;LV06;KPV LV;Kam pieder valsts?; 0,92;FINAL;2019-06-04T15:48:00Z
+lv;LV07;JKP;Jaunā konservatīvā partija; 4,35;FINAL;2019-06-04T15:48:00Z
+lv;LV08;Coal. AP! (Latvijas attīstībai + Par!);Coalition AP! (Latvijas attīstībai + Kustība Par!);12,42;FINAL;2019-06-04T15:48:00Z
+lv;LV09;LKS;Latvijas Krievu savienībā; 6,24;FINAL;2019-06-04T15:48:00Z
+lv;LV10;RP;Rīcības partija; 0,17;FINAL;2019-06-04T15:48:00Z
+lv;LV11;Progresīvie;Progresīvie; 2,90;FINAL;2019-06-04T15:48:00Z
+lv;LV12;LSDSP;Latvijas Sociāldemokrātiskā strādnieku partija; 0,19;FINAL;2019-06-04T15:48:00Z
+lv;LV13;LN;Latviešu Nacionālisti; 0,67;FINAL;2019-06-04T15:48:00Z
+lv;LV14;JS;Jaunā Saskaņa; 0,18;FINAL;2019-06-04T15:48:00Z
+lv;LV15;CP;Centra partija; 0,49;FINAL;2019-06-04T15:48:00Z
+lv;LV16;Coal. Atmoda;Coalition Atmoda; 0,47;FINAL;2019-06-04T15:48:00Z
+lv;LV90;Other parties;Other parties; 0,59;FINAL;2019-06-04T15:48:00Z
+lt;LT01;DP;Darbo partija; 8,99;OFFICIAL;2019-06-03T11:52:00Z
+lt;LT02;LLRA-KŠS;Lietuvos lenkų rinkimų akcija - krikščioniškų šeimų sąjunga; 5,50;OFFICIAL;2019-06-03T11:52:00Z
+lt;LT03;LRLS;Lietuvos Respublikos liberalų sąjūdis; 6,59;OFFICIAL;2019-06-03T11:52:00Z
+lt;LT04;LSDP;Lietuvos socialdemokratų partija;15,88;OFFICIAL;2019-06-03T11:52:00Z
+lt;LT05;LVŽS;Lietuvos Valstiečių ir Žaliųjų Sąjunga;12,56;OFFICIAL;2019-06-03T11:52:00Z
+lt;LT06;TT;Partija Tvarka ir teisingumas; 2,73;OFFICIAL;2019-06-03T11:52:00Z
+lt;LT07;TS-LKD;Tėvynės sąjunga - Lietuvos krikščionys demokratai;19,74;OFFICIAL;2019-06-03T11:52:00Z
+lt;LT08;LCP;Lietuvos Centro Partija; 5,13;OFFICIAL;2019-06-03T11:52:00Z
+lt;LT09;LSDDP;Lietuvos socialdemokratų darbo partija; 2,36;OFFICIAL;2019-06-03T11:52:00Z
+lt;LT10;LŽP;Lietuvos žaliųjų partija; 2,27;OFFICIAL;2019-06-03T11:52:00Z
+lt;LT11;LLS;Lietuvos laisvės sąjunga (liberalai); 1,92;OFFICIAL;2019-06-03T11:52:00Z
+lt;LT12;VKM-AMT;Visuomeninis rinkimų komitetas „Aušros Maldeikienės traukinys“; 6,51;OFFICIAL;2019-06-03T11:52:00Z
+lt;LT13;VKM-PRPJ;Visuomeninis rinkimų komitetas „Prezidento Rolando Pakso judėjimas“; 4,00;OFFICIAL;2019-06-03T11:52:00Z
+lt;LT14;VKM-VRSV;Visuomeninis rinkimų komitetas „Vytautas Radžvilas: susigrąžinkime valstybę!“; 3,35;OFFICIAL;2019-06-03T11:52:00Z
+lt;LT90;Other parties;Other parties; 2,47;OFFICIAL;2019-06-03T11:52:00Z
+lu;LU01;Déi Gréng/Les Verts;Déi Gréng/Les Verts;18,91;FINAL;2019-05-28T14:38:00Z
+lu;LU02;LSAP/POSL;Lëtzebuerger Sozialistesch Aarbechterpartei/Parti ouvrier socialiste luxembourgeois;12,19;FINAL;2019-05-28T14:38:00Z
+lu;LU03;DP/PD;Demokratesch Partei/Parti démocratique;21,44;FINAL;2019-05-28T14:38:00Z
+lu;LU04;Déi Lénk/La gauche;Déi Lénk/La gauche; 4,83;FINAL;2019-05-28T14:38:00Z
+lu;LU05;CSV/PCS;Chrëschtlech-Sozial Vollekspartei/Parti populaire chrétien-social;21,10;FINAL;2019-05-28T14:38:00Z
+lu;LU06;ADR/PADR;Alternativ Demokratesch Reformpartei/Parti alternatif et démocratique de réformes;10,04;FINAL;2019-05-28T14:38:00Z
+lu;LU07;Piraten/Parti pirate;Piratepartei/Parti pirate; 7,70;FINAL;2019-05-28T14:38:00Z
+lu;LU08;KPL/PCL;Kommunistesch Partei vu Lëtzebuerg/Parti Communiste Luxembourgeois; 1,14;FINAL;2019-05-28T14:38:00Z
+lu;LU09;Déi Konservativ/Les Conservateurs;Déi Konservativ/Les Conservateurs; 0,53;FINAL;2019-05-28T14:38:00Z
+lu;LU10;Volt/Volt Europe;Volt; 2,11;FINAL;2019-05-28T14:38:00Z
+hu;HU01;DK;Demokratikus Koalíció;16,19;PROVISIONAL;2019-05-27T02:01:00Z
+hu;HU02;Coal (FIDESZ + KDNP);Coalition (FIDESZ - Magyar Polgári Szövetség + Kereszténydemokrata Néppárt);52,33;PROVISIONAL;2019-05-27T02:01:00Z
+hu;HU03;JOBBIK;Jobbik Magyarországért Mozgalom; 6,41;PROVISIONAL;2019-05-27T02:01:00Z
+hu;HU04;LMP;Lehet Más a Politika; 2,18;PROVISIONAL;2019-05-27T02:01:00Z
+hu;HU05;MKKP;Magyar Kétfarkú Kutyapárt; 2,62;PROVISIONAL;2019-05-27T02:01:00Z
+hu;HU06;Momentum;Momentum Mozgalom; 9,89;PROVISIONAL;2019-05-27T02:01:00Z
+hu;HU07;Coal (MSZP + Párbeszéd);Coaltion (Magyar Szocialista Párt + Párbeszéd Magyarországért); 6,66;PROVISIONAL;2019-05-27T02:01:00Z
+hu;HU08;Mi Hazánk;Mi Hazánk Mozgalom; 3,31;PROVISIONAL;2019-05-27T02:01:00Z
+hu;HU90;Other parties;Other parties; 0,41;PROVISIONAL;2019-05-27T02:01:00Z
+mt;MT01;PN/NP;Partit Nazzjonalista/Nationalist Party;37,90;OFFICIAL;2019-05-29T16:46:00Z
+mt;MT02;PL/MLP;Partit Laburista/Malta Labour Party;54,29;OFFICIAL;2019-05-29T16:46:00Z
+mt;MT03;AD/DA;Alternattiva Demokratika/Democratic Alternative; 0,72;OFFICIAL;2019-05-29T16:46:00Z
+mt;MT04;PD;Partit Demokratiku/Democratic Party; 2,03;OFFICIAL;2019-05-29T16:46:00Z
+mt;MT90;Other parties;Other parties; 5,06;OFFICIAL;2019-05-29T16:46:00Z
+nl;NL01;CDA;Christen-Democratisch Appèl;12,10;PROVISIONAL;2019-05-27T11:41:00Z
+nl;NL02;PvdA;Partij van de Arbeid;18,90;PROVISIONAL;2019-05-27T11:41:00Z
+nl;NL03;SP;Socialistische Partij; 3,40;PROVISIONAL;2019-05-27T11:41:00Z
+nl;NL04;VVD;Volkspartij voor Vrijheid en Democratie;14,60;PROVISIONAL;2019-05-27T11:41:00Z
+nl;NL05;GroenLinks;GroenLinks;10,90;PROVISIONAL;2019-05-27T11:41:00Z
+nl;NL06;PVV;Partij voor de Vrijheid; 3,50;PROVISIONAL;2019-05-27T11:41:00Z
+nl;NL07;D66;Democraten 66; 7,00;PROVISIONAL;2019-05-27T11:41:00Z
+nl;NL08;PvdD;Partij voor de Dieren; 4,00;PROVISIONAL;2019-05-27T11:41:00Z
+nl;NL09;Coalition CU - SGP;ChristenUnie - Staatkundig Gereformeerde Partij; 6,80;PROVISIONAL;2019-05-27T11:41:00Z
+nl;NL10;50+;50Plus; 3,90;PROVISIONAL;2019-05-27T11:41:00Z
+nl;NL11;DENK;DENK; 1,10;PROVISIONAL;2019-05-27T11:41:00Z
+nl;NL12;FvD;Forum voor Democratie;10,90;PROVISIONAL;2019-05-27T11:41:00Z
+nl;NL13;Volt;Volt; 1,90;PROVISIONAL;2019-05-27T11:41:00Z
+nl;NL90;Other parties;Other parties; 1,00;PROVISIONAL;2019-05-27T11:41:00Z
+at;AT01;SPÖ;Sozialdemokratische Partei Österreich;23,90;FINAL;2019-05-28T14:38:00Z
+at;AT02;ÖVP;Österreichische Volkspartei;34,60;FINAL;2019-05-28T14:38:00Z
+at;AT03;FPÖ;Freiheitliche Partei Österreichs;17,20;FINAL;2019-05-28T14:38:00Z
+at;AT04;GRÜNE;Die Grünen - Die Grüne Alternative;14,10;FINAL;2019-05-28T14:38:00Z
+at;AT05;NEOS;NEOS - Das neue Österreich; 8,40;FINAL;2019-05-28T14:38:00Z
+at;AT06;JETZT;JETZT - Liste Pilz; 1,00;FINAL;2019-05-28T14:38:00Z
+at;AT90;Other parties;Other parties; 0,80;FINAL;2019-05-28T14:38:00Z
+pl;PL01;PiS;Prawo i Sprawiedliwość;45,38;OFFICIAL;2019-05-29T16:46:00Z
+pl;PL02;Konfederacja;Konfederacja KORWiN Braun Liroy Narodowcy; 4,55;OFFICIAL;2019-05-29T16:46:00Z
+pl;PL03;Kukiz'15;Kukiz'15; 3,69;OFFICIAL;2019-05-29T16:46:00Z
+pl;PL04;Wiosna;Wiosna Roberta Biedronia; 6,06;OFFICIAL;2019-05-29T16:46:00Z
+pl;PL05;Coal KE (PO + PSL + SLD + .N + Z);Coalition Koalicja Europejska (Platforma Obywatelska + Polskie Stronnictwo Ludowe + Sojusz Lewicy Demokratycznej + Nowoczesna + Partia Zieloni);38,47;OFFICIAL;2019-05-29T16:46:00Z
+pl;PL08;Polska Fair Play;Polska Fair Play Bezpartyjni Gwiazdowski; 0,54;OFFICIAL;2019-05-29T16:46:00Z
+pl;PL09;Coal Lewica Razem (PR + UP + RSS);Coalition Lewica Razem (Partia Razem + Unia Pracy + Ruch Sprawiedliwości Społecznej); 1,24;OFFICIAL;2019-05-29T16:46:00Z
+pl;PL90;Other parties;Other parties; 0,07;OFFICIAL;2019-05-29T16:46:00Z
+pt;PT01;B.E.;Bloco de Esquerda; 9,82;FINAL;2019-05-29T16:46:00Z
+pt;PT02;CDU (PCP + PEV);Coligação Democrática Unitária (Partido Comunista Português + Partido Ecologista os Verdes); 6,88;FINAL;2019-05-29T16:46:00Z
+pt;PT03;PS;Partido Socialista;33,38;FINAL;2019-05-29T16:46:00Z
+pt;PT04;PSD;Partido Social Democrata;21,94;FINAL;2019-05-29T16:46:00Z
+pt;PT05;CDS-PP;CDS - Partido Popular; 6,19;FINAL;2019-05-29T16:46:00Z
+pt;PT06;PAN;Pessoas–Animais–Natureza; 5,08;FINAL;2019-05-29T16:46:00Z
+pt;PT07;A;Aliança; 1,87;FINAL;2019-05-29T16:46:00Z
+pt;PT90;Other parties;Other parties;14,84;FINAL;2019-05-29T16:46:00Z
+ro;RO01;PSD;Partidul Social Democrat;22,50;FINAL;2019-06-04T15:48:00Z
+ro;RO02;ALDE;Alianța Liberalilor și Democraților; 4,11;FINAL;2019-06-04T15:48:00Z
+ro;RO03;PNL;Partidul Naţional Liberal;27,00;FINAL;2019-06-04T15:48:00Z
+ro;RO04;UDMR;Romániai Magyar Demokrata Szövetség/Uniunea Democrată Maghiară din România; 5,26;FINAL;2019-06-04T15:48:00Z
+ro;RO05;PMP;Partidul Mișcarea Populară; 5,76;FINAL;2019-06-04T15:48:00Z
+ro;RO06;Pro Romania;Partidul Pro Romania; 6,44;FINAL;2019-06-04T15:48:00Z
+ro;RO07;Coal. Alliance 2020 (USR+PLUS);Coalition 2020 USR + PLUS Alliance (Uniunea Salvați România + Partidul Libertății, Unității și Solidarității);22,36;FINAL;2019-06-04T15:48:00Z
+ro;RO90;Other parties;Other parties; 6,57;FINAL;2019-06-04T15:48:00Z
+si;SI01;Coal (SDS + SLS);Coalition (Slovenska demokratska stranka + Slovenska ljudska stranka);26,25;FINAL;2019-06-04T15:48:00Z
+si;SI02;SD;Socialni demokrati;18,66;FINAL;2019-06-04T15:48:00Z
+si;SI03;DeSUS;Demokratična stranka upokojencev Slovenije; 5,67;FINAL;2019-06-04T15:48:00Z
+si;SI04;N.Si;Nova Slovenija;11,12;FINAL;2019-06-04T15:48:00Z
+si;SI05;SNS;Slovenska Nacionalna Stranka; 4,01;FINAL;2019-06-04T15:48:00Z
+si;SI06;SMC;Stranka modernega centra; 1,62;FINAL;2019-06-04T15:48:00Z
+si;SI07;SAB;Stranka alenke bratušek; 4,02;FINAL;2019-06-04T15:48:00Z
+si;SI08;LEVICA;LEVICA; 6,43;FINAL;2019-06-04T15:48:00Z
+si;SI09;LMŠ;Lista Marjana Šarca;15,44;FINAL;2019-06-04T15:48:00Z
+si;SI10;DOM;Domovinska Liga; 1,70;FINAL;2019-06-04T15:48:00Z
+si;SI11;Povežimo se;Povežimo se; 1,66;FINAL;2019-06-04T15:48:00Z
+si;SI12;DD;Dobra Država; 0,52;FINAL;2019-06-04T15:48:00Z
+si;SI13;ZSI;ZSI - Gibanje Zedinjena Slovenija; 0,68;FINAL;2019-06-04T15:48:00Z
+si;SI14;Z.SI;Zeleni Slovenije; 2,22;FINAL;2019-06-04T15:48:00Z
+si;SI90;Other parties;Other parties; 0,00;FINAL;2019-06-04T15:48:00Z
+sk;SK01;KDH;Kresťanskodemokratické hnutie; 9,69;FINAL;2019-05-28T18:06:00Z
+sk;SK02;SaS;Sloboda a Solidarita; 9,62;FINAL;2019-05-28T18:06:00Z
+sk;SK03;SNS;Slovenská národná strana; 4,09;FINAL;2019-05-28T18:06:00Z
+sk;SK04;SMER-SD;SMER - Sociálna demokracia;15,72;FINAL;2019-05-28T18:06:00Z
+sk;SK05;SMK-MPK;Strana mad'arskej komunity - Magyar Közösség Pártja; 4,96;FINAL;2019-05-28T18:06:00Z
+sk;SK06;Coal (OL'aNO + NOVA);Coalition (Obyčajní Ľudia a nezávislé osobnosti + Nová väčšina - Dohoda); 5,25;FINAL;2019-05-28T18:06:00Z
+sk;SK07;MOST-HID;Most-Híd; 2,59;FINAL;2019-05-28T18:06:00Z
+sk;SK08;ĽSNS;Kotleba - Ľudová strana Naše Slovensko;12,07;FINAL;2019-05-28T18:06:00Z
+sk;SK09;Sme Rodina;SME RODINA - Boris Kollár; 3,23;FINAL;2019-05-28T18:06:00Z
+sk;SK10;Coal (PS + SPOLU);Coalition (Progresívne Slovensko + SPOLU - občianska demokracia);20,11;FINAL;2019-05-28T18:06:00Z
+sk;SK11;KÚ;Kresťanská únia; 3,85;FINAL;2019-05-28T18:06:00Z
+sk;SK12;KDŽP;Kresťanská demokracia - Život a prosperita; 2,06;FINAL;2019-05-28T18:06:00Z
+sk;SK90;Other parties;Other parties; 6,76;FINAL;2019-05-28T18:06:00Z
+fi;FI01;KESK;Suomen Keskusta;13,50;FINAL;2019-05-27T01:28:00Z
+fi;FI02;KOK;Kansallinen Kokoomus;20,80;FINAL;2019-05-27T01:28:00Z
+fi;FI03;SDP;Suomen Sosialidemokraattinen Puolue/Finlands Socialdemokratiska Parti;14,60;FINAL;2019-05-27T01:28:00Z
+fi;FI04;VAS;Vasemmistoliitto ; 6,90;FINAL;2019-05-27T01:28:00Z
+fi;FI05;VIHR;Vihreä liitto  ;16,00;FINAL;2019-05-27T01:28:00Z
+fi;FI06;SFP (RKP);Svenska folkpartiet (Ruotsalainen kansanpuolue); 6,30;FINAL;2019-05-27T01:28:00Z
+fi;FI07;PS;Perussuomalaiset;13,80;FINAL;2019-05-27T01:28:00Z
+fi;FI08;KD;Suomen Kristillisdemokraatit; 4,90;FINAL;2019-05-27T01:28:00Z
+fi;FI09;SIN;Sininen tulevaisuus; 0,30;FINAL;2019-05-27T01:28:00Z
+fi;FI10;PP;Piraattipuolue; 0,70;FINAL;2019-05-27T01:28:00Z
+fi;FI90;Other parties;Other parties; 2,20;FINAL;2019-05-27T01:28:00Z
+se;SE01;V;Vänsterpartiet; 6,80;FINAL;2019-06-03T11:52:00Z
+se;SE02;S;Socialdemokraterna;23,48;FINAL;2019-06-03T11:52:00Z
+se;SE03;C;Centerpartiet;10,78;FINAL;2019-06-03T11:52:00Z
+se;SE04;L;Liberalerna; 4,13;FINAL;2019-06-03T11:52:00Z
+se;SE05;M;Moderaterna;16,83;FINAL;2019-06-03T11:52:00Z
+se;SE06;KD;Kristdemokraterna; 8,62;FINAL;2019-06-03T11:52:00Z
+se;SE07;MP;Miljöpartiet de Gröna;11,52;FINAL;2019-06-03T11:52:00Z
+se;SE08;SD;Sverigedemokraterna;15,34;FINAL;2019-06-03T11:52:00Z
+se;SE09;FI;Feministiskt Initiativ; 0,77;FINAL;2019-06-03T11:52:00Z
+se;SE90;Other parties;Other parties; 1,73;FINAL;2019-06-03T11:52:00Z
+uk;UK01;SF;Sinn Féin; 0,62;FINAL;2019-05-29T11:55:00Z
+uk;UK02;DUP;Democratic Unionist Party; 0,59;FINAL;2019-05-29T11:55:00Z
+uk;UK03;UUP;Ulster Unionist Party; 0,25;FINAL;2019-05-29T11:55:00Z
+uk;UK04;SDLP;Social Democratic & Labour Party; 0,37;FINAL;2019-05-29T11:55:00Z
+uk;UK05;TUV;Traditional Unionist Voice; 0,29;FINAL;2019-05-29T11:55:00Z
+uk;UK06;APNI;Alliance Party; 0,50;FINAL;2019-05-29T11:55:00Z
+uk;UK07;Cons.;Conservative and Unionist Party; 8,85;FINAL;2019-05-29T11:55:00Z
+uk;UK08;Lab.;Labour Party;13,72;FINAL;2019-05-29T11:55:00Z
+uk;UK09;UKIP;United Kingdom Independence Party; 3,21;FINAL;2019-05-29T11:55:00Z
+uk;UK10;SNP;Scottish National Party; 3,50;FINAL;2019-05-29T11:55:00Z
+uk;UK11;PL-PW;Plaid Cymru - Party of Wales; 0,97;FINAL;2019-05-29T11:55:00Z
+uk;UK12;Lib dems;Liberal Democrats;19,76;FINAL;2019-05-29T11:55:00Z
+uk;UK13;GP;Green Party;11,77;FINAL;2019-05-29T11:55:00Z
+uk;UK14;Change UK;Change UK; 3,31;FINAL;2019-05-29T11:55:00Z
+uk;UK15;Brexit Party;Brexit Party;30,75;FINAL;2019-05-29T11:55:00Z
+uk;UK90;Other parties NI;Other parties Northern Ireland; 0,10;FINAL;2019-05-29T11:55:00Z
+uk;UK91;Other parties GB;Other parties Great Britain; 1,48;FINAL;2019-05-29T11:55:00Z
+gb;UK07;Cons.;Conservative and Unionist Party; 9,09;FINAL;2019-05-29T11:55:00Z
+gb;UK08;Lab.;Labour Party;14,10;FINAL;2019-05-29T11:55:00Z
+gb;UK09;UKIP;United Kingdom Independence Party; 3,30;FINAL;2019-05-29T11:55:00Z
+gb;UK10;SNP;Scottish National Party; 3,60;FINAL;2019-05-29T11:55:00Z
+gb;UK11;PL-PW;Plaid Cymru - Party of Wales; 1,00;FINAL;2019-05-29T11:55:00Z
+gb;UK12;Lib dems;Liberal Democrats;20,30;FINAL;2019-05-29T11:55:00Z
+gb;UK13;GP;Green Party;12,09;FINAL;2019-05-29T11:55:00Z
+gb;UK14;Change UK;Change UK; 3,40;FINAL;2019-05-29T11:55:00Z
+gb;UK15;Brexit Party;Brexit Party;31,60;FINAL;2019-05-29T11:55:00Z
+gb;UK91;Other parties GB;Other parties Great Britain; 1,52;FINAL;2019-05-29T11:55:00Z
+ni;UK01;SF;Sinn Féin;22,20;FINAL;2019-05-28T14:38:00Z
+ni;UK02;DUP;Democratic Unionist Party;21,80;FINAL;2019-05-28T14:38:00Z
+ni;UK03;UUP;Ulster Unionist Party; 9,30;FINAL;2019-05-28T14:38:00Z
+ni;UK04;SDLP;Social Democratic & Labour Party;13,70;FINAL;2019-05-28T14:38:00Z
+ni;UK05;TUV;Traditional Unionist Voice;10,80;FINAL;2019-05-28T14:38:00Z
+ni;UK06;APNI;Alliance Party;18,50;FINAL;2019-05-28T14:38:00Z
+ni;UK90;Other parties NI;Other parties Northern Ireland; 3,70;FINAL;2019-05-28T14:38:00Z
