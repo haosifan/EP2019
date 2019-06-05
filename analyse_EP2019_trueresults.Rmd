@@ -133,3 +133,23 @@ results_and_seats_ep19_national <- left_join(results_ep19_national,
                                              by = c("DIVISION_ID", "PARTY_ID")) %>% 
   select(DIVISION_ID:VOTES_PERCENT, SEATS_TOTAL, GROUP_ID, everything())
 ```
+
+
+Später rausnehmen: Quick analysis, who profited
+
+```{r}
+
+results_and_seats_ep19_national %>% 
+  filter(!is.na(SEATS_TOTAL)) %>% 
+  mutate(DIVISION_ID =  str_to_upper(DIVISION_ID)) %>% 
+  select(DIVISION_ID, PARTY_ID, ACRONYM, VOTES_PERCENT, SEATS_TOTAL, GROUP_ID) %>% 
+  right_join(., turnout_ep19, by = c("DIVISION_ID" = "ISO")) %>% 
+  ggplot()+
+  geom_point(aes(x = difference, y = VOTES_PERCENT))+
+  geom_smooth(aes(x = difference, y = VOTES_PERCENT), method = "lm", se = FALSE)+
+  facet_wrap(~GROUP_ID)
+
+```
+
+
+
