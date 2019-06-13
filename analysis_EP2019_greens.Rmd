@@ -1,0 +1,79 @@
+---
+title: "analysis_EP2019_turnout"
+author: "Stefan Haußner"
+date: "5 Juni 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(openxlsx)
+library(tidyverse)
+library(maptools)
+library(rgdal)
+library(sp)
+library(janitor)
+library(maps)
+library(ggthemes)
+library(viridis)
+```
+
+```{r}
+
+#Einfügen: Sitze einlesen
+
+seats_greens <- seats_ep19_national %>% 
+  filter(GROUP_ID == "GREENSEFA") %>% 
+  group_by(DIVISION_ID) %>% 
+  summarise(seats_greens = sum(SEATS_TOTAL)) %>% 
+  filter(!DIVISION_ID %in% c("wbe","fbe","uk")) %>%
+  mutate(DIVISION_ID = str_to_upper(DIVISION_ID))
+
+seats_ep <- read.xlsx("mat/Sitzverteilung_alt_neu.xlsx", sheet = 1) %>% 
+  clean_names() %>% 
+  filter(member_state != "TOTAL") %>% 
+  select(member_state, current_distribution_of_seats) %>% 
+  mutate(iso = countrycode(member_state, "country.name", "iso2c"))
+
+
+
+seats_complete <- left_join(seats_greens, seats_ep, by = c("DIVISION_ID" = "iso")) %>% 
+  mutate(greenshareofseats = seats_greens/current_distribution_of_seats*100)
+
+```
+
+Vorbereiten der Karte (SHP-File)
+
+```{r}
+shp_lv0 <- shp[shp$STAT_LEVL_==0,]
+
+shp_eu <- shp_lv0 %>% 
+  fortify(region = "NUTS_ID") %>% 
+  filter(id %in% seats_ep$iso) %>% 
+  tbl_df()
+  
+plot_df <- left_join(shp_eu, seats_complete, by = c("id" = "DIVISION_ID")) %>% 
+  janitor::clean_names()
+```
+
+# Map
+
+```{r}
+
+ggplot()+
+  geom_map(data = plot_df,
+           map = plot_df, 
+           aes(map_id = id, group = group, fill = greenshareofseats)) +
+  geom_path(data = plot_df,
+            aes(x = long, y = lat, group = group))+
+  coord_map("mercator")+
+  scale_x_continuous(limits = c(-15,44))+
+  scale_y_continuous(limits = c(32,69))+
+  theme_map() +
+  theme(legend.position = "right")+
+  scale_fill_continuous(name = "Anteil grüner Sitze", 
+                        low = "springgreen", high = "springgreen4")
+ggsave(filename = "gfx/map_greenshareofseats.png", device = "png", dpi = 300)
+
+```
+

@@ -148,6 +148,7 @@ results_and_seats_ep19_national %>%
   geom_point(aes(x = difference, y = VOTES_PERCENT))+
   geom_smooth(aes(x = difference, y = VOTES_PERCENT), method = "lm", se = FALSE)+
   facet_wrap(~GROUP_ID)
+ggsave("outputs/profits_from_turnout.png", device = "png", width = 12, height = 9)
 
 ```
 
