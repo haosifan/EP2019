@@ -9,6 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 library(openxlsx)
 library(tidyverse)
+library(tidyselect)
 library(maptools)
 library(rgdal)
 library(sp)
@@ -18,44 +19,39 @@ library(ggthemes)
 library(viridis)
 ```
 
+Einlesen der Kölner Daten: https://www.offenedaten-koeln.de/dataset/europawahl-2019
+
+Eingelesen werden
+* Daten der Stadtteile
++ Parteienliste der Europawahl (zum matchen der Namen)
+
+
+
 ```{r}
-turnout_ep19 <- openxlsx::read.xlsx(xlsxFile = "mat/turnout_EU_2014.xlsx", sheet = 3)
 
-shp <- readOGR("mat/NUTS_2013_10M_SH/data/NUTS_RG_10M_2013.shp")
-```
+v_names_except_parties <- tibble::enframe(c("Datum des Wahltermins","Name der Wahl","AGS der Behörde","Nummer des Wahlgebiets","Name des Wahlgebiets","Anzahl an insgesamt erwarteten Schnellmeldungen im Wahlgebiet","Anzahl an bisher eingegangenen Schnellmeldungen im Wahlgebiet","Wahlberechtigte ohne Sperrvermerk 'W'","Wahlberechtigte mit Sperrvermerk 'W'","Wahlberechtigte nicht im Wählerverzeichnis","Wahlberechtigte insgesamt","Wähler","Wähler mit Wahlschein","Ungültige Stimmen","Gültige Stimmen"))
 
-Vorbereiten der Karte (SHP-File)
-
-```{r}
-shp_lv0 <- shp[shp$STAT_LEVL_==0,]
-
-shp_eu <- shp_lv0 %>% 
-  fortify(region = "NUTS_ID") %>% 
-  filter(id %in% turnout_ep19$ISO) %>% 
-  tbl_df()
-  
-plot_df <- left_join(shp_eu, turnout_ep19, by = c("id" = "ISO")) %>% 
+cgn_ep19_partylist <- read_csv2("https://www.offenedaten-koeln.de/sites/default/files/ParteienListe_EU_Wahl.csv")
+cgn_ep19_election <- read_csv2("https://wahlen.stadt-koeln.de/prod/EUW2019/05315000/html5/Open-Data-Europawahl4011.csv") %>% 
+  mutate_at(vars(D1:D40), funs(./D*100)) %>%
+  mutate(turnout = B/A*100) %>% 
+  rename_at(vars(D1:D40), ~ cgn_ep19_partylist$`Partei Name`) %>% 
+  rename_at(vars(datum:D), ~ v_names_except_parties$value) %>% 
   janitor::clean_names() %>% 
-  mutate(category_turnout=cut(difference, breaks=c(-Inf, 0, 5, 10, Inf), labels=c("negative","low","middle","high")))
-```
+  select(datum_des_wahltermins, name_des_wahlgebiets, wahlberechtigte_insgesamt, wahler, ungultige_stimmen, gultige_stimmen, turnout, christlich_demokratische_union_deutschlands:volt_deutschland)
 
-# Map
+```
 
 ```{r}
 
-ggplot()+
-  geom_map(data = plot_df,
-           map = plot_df, 
-           aes(x = long, y = lat, map_id = id, group = group, fill = category_turnout)) +
-  geom_path(data = plot_df,
-            aes(x = long, y = lat, group = group))+
-  coord_map("mercator")+
-  scale_x_continuous(limits = c(-15,44))+
-  scale_y_continuous(limits = c(32,69))+
-  theme_map() +
-  theme(legend.position = "right")+
-  scale_fill_viridis_d(name = "difference in turnout")
-ggsave(filename = "gfx/map_turnout_differences.png", device = "png", dpi = 300)
+cgn_ep19_election_long <- cgn_ep19_election %>% 
+  select(name_des_wahlgebiets, turnout, christlich_demokratische_union_deutschlands:volt_deutschland) %>%
+  group_by(name_des_wahlgebiets) %>% 
+  reshape2::melt(id.vars = c("name_des_wahlgebiets", "turnout"))
 
+ggplot(cgn_ep19_election_long) +
+  #geom_point(aes(x = turnout, y = value)) +
+  geom_smooth(aes(x = turnout, y = value), method = "lm", se = TRUE)+
+  facet_wrap(~ variable, scales = "free_y")
 ```
 
