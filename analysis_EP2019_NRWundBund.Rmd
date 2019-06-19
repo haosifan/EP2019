@@ -1,6 +1,6 @@
 ---
 title: "analysis_EP2019_turnout"
-author: "Stefan Hau�ner"
+author: "Stefan Haußner"
 date: "5 Juni 2019"
 output: html_document
 ---
@@ -33,7 +33,7 @@ party_names <- read_html("https://www.bundeswahlleiter.de/europawahlen/2019/wahl
   tbl_df() %>% 
   select(-`Im Wahlverfahren verwendete Zusatzbezeichnung`) %>% 
   mutate(party_snakecase = stri_replace_all_fixed(Parteiname, 
-                                                  c("�", "�", "�", "�", "�", "�"), 
+                                                  c("ä", "ö", "ü", "Ä", "Ö", "Ü"), 
                                                   c("a", "o", "u", "A", "O", "U"),
                                                   vectorize_all = FALSE),
          party_snakecase = to_snake_case(party_snakecase))
@@ -43,26 +43,54 @@ party_names
 ```
 
 
-Daten laden
+# Load Data
+
+## Strukturdaten
+
 
 ```{r}
 deu_str_data <- fread("https://www.bundeswahlleiter.de/dam/jcr/6c6b00b9-750e-456b-8e81-8c45690ec0b7/ew19_strukturdaten.csv",
-                      skip = 8, dec = ",", na.strings = "-") %>% 
+                      skip = 8, dec = ",", na.strings = "–") %>% 
   tbl_df()
 
 deu_str_processed <- deu_str_data %>% 
-  filter(Kreis > 99) %>% 
+  filter(Kreis > 99) %>%
   select(Land, Kreis, Name, 
-         bev_in_1000 = `Bev�lkerung am 31.12.2017 - Insgesamt (in 1000)`, 
-         bev_ausl = `Bev�lkerung am 31.12.2017 - Ausl�nder (%)`, 
+         bev_in_1000 = `Bevölkerung am 31.12.2017 - Insgesamt (in 1000)`, 
+         bev_ausl = `Bevölkerung am 31.12.2017 - Ausländer (%)`, 
          alter_75plus = `Alter von ... bis ... Jahren am 31.12.2017 - 75 und mehr (%)`,
          alter_u18 = `Alter von ... bis ... Jahren am 31.12.2017 - unter 18 (%)`, 
-         inc_p_ew = `Verf�gbares Einkommen der privaten Haushalte 2016 (??? je Einwohner)`,
-         edu_absolventen_abi = `Absolventen/Abg�nger allgemeinbildender Schulen 2017 - mit allgemeiner und Fachhochschulreife (%)`,
-         sgb2 = `Empf�nger(innen) von Leistungen nach SGB II Oktober 2018 -  insgesamt (je 1000 Einwohner)`,
-         alo_quote = `Arbeitslosenquote Januar 2019 - insgesamt`)
+         inc_p_ew = `Verfügbares Einkommen der privaten Haushalte 2016 (€ je Einwohner)`,
+         edu_absolventen_abi = `Absolventen/Abgänger allgemeinbildender Schulen 2017 - mit allgemeiner und Fachhochschulreife (%)`,
+         sgb2 = `Empfänger(innen) von Leistungen nach SGB II Oktober 2018 -  insgesamt (je 1000 Einwohner)`,
+         alo_quote = `Arbeitslosenquote Januar 2019 - insgesamt`) %>% 
+  clean_names()
 
+## Leider Wahlkreisdaten und nicht Landkreis und kreisfreie Städte
+deu_str_data17 <- read.csv2("C:/Users/haussner/Desktop/Bundestagswahldaten/btw17_strukturdaten.csv", skip = 8, header = TRUE) %>% 
+  filter(`Wahlkreis.Nr.` < 900)
+  
+deu_str_data14 <- read.csv2("C:/Users/haussner/Desktop/Bundestagswahldaten/ew14_strukturdaten.csv", skip = 4, header = TRUE, na.strings = "–") %>% 
+  filter(!is.na(Kreis), Kreis > 99) %>% 
+  tbl_df() 
 
+deu_str_processed14 <- deu_str_data14 %>% 
+  select(Land, Kreis, Name, 
+         bev_in_1000 = `Bevölkerung.am.31.12.2012...Insgesamt..in.1000.`, 
+         bev_ausl = `Bevölkerung.am.31.12.2012...Ausländer..in...`, 
+         alter_75plus = `Alter.von.....bis.unter.....Jahren.am.31.12.2012...75.und.mehr....`,
+         alter_u18 = `Alter.von.....bis.unter.....Jahren.am.31.12.2012...unter.18....`, 
+         #inc_p_ew = `Verfügbares Einkommen der privaten Haushalte 2016 (€ je Einwohner)`,
+         edu_absolventen_abi = `Allgemein.bildendes.Schulwesen..Absolventen.Abgänger.nach.dem.Abschluss.2012...mit.allgemeiner.Hochschulreife....`,
+         sgb2 = `Empfänger.innen..von.Leistungen.nach.SGB.II.am.30.09.2013....insgesamt..je.1000.Einwohner.`,
+         alo_quote = `Arbeitslosenquote.Ende.Dezember.2013...insgesamt`) %>% 
+  clean_names()
+deu_str_data14
+```
+
+## Wahldaten
+
+```{r}
 spaltennamen_ep19_data <- c("nr","gebiet","gehort_zu","wahlberechtigte","wahlberechtigte_2014","wahler_innen","wahler_innen_2014","ungultige","ungultige_2014","gultige","gultige_2014","christlich_demokratische_union_deutschlands","christlich_demokratische_union_deutschlands_2014","sozialdemokratische_partei_deutschlands","sozialdemokratische_partei_deutschlands_2014","bundnis_90_die_grunen","bundnis_90_die_grunen_2014","die_linke","die_linke_2014","alternative_fur_deutschland","alternative_fur_deutschland_2014","christlich_soziale_union_in_bayern_e_v","christlich_soziale_union_in_bayern_e_v_2014","freie_demokratische_partei","freie_demokratische_partei_2014","freie_wahler","freie_wahler_2014","piratenpartei_deutschland","piratenpartei_deutschland_2014","partei_mensch_umwelt_tierschutz","partei_mensch_umwelt_tierschutz_2014","nationaldemokratische_partei_deutschlands","nationaldemokratische_partei_deutschlands_2014","familien_partei_deutschlands","familien_partei_deutschlands_2014","okologisch_demokratische_partei","okologisch_demokratische_partei_2014","partei_fur_arbeit_rechtsstaat_tierschutz_elitenforderung_und_basisdemokratische_initiative","partei_fur_arbeit_rechtsstaat_tierschutz_elitenforderung_und_basisdemokratische_initiative_2014","ab_jetzt_demokratie_durch_volksabstimmung_politik_fur_die_menschen","ab_jetzt_demokratie_durch_volksabstimmung_politik_fur_die_menschen_2014","bayernpartei","bayernpartei_2014","deutsche_kommunistische_partei","deutsche_kommunistische_partei_2014","marxistisch_leninistische_partei_deutschlands","marxistisch_leninistische_partei_deutschlands_2014","sozialistische_gleichheitspartei_vierte_internationale","sozialistische_gleichheitspartei_vierte_internationale_2014","aktion_partei_fur_tierschutz_das_original","aktion_partei_fur_tierschutz_das_original_2014","allianz_fur_menschenrechte_tier_und_naturschutz","allianz_fur_menschenrechte_tier_und_naturschutz_2014","bundnis_c_christen_fur_deutschland","bundnis_c_christen_fur_deutschland_2014","bundnis_fur_innovation_gerechtigkeit","bundnis_fur_innovation_gerechtigkeit_2014","bundnis_grundeinkommen_die_grundeinkommenspartei","bundnis_grundeinkommen_die_grundeinkommenspartei_2014","demokratie_direkt","demokratie_direkt_2014","demokratie_in_europa_di_em25","demokratie_in_europa_di_em25_2014","der_dritte_weg","der_dritte_weg_2014","die_grauen_fur_alle_generationen","die_grauen_fur_alle_generationen_2014","die_rechte_partei_fur_volksabstimmung_souveranitat_und_heimatschutz","die_rechte_partei_fur_volksabstimmung_souveranitat_und_heimatschutz_2014","die_violetten","die_violetten_2014","europaische_partei_liebe","europaische_partei_liebe_2014","feministische_partei_die_frauen","feministische_partei_die_frauen_2014","graue_panther","graue_panther_2014","lkr_bernd_lucke_und_die_liberal_konservativen_reformer","lkr_bernd_lucke_und_die_liberal_konservativen_reformer_2014","menschliche_welt_fur_das_wohl_und_glucklichsein_aller","menschliche_welt_fur_das_wohl_und_glucklichsein_aller_2014","neue_liberale_die_sozialliberalen","neue_liberale_die_sozialliberalen_2014","okologische_linke","okologische_linke_2014","partei_der_humanisten","partei_der_humanisten_2014","partei_fur_die_tiere_deutschland","partei_fur_die_tiere_deutschland_2014","partei_fur_gesundheitsforschung","partei_fur_gesundheitsforschung_2014","volt_deutschland","volt_deutschland_2014","ubrige","ubrige_2014","v96")
 
 deu_ep19_download <- fread("https://www.bundeswahlleiter.de/dam/jcr/095b092a-780e-45e1-aca9-caafe903b126/ew19_kerg.csv",
@@ -98,7 +126,7 @@ deu_ep19_delta <- bind_rows(deu_ep19_data, deu_ep14_data, .id = "election") %>%
 ```
 
 
-�berf�hrung der Datens�tze ins Long-Format f�r ggplot2.
+Überführung der Datensätze ins Long-Format für ggplot2.
 
 ```{r}
 deu_ep19_data_long <- deu_ep19_data %>% 
@@ -139,7 +167,7 @@ ggplot(deu_ep19_data_long) +
   geom_smooth(aes(x = turnout, y = value), method = "lm", se = TRUE)+
   facet_wrap(~Kurzbezeichnung, scales = "free_y")+
   labs(title = "Zusammenhang von Wahlbeteiligung und Parteiergebnis in Deutschland",
-       subtitle = "Analyseebene: Kreise und kreisfreie St�dte",
+       subtitle = "Analyseebene: Kreise und kreisfreie Städte",
        x = "Wahlbeteiligung 2019",
        y = "Parteiergebnis 2019")
 
@@ -148,9 +176,9 @@ ggplot(deu_ep19_delta_long) +
   geom_smooth(aes(x = delta_wb, y = value), method = "lm", se = TRUE)+
   facet_wrap(~ Kurzbezeichnung, scales = "free_y")+ 
   labs(title = "Zusammenhang von Delta-Wahlbeteiligung und Delta-Parteiergebnis in Deutschland",
-       subtitle = "Analyseebene: Kreise und kreisfreie St�dte",
-       x = "Ver�nderung der Wahlbeteiligung von 2014 auf 2019",
-       y = "Ver�nderung des Parteiergebnis von 2014 auf 2019")
+       subtitle = "Analyseebene: Kreise und kreisfreie Städte",
+       x = "Veränderung der Wahlbeteiligung von 2014 auf 2019",
+       y = "Veränderung des Parteiergebnis von 2014 auf 2019")
 
 
 ## NRW
@@ -160,7 +188,7 @@ ggplot() +
   geom_smooth(aes(x = turnout, y = value), method = "lm", se = TRUE)+
   facet_wrap(~ Kurzbezeichnung, scales = "free_y") +
   labs(title = "Zusammenhang von Wahlbeteiligung und Parteiergebnis in NRW",
-       subtitle = "Analyseebene: Kreise und kreisfreie St�dte",
+       subtitle = "Analyseebene: Kreise und kreisfreie Städte",
        x = "Wahlbeteiligung 2019",
        y = "Parteiergebnis 2019")
 
@@ -170,48 +198,139 @@ ggplot() +
   geom_smooth(aes(x = delta_wb, y = value), method = "lm", se = TRUE)+
   facet_wrap(~ Kurzbezeichnung, scales = "free_y") +
   labs(title = "Zusammenhang von Delta-Wahlbeteiligung und Delta-Parteiergebnis in NRW",
-       subtitle = "Analyseebene: Kreise und kreisfreie St�dte",
-       x = "Ver�nderung der Wahlbeteiligung von 2014 auf 2019",
-       y = "Ver�nderung des Parteiergebnis von 2014 auf 2019")
+       subtitle = "Analyseebene: Kreise und kreisfreie Städte",
+       x = "Veränderung der Wahlbeteiligung von 2014 auf 2019",
+       y = "Veränderung des Parteiergebnis von 2014 auf 2019")
 ```
 
 # Strukturdaten und Wahldaten
 
-Zusammenf�hrung von Strukturdaten und Wahldaten
+Zusammenführung von Strukturdaten und Wahldaten
 
 ```{r}
-deu_ep19_andstructural <- left_join(deu_ep19_data, deu_str_processed, by = c("nr" = "Kreis"))
+deu_ep19_andstructural <- left_join(deu_ep19_data, deu_str_processed, by = c("nr" = "kreis"))
 deu_ep19_andstructural
+
+
+deu_ep14_andstructural <- left_join(deu_ep14_data, 
+          deu_str_processed14 %>% mutate(kreis = replace(kreis, kreis==3152,3159)), 
+          by = c("nr" = "kreis"))
+deu_ep14_andstructural
+
 ```
 
-�berf�hrung von wide in long
+Überführung von wide in long
 
 ```{r}
 deu_ep19_andstructural_long <- deu_ep19_andstructural %>% 
-  select(Land, turnout, alo_quote, edu_absolventen_abi, inc_p_ew, alter_75plus, bev_ausl) %>%
-  group_by(Land) %>% 
-  reshape2::melt(id.vars = c("Land", "turnout")) %>% 
-  tbl_df()
+  select(nr, land, turnout, alo_quote, edu_absolventen_abi, inc_p_ew, alter_75plus, bev_ausl) %>%
+  group_by(land) %>% 
+  reshape2::melt(id.vars = c("land", "turnout", "nr")) %>% 
+  tbl_df() %>% 
+  mutate(variable = as.character(variable))
 
-deu_ep19_andstructural_long
+deu_ep14_andstructural_long <- deu_ep14_andstructural %>% 
+  select(nr, land, turnout, alo_quote, edu_absolventen_abi, alter_75plus, bev_ausl) %>% 
+  group_by(land) %>% 
+  reshape2::melt(id.vars = c("land", "turnout", "nr")) %>% 
+  tbl_df() %>% 
+  mutate(land = as.character(land),
+         variable = as.character(variable))
+
+
+deu_ep_all_long <- bind_rows(deu_ep19_andstructural_long, deu_ep14_andstructural_long, .id = "id") %>%
+  arrange(land, variable, nr)
+
 ```
 
 Grafiken
 
 ```{r}
+# New facet label names for indicator variable
+indicator_labs <- c(alo_quote = "Arbeitslosenquote (%)", 
+                    alter_75plus = "Anteil an Personen im Alter 75+ (%)",
+                    bev_ausl = "Anteil ausländischer Bevölkerung (%)",
+                    edu_absolventen_abi = "Anteil an Absolventen mit Abitur (%)")
+
+deu_ep_all_long %>% 
+  filter(variable != "inc_p_ew") %>% 
+  ggplot() +
+  #geom_point(aes(x = value, y = turnout, color = id), alpha = .3)+
+  geom_smooth(aes(x = value, y = turnout, color = id), method = "lm", se = TRUE)+
+  facet_wrap(~variable, scales = "free_x", labeller = as_labeller(indicator_labs))+
+  scale_color_discrete(name = "", labels = c("EP 2019", "EP 2014"))+
+  labs(title = "Zusammenhang von Sozioökonomie und Wahlbeteiligung",
+       subtitle = "Analyseebene: Kreise und kreisfreie Städte",
+       x = "Sozioökonomie",
+       y = "Wahlbeteiligung")+
+  theme_bw()
+  
+```
+
+das gleiche nochmal für NRW
+
+```{r}
+deu_ep_all_long %>% 
+  filter(variable != "inc_p_ew") %>% 
+  filter(land == "Nordrhein-Westfalen") %>% 
+  ggplot() +
+  #geom_point(aes(x = value, y = turnout, color = id), alpha = .3)+
+  geom_smooth(aes(x = value, y = turnout, color = id), method = "lm", se = TRUE)+
+  facet_wrap(~variable, scales = "free_x", labeller = as_labeller(indicator_labs))+
+  scale_color_discrete(name = "", labels = c("EP 2019", "EP 2014"))+
+  labs(title = "Zusammenhang von Sozioökonomie und Wahlbeteiligung in NRW",
+       subtitle = "Analyseebene: Kreise und kreisfreie Städte",
+       x = "Sozioökonomie",
+       y = "Wahlbeteiligung")+
+  theme_bw()
+```
+
+und nur für ALO
+
+```{r}
+deu_ep_all_long %>% 
+  filter(variable == "alo_quote") %>%
+  ggplot() +
+  #geom_point(aes(x = value, y = turnout, color = id), alpha = .3)+
+  geom_smooth(aes(x = value, y = turnout, color = id), method = "lm", se = TRUE)+
+  facet_wrap(~land)+
+  scale_color_discrete(name = "", labels = c("EP 2019", "EP 2014"))+
+  labs(title = "Zusammenhang von Arbeitslosenquote und Wahlbeteiligung in deutschen Bundesländern",
+       subtitle = "Analyseebene: Kreise und kreisfreie Städte",
+       x = "Arbeitslosenquote (%)",
+       y = "Wahlbeteiligung")+
+  theme_bw()
+```
+
+
+```{r}
 ggplot(deu_ep19_andstructural) +
   geom_point(aes(x = alo_quote, y = turnout))+
   geom_smooth(aes(x = alo_quote, y = turnout), method = "lm", se = TRUE)+
-  facet_wrap(~ land)
+  facet_wrap(~ land) +
+  labs(title = "Zusammenhang von Arbeitslosenquote und Wahlbeteiligung in Deutschland",
+       subtitle = "Analyseebene: Kreise und kreisfreie Städte",
+       x = "Arbeitslosenquote (Jan. 2019)",
+       y = "Wahlbeteiligung bei der Europawahl 2019")
+
 
 ggplot(deu_ep19_andstructural_long) +
   geom_smooth(aes(x = value, y = turnout), method = "lm", se = TRUE)+
-  facet_wrap(~variable, scales = "free_x")
+  facet_wrap(~variable, scales = "free_x")+
+  labs(title = "Zusammenhang von sozioökonomischen Indikatoren und Wahlbeteiligung Deutschland",
+       subtitle = "Analyseebene: Kreise und kreisfreie Städte",
+       x = "Sozioökonomie",
+       y = "Wahlbeteiligung bei der Europawahl 2019")
+
 
 deu_ep19_andstructural_long %>% 
   filter(Land == "Nordrhein-Westfalen") %>% 
   ggplot() +
   geom_smooth(aes(x = value, y = turnout), method = "lm", se = TRUE)+
-  facet_wrap(~variable, scales = "free_x")
+  facet_wrap(~variable, scales = "free_x") +
+  labs(title = "Zusammenhang von sozioökonomischen Indikatoren und Wahlbeteiligung in NRW",
+       subtitle = "Analyseebene: Kreise und kreisfreie Städte",
+       x = "Sozioökonomie",
+       y = "Wahlbeteiligung bei der Europawahl 2019")
 ```
 

@@ -17,6 +17,10 @@ library(janitor)
 library(maps)
 library(ggthemes)
 library(viridis)
+library(stringi)
+library(snakecase)
+library(rvest)
+
 ```
 
 Einlesen der Kölner Daten: https://www.offenedaten-koeln.de/dataset/europawahl-2019
@@ -31,27 +35,108 @@ Eingelesen werden
 
 v_names_except_parties <- tibble::enframe(c("Datum des Wahltermins","Name der Wahl","AGS der Behörde","Nummer des Wahlgebiets","Name des Wahlgebiets","Anzahl an insgesamt erwarteten Schnellmeldungen im Wahlgebiet","Anzahl an bisher eingegangenen Schnellmeldungen im Wahlgebiet","Wahlberechtigte ohne Sperrvermerk 'W'","Wahlberechtigte mit Sperrvermerk 'W'","Wahlberechtigte nicht im Wählerverzeichnis","Wahlberechtigte insgesamt","Wähler","Wähler mit Wahlschein","Ungültige Stimmen","Gültige Stimmen"))
 
-cgn_ep19_partylist <- read_csv2("https://www.offenedaten-koeln.de/sites/default/files/ParteienListe_EU_Wahl.csv")
+cgn_ep19_partylist <- read_csv2("https://www.offenedaten-koeln.de/sites/default/files/ParteienListe_EU_Wahl.csv") %>% 
+  clean_names() %>% tbl_df() %>% 
+  mutate(party_snakecase = stri_replace_all_fixed(partei_name, 
+                                                  c("ä", "ö", "ü", "Ä", "Ö", "Ü"), 
+                                                  c("a", "o", "u", "A", "O", "U"),
+                                                  vectorize_all = FALSE),
+         party_snakecase = to_snake_case(party_snakecase))
+
+party_names <- read_html("https://www.bundeswahlleiter.de/europawahlen/2019/wahlbewerber.html") %>% 
+  html_nodes(".tablesaw") %>% 
+  html_table() %>% 
+  .[[1]] %>% 
+  tbl_df() %>% 
+  select(-`Im Wahlverfahren verwendete Zusatzbezeichnung`) %>% 
+  mutate(party_snakecase = stri_replace_all_fixed(Parteiname, 
+                                                  c("ä", "ö", "ü", "Ä", "Ö", "Ü"), 
+                                                  c("a", "o", "u", "A", "O", "U"),
+                                                  vectorize_all = FALSE),
+         party_snakecase = to_snake_case(party_snakecase)) %>% 
+  rename(partei_name = "Parteiname")
+
+cgn_ep19_partylist <- left_join(cgn_ep19_partylist, select(party_names, -partei_name), by = "party_snakecase")
+```
+
+## Election results
+
+```{r}
 cgn_ep19_election <- read_csv2("https://wahlen.stadt-koeln.de/prod/EUW2019/05315000/html5/Open-Data-Europawahl4011.csv") %>% 
   mutate_at(vars(D1:D40), funs(./D*100)) %>%
   mutate(turnout = B/A*100) %>% 
-  rename_at(vars(D1:D40), ~ cgn_ep19_partylist$`Partei Name`) %>% 
+  rename_at(vars(D1:D40), ~ cgn_ep19_partylist$partei_name) %>% 
   rename_at(vars(datum:D), ~ v_names_except_parties$value) %>% 
   janitor::clean_names() %>% 
   select(datum_des_wahltermins, name_des_wahlgebiets, wahlberechtigte_insgesamt, wahler, ungultige_stimmen, gultige_stimmen, turnout, christlich_demokratische_union_deutschlands:volt_deutschland)
 
+
+cgn_bt17_election <- read_csv2("http://www.stadt-koeln.de/wahlen/bundestagswahl/09-2017/Bundestagswahl3811.csv") %>% 
+  select(-contains("_Proz")) %>% 
+  select(Name:`ungültig2`, contains("Z_")) %>% 
+  select(-MaxSchnellmeldungen, -AnzSchnellmeldungen, -`gültigeStimmzettel`, -`ungültigeStimmzettel`) %>% 
+  mutate_at(vars(Z_CDU:`Z_Einzelbewerber Werner`), funs(./`gültig`*100)) %>%
+  rename_at(vars(Z_CDU:`Z_Einzelbewerber Werner`), funs(gsub("Z_","",.))) %>% 
+  select(-`Einzelbewerber Werner`)
 ```
+
+## Socioeconomic indicators
+
+Arbeitslosenquote nach SGBII, Zeitbezug: Dez. 2017
+
+
+```{r}
+url_alo <- "https://geoportal.stadt-koeln.de/arcgis/rest/services/Statistische_Daten/QMFS_Arbeitsmarkt/MapServer/1/query?where=objectid+is+not+null&text=&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&relationParam=&outFields=*&returnGeometry=true&returnTrueCurves=false&maxAllowableOffset=&geometryPrecision=&outSR=4326&returnIdsOnly=false&returnCountOnly=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&returnZ=false&returnM=false&gdbVersion=&returnDistinctValues=false&resultOffset=&resultRecordCount=&f=geojson"
+
+download.file(url_alo, destfile = "mat/cgn_alo.json")
+
+
+data_raw_ugly_alo <- jsonlite::fromJSON("mat/cgn_alo.json")
+data_flat_alo <- flatten(data_raw_ugly_alo)
+
+cgn_data_alo <- data_flat_alo[[7]] %>% as_tibble() 
+
+cgn_data_alo_processed <- cgn_data_alo %>% 
+  arrange(NUMMER) %>% 
+  select(NUMMER, NAME, alo_quote_sgbII = AM_SGB2_INSG_AP, alo_quote_sgbII_jugend = AM_SGB2_UNTER25_AP) %>% 
+  janitor::clean_names()
+
+```
+
 
 ```{r}
 
 cgn_ep19_election_long <- cgn_ep19_election %>% 
   select(name_des_wahlgebiets, turnout, christlich_demokratische_union_deutschlands:volt_deutschland) %>%
   group_by(name_des_wahlgebiets) %>% 
-  reshape2::melt(id.vars = c("name_des_wahlgebiets", "turnout"))
+  reshape2::melt(id.vars = c("name_des_wahlgebiets", "turnout")) %>% 
+  tbl_df() %>%
+  group_by(variable) %>% 
+  mutate(group_id = group_indices()) %>% 
+  ungroup() %>% 
+  mutate(variable = as.character(variable)) %>%  
+  left_join(., cgn_ep19_partylist %>% select(party_snakecase, Kurzbezeichnung), by = c("variable" = "party_snakecase")) %>% 
+  mutate(Kurzbezeichnung = as.factor(Kurzbezeichnung),
+         Kurzbezeichnung = fct_reorder(Kurzbezeichnung, group_id)) %>% 
+  filter(!is.na(Kurzbezeichnung))
+
 
 ggplot(cgn_ep19_election_long) +
   #geom_point(aes(x = turnout, y = value)) +
   geom_smooth(aes(x = turnout, y = value), method = "lm", se = TRUE)+
-  facet_wrap(~ variable, scales = "free_y")
+  facet_wrap(~ Kurzbezeichnung, scales = "free_y")
+```
+
+
+## Verknüpfung Sozioökonomie und Wahlen
+
+```{r}
+left_join(cgn_ep19_election %>% 
+            select(name_des_wahlgebiets,turnout),
+          cgn_data_alo_processed,
+          by = c("name_des_wahlgebiets" = "name")) %>% 
+  ggplot()+
+  geom_point(aes(x = alo_quote_sgb_ii, y = turnout), alpha = .3)+
+  geom_smooth(aes(x = alo_quote_sgb_ii, y = turnout), method = "lm", se = TRUE)
 ```
 
