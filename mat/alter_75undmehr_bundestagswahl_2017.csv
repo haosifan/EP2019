@@ -1,0 +1,1108 @@
+region_id;region_name;kat;Insgesamt;männlich;weiblich
+DG;Deutschland;75 Jahre und mehr;9386108;3789601;5596507
+DG;Deutschland;Insgesamt;82792351;40843565;41948786
+1;  Schleswig-Holstein;75 Jahre und mehr;347790;144856;202934
+1;  Schleswig-Holstein;Insgesamt;2889821;1416535;1473286
+1001;      Flensburg, Kreisfreie Stadt;75 Jahre und mehr;9382;3802;5580
+1001;      Flensburg, Kreisfreie Stadt;Insgesamt;88519;44086;44433
+1002;      Kiel, Landeshauptstadt, Kreisfreie Stadt;75 Jahre und mehr;24147;9518;14629
+1002;      Kiel, Landeshauptstadt, Kreisfreie Stadt;Insgesamt;247943;120809;127134
+1003;      Lübeck, Hansestadt, Kreisfreie Stadt;75 Jahre und mehr;27457;10685;16772
+1003;      Lübeck, Hansestadt, Kreisfreie Stadt;Insgesamt;216318;103884;112434
+1004;      Neumünster, Kreisfreie Stadt;75 Jahre und mehr;9664;3837;5827
+1004;      Neumünster, Kreisfreie Stadt;Insgesamt;79335;39190;40145
+1051;      Dithmarschen, Landkreis;75 Jahre und mehr;16930;7155;9775
+1051;      Dithmarschen, Landkreis;Insgesamt;133447;65911;67536
+1053;      Herzogtum Lauenburg, Landkreis;75 Jahre und mehr;23581;9821;13760
+1053;      Herzogtum Lauenburg, Landkreis;Insgesamt;196074;96281;99793
+1054;      Nordfriesland, Landkreis;75 Jahre und mehr;20419;8529;11890
+1054;      Nordfriesland, Landkreis;Insgesamt;165462;81108;84354
+1055;      Ostholstein, Landkreis;75 Jahre und mehr;28660;12022;16638
+1055;      Ostholstein, Landkreis;Insgesamt;200584;96850;103734
+1056;      Pinneberg, Landkreis;75 Jahre und mehr;36739;15377;21362
+1056;      Pinneberg, Landkreis;Insgesamt;312662;153401;159261
+1057;      Plön, Landkreis;75 Jahre und mehr;17403;7478;9925
+1057;      Plön, Landkreis;Insgesamt;128842;62670;66172
+1058;      Rendsburg-Eckernförde, Landkreis;75 Jahre und mehr;32708;14008;18700
+1058;      Rendsburg-Eckernförde, Landkreis;Insgesamt;273022;134407;138615
+1059;      Schleswig-Flensburg, Landkreis;75 Jahre und mehr;24097;10392;13705
+1059;      Schleswig-Flensburg, Landkreis;Insgesamt;199503;98846;100657
+1060;      Segeberg, Landkreis;75 Jahre und mehr;30762;13024;17738
+1060;      Segeberg, Landkreis;Insgesamt;274025;135470;138555
+1061;      Steinburg, Landkreis;75 Jahre und mehr;15789;6539;9250
+1061;      Steinburg, Landkreis;Insgesamt;131613;65054;66559
+1062;      Stormarn, Landkreis;75 Jahre und mehr;30052;12669;17383
+1062;      Stormarn, Landkreis;Insgesamt;242472;118568;123904
+2;  Hamburg;75 Jahre und mehr;179424;71448;107976
+2;  Hamburg;Insgesamt;1830584;897207;933377
+3;  Niedersachsen;75 Jahre und mehr;916158;374000;542158
+3;  Niedersachsen;Insgesamt;7962775;3931876;4030899
+31;    Braunschweig, Stat. Region;75 Jahre und mehr;194223;79075;115148
+31;    Braunschweig, Stat. Region;Insgesamt;1595734;789724;806010
+3101;      Braunschweig, Kreisfreie Stadt;75 Jahre und mehr;28807;11323;17484
+3101;      Braunschweig, Kreisfreie Stadt;Insgesamt;248023;122721;125302
+3102;      Salzgitter, Kreisfreie Stadt;75 Jahre und mehr;12661;5105;7556
+3102;      Salzgitter, Kreisfreie Stadt;Insgesamt;104548;51990;52558
+3103;      Wolfsburg, Kreisfreie Stadt;75 Jahre und mehr;15791;6519;9272
+3103;      Wolfsburg, Kreisfreie Stadt;Insgesamt;123914;61559;62355
+3151;      Gifhorn, Landkreis;75 Jahre und mehr;17805;7553;10252
+3151;      Gifhorn, Landkreis;Insgesamt;175079;87743;87336
+3152;      Göttingen, Landkreis;75 Jahre und mehr;-;-;-
+3152;      Göttingen, Landkreis;Insgesamt;-;-;-
+3153;      Goslar, Landkreis;75 Jahre und mehr;20400;8217;12183
+3153;      Goslar, Landkreis;Insgesamt;137563;68022;69541
+3154;      Helmstedt, Landkreis;75 Jahre und mehr;11423;4555;6868
+3154;      Helmstedt, Landkreis;Insgesamt;91720;45467;46253
+3155;      Northeim, Landkreis;75 Jahre und mehr;18314;7381;10933
+3155;      Northeim, Landkreis;Insgesamt;133046;65497;67549
+3156;      Osterode am Harz, Landkreis;75 Jahre und mehr;-;-;-
+3156;      Osterode am Harz, Landkreis;Insgesamt;-;-;-
+3157;      Peine, Landkreis;75 Jahre und mehr;15264;6202;9062
+3157;      Peine, Landkreis;Insgesamt;133368;65947;67421
+3158;      Wolfenbüttel, Landkreis;75 Jahre und mehr;14931;6277;8654
+3158;      Wolfenbüttel, Landkreis;Insgesamt;120437;59569;60868
+3159;      Göttingen, Landkreis;75 Jahre und mehr;38827;15943;22884
+3159;      Göttingen, Landkreis;Insgesamt;328036;161209;166827
+32;    Hannover, Stat. Region;75 Jahre und mehr;258005;103889;154116
+32;    Hannover, Stat. Region;Insgesamt;2144120;1050367;1093753
+3241;      Region Hannover, Landkreis;75 Jahre und mehr;131680;52980;78700
+3241;      Region Hannover, Landkreis;Insgesamt;1152675;563810;588865
+3241001;      Hannover, Landeshauptstadt;75 Jahre und mehr;54773;21068;33705
+3241001;      Hannover, Landeshauptstadt;Insgesamt;535061;261192;273869
+3251;      Diepholz, Landkreis;75 Jahre und mehr;25343;10613;14730
+3251;      Diepholz, Landkreis;Insgesamt;216012;107287;108725
+3252;      Hameln-Pyrmont, Landkreis;75 Jahre und mehr;20858;8231;12627
+3252;      Hameln-Pyrmont, Landkreis;Insgesamt;148296;71625;76671
+3254;      Hildesheim, Landkreis;75 Jahre und mehr;34721;13835;20886
+3254;      Hildesheim, Landkreis;Insgesamt;276640;134841;141799
+3255;      Holzminden, Landkreis;75 Jahre und mehr;10141;4192;5949
+3255;      Holzminden, Landkreis;Insgesamt;71144;35219;35925
+3256;      Nienburg (Weser), Landkreis;75 Jahre und mehr;14283;5676;8607
+3256;      Nienburg (Weser), Landkreis;Insgesamt;121470;60379;61091
+3257;      Schaumburg, Landkreis;75 Jahre und mehr;20979;8362;12617
+3257;      Schaumburg, Landkreis;Insgesamt;157883;77206;80677
+33;    Lüneburg, Stat. Region;75 Jahre und mehr;198569;82621;115948
+33;    Lüneburg, Stat. Region;Insgesamt;1706464;842227;864237
+3351;      Celle, Landkreis;75 Jahre und mehr;21673;8888;12785
+3351;      Celle, Landkreis;Insgesamt;178764;87877;90887
+3352;      Cuxhaven, Landkreis;75 Jahre und mehr;25220;10483;14737
+3352;      Cuxhaven, Landkreis;Insgesamt;198100;97085;101015
+3353;      Harburg, Landkreis;75 Jahre und mehr;28955;12335;16620
+3353;      Harburg, Landkreis;Insgesamt;251511;123912;127599
+3354;      Lüchow-Dannenberg, Landkreis;75 Jahre und mehr;7052;2944;4108
+3354;      Lüchow-Dannenberg, Landkreis;Insgesamt;48357;23750;24607
+3355;      Lüneburg, Landkreis;75 Jahre und mehr;18601;7529;11072
+3355;      Lüneburg, Landkreis;Insgesamt;182930;89412;93518
+3356;      Osterholz, Landkreis;75 Jahre und mehr;13343;5598;7745
+3356;      Osterholz, Landkreis;Insgesamt;113105;55621;57484
+3357;      Rotenburg (Wümme), Landkreis;75 Jahre und mehr;17444;7281;10163
+3357;      Rotenburg (Wümme), Landkreis;Insgesamt;163377;82180;81197
+3358;      Heidekreis, Landkreis;75 Jahre und mehr;16637;6823;9814
+3358;      Heidekreis, Landkreis;Insgesamt;139099;69426;69673
+3359;      Stade, Landkreis;75 Jahre und mehr;21735;9155;12580
+3359;      Stade, Landkreis;Insgesamt;201887;100430;101457
+3360;      Uelzen, Landkreis;75 Jahre und mehr;12767;5225;7542
+3360;      Uelzen, Landkreis;Insgesamt;92744;45361;47383
+3361;      Verden, Landkreis;75 Jahre und mehr;15142;6360;8782
+3361;      Verden, Landkreis;Insgesamt;136590;67173;69417
+34;    Weser-Ems, Stat. Region;75 Jahre und mehr;265361;108415;156946
+34;    Weser-Ems, Stat. Region;Insgesamt;2516457;1249558;1266899
+3401;      Delmenhorst, Kreisfreie Stadt;75 Jahre und mehr;8692;3632;5060
+3401;      Delmenhorst, Kreisfreie Stadt;Insgesamt;77521;38383;39138
+3402;      Emden, Kreisfreie Stadt;75 Jahre und mehr;5415;2151;3264
+3402;      Emden, Kreisfreie Stadt;Insgesamt;50607;25339;25268
+3403;      Oldenburg (Oldenburg), Kreisfreie Stadt;75 Jahre und mehr;16295;6456;9839
+3403;      Oldenburg (Oldenburg), Kreisfreie Stadt;Insgesamt;167081;79833;87248
+3404;      Osnabrück, Kreisfreie Stadt;75 Jahre und mehr;16857;6446;10411
+3404;      Osnabrück, Kreisfreie Stadt;Insgesamt;164374;79505;84869
+3405;      Wilhelmshaven, Kreisfreie Stadt;75 Jahre und mehr;10821;4458;6363
+3405;      Wilhelmshaven, Kreisfreie Stadt;Insgesamt;76316;37572;38744
+3451;      Ammerland, Landkreis;75 Jahre und mehr;14456;6141;8315
+3451;      Ammerland, Landkreis;Insgesamt;123377;60385;62992
+3452;      Aurich, Landkreis;75 Jahre und mehr;20588;8423;12165
+3452;      Aurich, Landkreis;Insgesamt;189949;93703;96246
+3453;      Cloppenburg, Landkreis;75 Jahre und mehr;14262;5601;8661
+3453;      Cloppenburg, Landkreis;Insgesamt;167925;84931;82994
+3454;      Emsland, Landkreis;75 Jahre und mehr;30546;12580;17966
+3454;      Emsland, Landkreis;Insgesamt;323636;164534;159102
+3455;      Friesland, Landkreis;75 Jahre und mehr;13194;5684;7510
+3455;      Friesland, Landkreis;Insgesamt;98509;48109;50400
+3456;      Grafschaft Bentheim, Landkreis;75 Jahre und mehr;14236;5910;8326
+3456;      Grafschaft Bentheim, Landkreis;Insgesamt;135859;67945;67914
+3457;      Leer, Landkreis;75 Jahre und mehr;17715;7339;10376
+3457;      Leer, Landkreis;Insgesamt;168946;84297;84649
+3458;      Oldenburg, Landkreis;75 Jahre und mehr;14020;5934;8086
+3458;      Oldenburg, Landkreis;Insgesamt;129924;64502;65422
+3459;      Osnabrück, Landkreis;75 Jahre und mehr;39279;15719;23560
+3459;      Osnabrück, Landkreis;Insgesamt;356140;176869;179271
+3460;      Vechta, Landkreis;75 Jahre und mehr;11529;4640;6889
+3460;      Vechta, Landkreis;Insgesamt;140540;71135;69405
+3461;      Wesermarsch, Landkreis;75 Jahre und mehr;10733;4510;6223
+3461;      Wesermarsch, Landkreis;Insgesamt;89022;44632;44390
+3462;      Wittmund, Landkreis;75 Jahre und mehr;6723;2791;3932
+3462;      Wittmund, Landkreis;Insgesamt;56731;27884;28847
+4;  Bremen;75 Jahre und mehr;76113;29950;46163
+4;  Bremen;Insgesamt;681032;336665;344367
+4011;      Bremen, Kreisfreie Stadt;75 Jahre und mehr;63440;24990;38450
+4011;      Bremen, Kreisfreie Stadt;Insgesamt;568006;280484;287522
+4012;      Bremerhaven, Kreisfreie Stadt;75 Jahre und mehr;12673;4960;7713
+4012;      Bremerhaven, Kreisfreie Stadt;Insgesamt;113026;56181;56845
+5;  Nordrhein-Westfalen;75 Jahre und mehr;1994040;797668;1196372
+5;  Nordrhein-Westfalen;Insgesamt;17912134;8787579;9124555
+51;    Düsseldorf, Regierungsbezirk;75 Jahre und mehr;598125;238619;359506
+51;    Düsseldorf, Regierungsbezirk;Insgesamt;5198820;2536806;2662014
+5111;      Düsseldorf, Kreisfreie Stadt;75 Jahre und mehr;64540;25460;39080
+5111;      Düsseldorf, Kreisfreie Stadt;Insgesamt;617280;298330;318950
+5112;      Duisburg, Kreisfreie Stadt;75 Jahre und mehr;55539;21816;33723
+5112;      Duisburg, Kreisfreie Stadt;Insgesamt;498110;246183;251927
+5113;      Essen, Kreisfreie Stadt;75 Jahre und mehr;67939;26064;41875
+5113;      Essen, Kreisfreie Stadt;Insgesamt;583393;283206;300187
+5114;      Krefeld, Kreisfreie Stadt;75 Jahre und mehr;26724;10668;16056
+5114;      Krefeld, Kreisfreie Stadt;Insgesamt;226699;110467;116232
+5116;      Mönchengladbach, Kreisfreie Stadt;75 Jahre und mehr;28359;11304;17055
+5116;      Mönchengladbach, Kreisfreie Stadt;Insgesamt;262188;128925;133263
+5117;      Mülheim an der Ruhr, Kreisfreie Stadt;75 Jahre und mehr;22326;8675;13651
+5117;      Mülheim an der Ruhr, Kreisfreie Stadt;Insgesamt;171265;82616;88649
+5119;      Oberhausen, Kreisfreie Stadt;75 Jahre und mehr;24146;9464;14682
+5119;      Oberhausen, Kreisfreie Stadt;Insgesamt;211422;103851;107571
+5120;      Remscheid, Kreisfreie Stadt;75 Jahre und mehr;13285;5268;8017
+5120;      Remscheid, Kreisfreie Stadt;Insgesamt;110584;54482;56102
+5122;      Solingen, Kreisfreie Stadt;75 Jahre und mehr;18883;7506;11377
+5122;      Solingen, Kreisfreie Stadt;Insgesamt;158803;77157;81646
+5124;      Wuppertal, Kreisfreie Stadt;75 Jahre und mehr;39754;15472;24282
+5124;      Wuppertal, Kreisfreie Stadt;Insgesamt;353590;173025;180565
+5154;      Kleve, Kreis;75 Jahre und mehr;32086;12986;19100
+5154;      Kleve, Kreis;Insgesamt;311270;155089;156181
+5158;      Mettmann, Kreis;75 Jahre und mehr;63069;26091;36978
+5158;      Mettmann, Kreis;Insgesamt;485409;234584;250825
+5162;      Rhein-Kreis Neuss;75 Jahre und mehr;52031;21541;30490
+5162;      Rhein-Kreis Neuss;Insgesamt;449408;218320;231088
+5166;      Viersen, Kreis;75 Jahre und mehr;34263;13904;20359
+5166;      Viersen, Kreis;Insgesamt;298733;145953;152780
+5170;      Wesel, Kreis;75 Jahre und mehr;55181;22400;32781
+5170;      Wesel, Kreis;Insgesamt;460666;224618;236048
+53;    Köln, Regierungsbezirk;75 Jahre und mehr;469006;193154;275852
+53;    Köln, Regierungsbezirk;Insgesamt;4454228;2185983;2268245
+5314;      Bonn, Kreisfreie Stadt;75 Jahre und mehr;31733;12187;19546
+5314;      Bonn, Kreisfreie Stadt;Insgesamt;325490;155605;169885
+5315;      Köln, Kreisfreie Stadt;75 Jahre und mehr;98415;41024;57391
+5315;      Köln, Kreisfreie Stadt;Insgesamt;1080394;526965;553429
+5316;      Leverkusen, Kreisfreie Stadt;75 Jahre und mehr;20128;8207;11921
+5316;      Leverkusen, Kreisfreie Stadt;Insgesamt;163577;79675;83902
+5334;      Städteregion Aachen (einschl. Stadt Aachen);75 Jahre und mehr;58920;23819;35101
+5334;      Städteregion Aachen (einschl. Stadt Aachen);Insgesamt;554068;279354;274714
+5334002;      Aachen, krfr. Stadt;75 Jahre und mehr;24250;9589;14661
+5334002;      Aachen, krfr. Stadt;Insgesamt;246272;128064;118208
+5354;      Aachen, Kreis;75 Jahre und mehr;-;-;-
+5354;      Aachen, Kreis;Insgesamt;-;-;-
+5358;      Düren, Kreis;75 Jahre und mehr;28250;11570;16680
+5358;      Düren, Kreis;Insgesamt;262889;130272;132617
+5362;      Rhein-Erft-Kreis;75 Jahre und mehr;50903;21355;29548
+5362;      Rhein-Erft-Kreis;Insgesamt;467209;228607;238602
+5366;      Euskirchen, Kreis;75 Jahre und mehr;20860;8610;12250
+5366;      Euskirchen, Kreis;Insgesamt;192127;94795;97332
+5370;      Heinsberg, Kreis;75 Jahre und mehr;26821;10934;15887
+5370;      Heinsberg, Kreis;Insgesamt;253106;125256;127850
+5374;      Oberbergischer Kreis;75 Jahre und mehr;31388;12686;18702
+5374;      Oberbergischer Kreis;Insgesamt;272968;134399;138569
+5378;      Rheinisch-Bergischer Kreis;75 Jahre und mehr;35847;15041;20806
+5378;      Rheinisch-Bergischer Kreis;Insgesamt;283344;137455;145889
+5382;      Rhein-Sieg-Kreis;75 Jahre und mehr;65741;27721;38020
+5382;      Rhein-Sieg-Kreis;Insgesamt;599056;293600;305456
+55;    Münster, Regierungsbezirk;75 Jahre und mehr;279710;109887;169823
+55;    Münster, Regierungsbezirk;Insgesamt;2621153;1290497;1330656
+5512;      Bottrop, Kreisfreie Stadt;75 Jahre und mehr;13477;5109;8368
+5512;      Bottrop, Kreisfreie Stadt;Insgesamt;117364;57116;60248
+5513;      Gelsenkirchen, Kreisfreie Stadt;75 Jahre und mehr;28191;10668;17523
+5513;      Gelsenkirchen, Kreisfreie Stadt;Insgesamt;260305;129548;130757
+5515;      Münster, Kreisfreie Stadt;75 Jahre und mehr;29107;11208;17899
+5515;      Münster, Kreisfreie Stadt;Insgesamt;313559;150360;163199
+5554;      Borken, Kreis;75 Jahre und mehr;36245;14567;21678
+5554;      Borken, Kreis;Insgesamt;369718;184623;185095
+5558;      Coesfeld, Kreis;75 Jahre und mehr;23134;9188;13946
+5558;      Coesfeld, Kreis;Insgesamt;219360;108296;111064
+5562;      Recklinghausen, Kreis;75 Jahre und mehr;72224;28295;43929
+5562;      Recklinghausen, Kreis;Insgesamt;616824;300982;315842
+5566;      Steinfurt, Kreis;75 Jahre und mehr;46513;18586;27927
+5566;      Steinfurt, Kreis;Insgesamt;446565;222393;224172
+5570;      Warendorf, Kreis;75 Jahre und mehr;30819;12266;18553
+5570;      Warendorf, Kreis;Insgesamt;277458;137179;140279
+57;    Detmold, Regierungsbezirk;75 Jahre und mehr;232200;92438;139762
+57;    Detmold, Regierungsbezirk;Insgesamt;2054343;1013202;1041141
+5711;      Bielefeld, Kreisfreie Stadt;75 Jahre und mehr;37147;14549;22598
+5711;      Bielefeld, Kreisfreie Stadt;Insgesamt;332552;160267;172285
+5754;      Gütersloh, Kreis;75 Jahre und mehr;38187;15469;22718
+5754;      Gütersloh, Kreis;Insgesamt;363049;181382;181667
+5758;      Herford, Kreis;75 Jahre und mehr;30693;12032;18661
+5758;      Herford, Kreis;Insgesamt;251539;123438;128101
+5762;      Höxter, Kreis;75 Jahre und mehr;17164;6891;10273
+5762;      Höxter, Kreis;Insgesamt;141565;70508;71057
+5766;      Lippe, Kreis;75 Jahre und mehr;42984;17160;25824
+5766;      Lippe, Kreis;Insgesamt;349069;171302;177767
+5770;      Minden-Lübbecke, Kreis;75 Jahre und mehr;37491;14933;22558
+5770;      Minden-Lübbecke, Kreis;Insgesamt;311207;153509;157698
+5774;      Paderborn, Kreis;75 Jahre und mehr;28534;11404;17130
+5774;      Paderborn, Kreis;Insgesamt;305362;152796;152566
+59;    Arnsberg, Regierungsbezirk;75 Jahre und mehr;414999;163570;251429
+59;    Arnsberg, Regierungsbezirk;Insgesamt;3583590;1761091;1822499
+5911;      Bochum, Kreisfreie Stadt;75 Jahre und mehr;43106;16399;26707
+5911;      Bochum, Kreisfreie Stadt;Insgesamt;365529;178122;187407
+5913;      Dortmund, Kreisfreie Stadt;75 Jahre und mehr;63893;25102;38791
+5913;      Dortmund, Kreisfreie Stadt;Insgesamt;586600;288076;298524
+5914;      Hagen, Kreisfreie Stadt;75 Jahre und mehr;23075;8913;14162
+5914;      Hagen, Kreisfreie Stadt;Insgesamt;187730;91443;96287
+5915;      Hamm, Kreisfreie Stadt;75 Jahre und mehr;19452;7659;11793
+5915;      Hamm, Kreisfreie Stadt;Insgesamt;179185;88012;91173
+5916;      Herne, Kreisfreie Stadt;75 Jahre und mehr;18182;6846;11336
+5916;      Herne, Kreisfreie Stadt;Insgesamt;156490;76665;79825
+5954;      Ennepe-Ruhr-Kreis;75 Jahre und mehr;40788;16209;24579
+5954;      Ennepe-Ruhr-Kreis;Insgesamt;324670;157613;167057
+5958;      Hochsauerlandkreis;75 Jahre und mehr;31083;12314;18769
+5958;      Hochsauerlandkreis;Insgesamt;261591;130419;131172
+5962;      Märkischer Kreis;75 Jahre und mehr;48829;19689;29140
+5962;      Märkischer Kreis;Insgesamt;413383;203503;209880
+5966;      Olpe, Kreis;75 Jahre und mehr;14315;5748;8567
+5966;      Olpe, Kreis;Insgesamt;134808;67521;67287
+5970;      Siegen-Wittgenstein, Kreis;75 Jahre und mehr;31623;12843;18780
+5970;      Siegen-Wittgenstein, Kreis;Insgesamt;277977;138101;139876
+5974;      Soest, Kreis;75 Jahre und mehr;33924;13521;20403
+5974;      Soest, Kreis;Insgesamt;301693;149877;151816
+5978;      Unna, Kreis;75 Jahre und mehr;46729;18327;28402
+5978;      Unna, Kreis;Insgesamt;393934;191739;202195
+6;  Hessen;75 Jahre und mehr;665493;274046;391447
+6;  Hessen;Insgesamt;6243262;3081636;3161626
+64;    Darmstadt, Regierungsbezirk;75 Jahre und mehr;405146;167944;237202
+64;    Darmstadt, Regierungsbezirk;Insgesamt;3978050;1960810;2017240
+6411;      Darmstadt, Kreisfreie Stadt;75 Jahre und mehr;14281;5702;8579
+6411;      Darmstadt, Kreisfreie Stadt;Insgesamt;158254;80565;77689
+6412;      Frankfurt am Main, Kreisfreie Stadt;75 Jahre und mehr;58532;23297;35235
+6412;      Frankfurt am Main, Kreisfreie Stadt;Insgesamt;746878;368721;378157
+6413;      Offenbach am Main, Kreisfreie Stadt;75 Jahre und mehr;10717;4349;6368
+6413;      Offenbach am Main, Kreisfreie Stadt;Insgesamt;126658;62566;64092
+6414;      Wiesbaden, Landeshauptstadt, Kreisfreie Stadt;75 Jahre und mehr;29481;11837;17644
+6414;      Wiesbaden, Landeshauptstadt, Kreisfreie Stadt;Insgesamt;278654;133148;145506
+6431;      Bergstraße, Landkreis;75 Jahre und mehr;30228;12527;17701
+6431;      Bergstraße, Landkreis;Insgesamt;268780;132830;135950
+6432;      Darmstadt-Dieburg, Landkreis;75 Jahre und mehr;30263;12991;17272
+6432;      Darmstadt-Dieburg, Landkreis;Insgesamt;296048;147134;148914
+6433;      Groß-Gerau, Landkreis;75 Jahre und mehr;26716;11376;15340
+6433;      Groß-Gerau, Landkreis;Insgesamt;271403;135459;135944
+6434;      Hochtaunuskreis;75 Jahre und mehr;28622;11983;16639
+6434;      Hochtaunuskreis;Insgesamt;235995;114460;121535
+6435;      Main-Kinzig-Kreis;75 Jahre und mehr;45353;18968;26385
+6435;      Main-Kinzig-Kreis;Insgesamt;418208;206318;211890
+6436;      Main-Taunus-Kreis;75 Jahre und mehr;26602;11346;15256
+6436;      Main-Taunus-Kreis;Insgesamt;236969;115893;121076
+6437;      Odenwaldkreis;75 Jahre und mehr;11592;4816;6776
+6437;      Odenwaldkreis;Insgesamt;96597;47757;48840
+6438;      Offenbach, Landkreis;75 Jahre und mehr;38213;16073;22140
+6438;      Offenbach, Landkreis;Insgesamt;351692;173204;178488
+6439;      Rheingau-Taunus-Kreis;75 Jahre und mehr;21584;9156;12428
+6439;      Rheingau-Taunus-Kreis;Insgesamt;186602;91778;94824
+6440;      Wetteraukreis;75 Jahre und mehr;32962;13523;19439
+6440;      Wetteraukreis;Insgesamt;305312;150977;154335
+65;    Gießen, Regierungsbezirk;75 Jahre und mehr;113610;46400;67210
+65;    Gießen, Regierungsbezirk;Insgesamt;1045807;516492;529315
+6531;      Gießen, Landkreis;75 Jahre und mehr;26615;11010;15605
+6531;      Gießen, Landkreis;Insgesamt;267056;131272;135784
+6532;      Lahn-Dill-Kreis;75 Jahre und mehr;29320;11830;17490
+6532;      Lahn-Dill-Kreis;Insgesamt;254164;125332;128832
+6533;      Limburg-Weilburg, Landkreis;75 Jahre und mehr;18804;7675;11129
+6533;      Limburg-Weilburg, Landkreis;Insgesamt;171971;85392;86579
+6534;      Marburg-Biedenkopf, Landkreis;75 Jahre und mehr;25239;10284;14955
+6534;      Marburg-Biedenkopf, Landkreis;Insgesamt;246165;121174;124991
+6535;      Vogelsbergkreis;75 Jahre und mehr;13632;5601;8031
+6535;      Vogelsbergkreis;Insgesamt;106451;53322;53129
+66;    Kassel, Regierungsbezirk;75 Jahre und mehr;146737;59702;87035
+66;    Kassel, Regierungsbezirk;Insgesamt;1219405;604334;615071
+6611;      Kassel, Kreisfreie Stadt;75 Jahre und mehr;20620;7870;12750
+6611;      Kassel, Kreisfreie Stadt;Insgesamt;200736;98371;102365
+6631;      Fulda, Landkreis;75 Jahre und mehr;25358;10369;14989
+6631;      Fulda, Landkreis;Insgesamt;221783;110139;111644
+6632;      Hersfeld-Rotenburg, Landkreis;75 Jahre und mehr;15528;6404;9124
+6632;      Hersfeld-Rotenburg, Landkreis;Insgesamt;121101;60611;60490
+6633;      Kassel, Landkreis;75 Jahre und mehr;30432;12689;17743
+6633;      Kassel, Landkreis;Insgesamt;236674;116270;120404
+6634;      Schwalm-Eder-Kreis;75 Jahre und mehr;21742;8833;12909
+6634;      Schwalm-Eder-Kreis;Insgesamt;180754;90477;90277
+6635;      Waldeck-Frankenberg, Landkreis;75 Jahre und mehr;19368;7922;11446
+6635;      Waldeck-Frankenberg, Landkreis;Insgesamt;157256;78505;78751
+6636;      Werra-Meißner-Kreis;75 Jahre und mehr;13689;5615;8074
+6636;      Werra-Meißner-Kreis;Insgesamt;101101;49961;51140
+7;  Rheinland-Pfalz;75 Jahre und mehr;460631;187889;272742
+7;  Rheinland-Pfalz;Insgesamt;4073679;2011123;2062556
+71;    Koblenz, Stat. Region;75 Jahre und mehr;176215;72096;104119
+71;    Koblenz, Stat. Region;Insgesamt;1493055;736830;756225
+7111;      Koblenz, Kreisfreie Stadt;75 Jahre und mehr;13623;5234;8389
+7111;      Koblenz, Kreisfreie Stadt;Insgesamt;113844;55372;58472
+7131;      Ahrweiler, Landkreis;75 Jahre und mehr;16910;6985;9925
+7131;      Ahrweiler, Landkreis;Insgesamt;128914;63267;65647
+7132;      Altenkirchen (Westerwald), Landkreis;75 Jahre und mehr;14949;6039;8910
+7132;      Altenkirchen (Westerwald), Landkreis;Insgesamt;128791;63767;65024
+7133;      Bad Kreuznach, Landkreis;75 Jahre und mehr;18736;7694;11042
+7133;      Bad Kreuznach, Landkreis;Insgesamt;157549;76894;80655
+7134;      Birkenfeld, Landkreis;75 Jahre und mehr;10440;4310;6130
+7134;      Birkenfeld, Landkreis;Insgesamt;80728;40040;40688
+7135;      Cochem-Zell, Landkreis;75 Jahre und mehr;7960;3225;4735
+7135;      Cochem-Zell, Landkreis;Insgesamt;61662;30878;30784
+7137;      Mayen-Koblenz, Landkreis;75 Jahre und mehr;24017;9910;14107
+7137;      Mayen-Koblenz, Landkreis;Insgesamt;213554;105455;108099
+7138;      Neuwied, Landkreis;75 Jahre und mehr;21273;8720;12553
+7138;      Neuwied, Landkreis;Insgesamt;181655;89349;92306
+7140;      Rhein-Hunsrück-Kreis;75 Jahre und mehr;12060;4923;7137
+7140;      Rhein-Hunsrück-Kreis;Insgesamt;102938;51222;51716
+7141;      Rhein-Lahn-Kreis;75 Jahre und mehr;14549;6142;8407
+7141;      Rhein-Lahn-Kreis;Insgesamt;122381;60574;61807
+7143;      Westerwaldkreis;75 Jahre und mehr;21698;8914;12784
+7143;      Westerwaldkreis;Insgesamt;201039;100012;101027
+72;    Trier, Stat. Region;75 Jahre und mehr;58455;23448;35007
+72;    Trier, Stat. Region;Insgesamt;529597;263452;266145
+7211;      Trier, Kreisfreie Stadt;75 Jahre und mehr;10702;3963;6739
+7211;      Trier, Kreisfreie Stadt;Insgesamt;110013;54181;55832
+7231;      Bernkastel-Wittlich, Landkreis;75 Jahre und mehr;13338;5464;7874
+7231;      Bernkastel-Wittlich, Landkreis;Insgesamt;112134;55999;56135
+7232;      Eifelkreis Bitburg-Prüm;75 Jahre und mehr;10676;4297;6379
+7232;      Eifelkreis Bitburg-Prüm;Insgesamt;98213;49330;48883
+7233;      Vulkaneifel, Landkreis;75 Jahre und mehr;7770;3341;4429
+7233;      Vulkaneifel, Landkreis;Insgesamt;60705;30468;30237
+7235;      Trier-Saarburg, Landkreis;75 Jahre und mehr;15969;6383;9586
+7235;      Trier-Saarburg, Landkreis;Insgesamt;148532;73474;75058
+73;    Rheinhessen-Pfalz, Stat. Region;75 Jahre und mehr;225961;92345;133616
+73;    Rheinhessen-Pfalz, Stat. Region;Insgesamt;2051027;1010841;1040186
+7311;      Frankenthal (Pfalz), Kreisfreie Stadt;75 Jahre und mehr;6197;2460;3737
+7311;      Frankenthal (Pfalz), Kreisfreie Stadt;Insgesamt;48417;23382;25035
+7312;      Kaiserslautern, Kreisfreie Stadt;75 Jahre und mehr;10667;4214;6453
+7312;      Kaiserslautern, Kreisfreie Stadt;Insgesamt;99684;50307;49377
+7313;      Landau in der Pfalz, Kreisfreie Stadt;75 Jahre und mehr;4702;1792;2910
+7313;      Landau in der Pfalz, Kreisfreie Stadt;Insgesamt;46292;21878;24414
+7314;      Ludwigshafen am Rhein, Kreisfreie Stadt;75 Jahre und mehr;17426;7050;10376
+7314;      Ludwigshafen am Rhein, Kreisfreie Stadt;Insgesamt;168497;83893;84604
+7315;      Mainz, Kreisfreie Stadt;75 Jahre und mehr;20090;8131;11959
+7315;      Mainz, Kreisfreie Stadt;Insgesamt;215110;104564;110546
+7316;      Neustadt an der Weinstraße, Kreisfreie Stadt;75 Jahre und mehr;7155;2859;4296
+7316;      Neustadt an der Weinstraße, Kreisfreie Stadt;Insgesamt;53353;25997;27356
+7317;      Pirmasens, Kreisfreie Stadt;75 Jahre und mehr;5812;2240;3572
+7317;      Pirmasens, Kreisfreie Stadt;Insgesamt;40632;19909;20723
+7318;      Speyer, Kreisfreie Stadt;75 Jahre und mehr;5942;2262;3680
+7318;      Speyer, Kreisfreie Stadt;Insgesamt;50931;24759;26172
+7319;      Worms, Kreisfreie Stadt;75 Jahre und mehr;8776;3425;5351
+7319;      Worms, Kreisfreie Stadt;Insgesamt;83081;40870;42211
+7320;      Zweibrücken, Kreisfreie Stadt;75 Jahre und mehr;4297;1723;2574
+7320;      Zweibrücken, Kreisfreie Stadt;Insgesamt;34270;16936;17334
+7331;      Alzey-Worms, Landkreis;75 Jahre und mehr;12187;4997;7190
+7331;      Alzey-Worms, Landkreis;Insgesamt;128519;64079;64440
+7332;      Bad Dürkheim, Landkreis;75 Jahre und mehr;16259;6811;9448
+7332;      Bad Dürkheim, Landkreis;Insgesamt;132739;64944;67795
+7333;      Donnersbergkreis;75 Jahre und mehr;8098;3327;4771
+7333;      Donnersbergkreis;Insgesamt;75102;37216;37886
+7334;      Germersheim, Landkreis;75 Jahre und mehr;12809;5335;7474
+7334;      Germersheim, Landkreis;Insgesamt;128477;64067;64410
+7335;      Kaiserslautern, Landkreis;75 Jahre und mehr;11804;4738;7066
+7335;      Kaiserslautern, Landkreis;Insgesamt;105649;52021;53628
+7336;      Kusel, Landkreis;75 Jahre und mehr;8683;3558;5125
+7336;      Kusel, Landkreis;Insgesamt;70764;35177;35587
+7337;      Südliche Weinstraße, Landkreis;75 Jahre und mehr;12880;5363;7517
+7337;      Südliche Weinstraße, Landkreis;Insgesamt;110622;54565;56057
+7338;      Rhein-Pfalz-Kreis;75 Jahre und mehr;18207;7769;10438
+7338;      Rhein-Pfalz-Kreis;Insgesamt;153629;75692;77937
+7339;      Mainz-Bingen, Landkreis;75 Jahre und mehr;21188;8906;12282
+7339;      Mainz-Bingen, Landkreis;Insgesamt;209785;103441;106344
+7340;      Südwestpfalz, Landkreis;75 Jahre und mehr;12782;5385;7397
+7340;      Südwestpfalz, Landkreis;Insgesamt;95474;47144;48330
+8;  Baden-Württemberg, Land;75 Jahre und mehr;1175629;483792;691837
+8;  Baden-Württemberg, Land;Insgesamt;11023425;5477341;5546084
+81;    Stuttgart, Regierungsbezirk;75 Jahre und mehr;438120;181565;256555
+81;    Stuttgart, Regierungsbezirk;Insgesamt;4126688;2058055;2068633
+8111;      Stuttgart, Landeshauptstadt, Stadtkreis;75 Jahre und mehr;61850;25072;36778
+8111;      Stuttgart, Landeshauptstadt, Stadtkreis;Insgesamt;632743;316126;316617
+8115;      Böblingen, Landkreis;75 Jahre und mehr;41330;17679;23651
+8115;      Böblingen, Landkreis;Insgesamt;389548;193790;195758
+8116;      Esslingen, Landkreis;75 Jahre und mehr;58341;24676;33665
+8116;      Esslingen, Landkreis;Insgesamt;532447;265956;266491
+8117;      Göppingen, Landkreis;75 Jahre und mehr;29342;12255;17087
+8117;      Göppingen, Landkreis;Insgesamt;256345;127717;128628
+8118;      Ludwigsburg, Landkreis;75 Jahre und mehr;56926;23778;33148
+8118;      Ludwigsburg, Landkreis;Insgesamt;542630;269294;273336
+8119;      Rems-Murr-Kreis, Landkreis;75 Jahre und mehr;47893;19937;27956
+8119;      Rems-Murr-Kreis, Landkreis;Insgesamt;424878;210261;214617
+8121;      Heilbronn, Stadtkreis;75 Jahre und mehr;13322;5319;8003
+8121;      Heilbronn, Stadtkreis;Insgesamt;125113;63068;62045
+8125;      Heilbronn, Landkreis;75 Jahre und mehr;33509;14029;19480
+8125;      Heilbronn, Landkreis;Insgesamt;340772;171195;169577
+8126;      Hohenlohekreis, Landkreis;75 Jahre und mehr;11224;4627;6597
+8126;      Hohenlohekreis, Landkreis;Insgesamt;111392;56212;55180
+8127;      Schwäbisch Hall, Landkreis;75 Jahre und mehr;19141;7666;11475
+8127;      Schwäbisch Hall, Landkreis;Insgesamt;194203;97395;96808
+8128;      Main-Tauber-Kreis, Landkreis;75 Jahre und mehr;15501;6316;9185
+8128;      Main-Tauber-Kreis, Landkreis;Insgesamt;132189;65797;66392
+8135;      Heidenheim, Landkreis;75 Jahre und mehr;15857;6428;9429
+8135;      Heidenheim, Landkreis;Insgesamt;132006;65768;66238
+8136;      Ostalbkreis, Landkreis;75 Jahre und mehr;33884;13783;20101
+8136;      Ostalbkreis, Landkreis;Insgesamt;312422;155476;156946
+82;    Karlsruhe, Regierungsbzirk;75 Jahre und mehr;299199;121829;177370
+82;    Karlsruhe, Regierungsbzirk;Insgesamt;2795783;1389658;1406125
+8211;      Baden-Baden, Stadtkreis;75 Jahre und mehr;7969;3184;4785
+8211;      Baden-Baden, Stadtkreis;Insgesamt;54718;26266;28452
+8212;      Karlsruhe, Stadtkreis;75 Jahre und mehr;31164;12353;18811
+8212;      Karlsruhe, Stadtkreis;Insgesamt;311919;159659;152260
+8215;      Karlsruhe, Landkreis;75 Jahre und mehr;48310;19931;28379
+8215;      Karlsruhe, Landkreis;Insgesamt;442673;220593;222080
+8216;      Rastatt, Landkreis;75 Jahre und mehr;26051;10648;15403
+8216;      Rastatt, Landkreis;Insgesamt;230216;114267;115949
+8221;      Heidelberg, Stadtkreis;75 Jahre und mehr;13661;5303;8358
+8221;      Heidelberg, Stadtkreis;Insgesamt;160601;77319;83282
+8222;      Mannheim, Stadtkreis;75 Jahre und mehr;30095;12012;18083
+8222;      Mannheim, Stadtkreis;Insgesamt;307997;153663;154334
+8225;      Neckar-Odenwald-Kreis, Landkreis;75 Jahre und mehr;15923;6583;9340
+8225;      Neckar-Odenwald-Kreis, Landkreis;Insgesamt;143376;71974;71402
+8226;      Rhein-Neckar-Kreis, Landkreis;75 Jahre und mehr;60292;25195;35097
+8226;      Rhein-Neckar-Kreis, Landkreis;Insgesamt;546745;268886;277859
+8231;      Pforzheim, Stadtkreis;75 Jahre und mehr;13824;5331;8493
+8231;      Pforzheim, Stadtkreis;Insgesamt;124289;61032;63257
+8235;      Calw, Landkreis;75 Jahre und mehr;17010;6964;10046
+8235;      Calw, Landkreis;Insgesamt;157424;79006;78418
+8236;      Enzkreis, Landkreis;75 Jahre und mehr;22031;9169;12862
+8236;      Enzkreis, Landkreis;Insgesamt;198369;98374;99995
+8237;      Freudenstadt, Landkreis;75 Jahre und mehr;12869;5156;7713
+8237;      Freudenstadt, Landkreis;Insgesamt;117456;58619;58837
+83;    Freiburg, Regierungsbezirk;75 Jahre und mehr;245096;100574;144522
+83;    Freiburg, Regierungsbezirk;Insgesamt;2254674;1111635;1143039
+8311;      Freiburg im Breisgau, Stadtkreis;75 Jahre und mehr;19882;7613;12269
+8311;      Freiburg im Breisgau, Stadtkreis;Insgesamt;229636;109537;120099
+8315;      Breisgau-Hochschwarzwald, Landkreis;75 Jahre und mehr;29362;12425;16937
+8315;      Breisgau-Hochschwarzwald, Landkreis;Insgesamt;262405;129454;132951
+8316;      Emmendingen, Landkreis;75 Jahre und mehr;17482;7171;10311
+8316;      Emmendingen, Landkreis;Insgesamt;164712;81348;83364
+8317;      Ortenaukreis, Landkreis;75 Jahre und mehr;47077;19216;27861
+8317;      Ortenaukreis, Landkreis;Insgesamt;425932;212042;213890
+8325;      Rottweil, Landkreis;75 Jahre und mehr;15843;6536;9307
+8325;      Rottweil, Landkreis;Insgesamt;138858;69415;69443
+8326;      Schwarzwald-Baar-Kreis, Landkreis;75 Jahre und mehr;25486;10428;15058
+8326;      Schwarzwald-Baar-Kreis, Landkreis;Insgesamt;211207;104997;106210
+8327;      Tuttlingen, Landkreis;75 Jahre und mehr;14787;6162;8625
+8327;      Tuttlingen, Landkreis;Insgesamt;139397;70009;69388
+8335;      Konstanz, Landkreis;75 Jahre und mehr;31704;13099;18605
+8335;      Konstanz, Landkreis;Insgesamt;284015;138473;145542
+8336;      Lörrach, Landkreis;75 Jahre und mehr;24689;10143;14546
+8336;      Lörrach, Landkreis;Insgesamt;228314;111904;116410
+8337;      Waldshut, Landkreis;75 Jahre und mehr;18784;7781;11003
+8337;      Waldshut, Landkreis;Insgesamt;170198;84456;85742
+84;    Tübingen, Regierungsbezirk;75 Jahre und mehr;193214;79824;113390
+84;    Tübingen, Regierungsbezirk;Insgesamt;1846280;917993;928287
+8415;      Reutlingen, Landkreis;75 Jahre und mehr;31710;13039;18671
+8415;      Reutlingen, Landkreis;Insgesamt;285754;141853;143901
+8416;      Tübingen, Landkreis;75 Jahre und mehr;19954;8105;11849
+8416;      Tübingen, Landkreis;Insgesamt;225755;110042;115713
+8417;      Zollernalbkreis, Landkreis;75 Jahre und mehr;22403;8987;13416
+8417;      Zollernalbkreis, Landkreis;Insgesamt;188170;93357;94813
+8421;      Ulm, Stadtkreis;75 Jahre und mehr;12234;4901;7333
+8421;      Ulm, Stadtkreis;Insgesamt;125596;62321;63275
+8425;      Alb-Donau-Kreis, Landkreis;75 Jahre und mehr;19706;8222;11484
+8425;      Alb-Donau-Kreis, Landkreis;Insgesamt;194629;98401;96228
+8426;      Biberach, Landkreis;75 Jahre und mehr;19165;7960;11205
+8426;      Biberach, Landkreis;Insgesamt;198265;99840;98425
+8435;      Bodenseekreis, Landkreis;75 Jahre und mehr;25269;10832;14437
+8435;      Bodenseekreis, Landkreis;Insgesamt;214655;105793;108862
+8436;      Ravensburg, Landkreis;75 Jahre und mehr;28775;11996;16779
+8436;      Ravensburg, Landkreis;Insgesamt;283264;141176;142088
+8437;      Sigmaringen, Landkreis;75 Jahre und mehr;13998;5782;8216
+8437;      Sigmaringen, Landkreis;Insgesamt;130192;65210;64982
+9;  Bayern;75 Jahre und mehr;1374788;561605;813183
+9;  Bayern;Insgesamt;12997204;6438503;6558701
+91;    Oberbayern, Regierungsbezirk;75 Jahre und mehr;470048;195987;274061
+91;    Oberbayern, Regierungsbezirk;Insgesamt;4649534;2298601;2350933
+9161;      Ingolstadt;75 Jahre und mehr;13389;5479;7910
+9161;      Ingolstadt;Insgesamt;135244;68292;66952
+9162;      München, Landeshauptstadt;75 Jahre und mehr;133444;54155;79289
+9162;      München, Landeshauptstadt;Insgesamt;1456039;708422;747617
+9163;      Rosenheim;75 Jahre und mehr;6452;2540;3912
+9163;      Rosenheim;Insgesamt;63080;31126;31954
+9171;      Altötting, Landkreis;75 Jahre und mehr;12710;5096;7614
+9171;      Altötting, Landkreis;Insgesamt;110338;54467;55871
+9172;      Berchtesgadener Land, Landkreis;75 Jahre und mehr;13238;5350;7888
+9172;      Berchtesgadener Land, Landkreis;Insgesamt;105052;51603;53449
+9173;      Bad Tölz-Wolfratshausen, Landkreis;75 Jahre und mehr;14255;5993;8262
+9173;      Bad Tölz-Wolfratshausen, Landkreis;Insgesamt;126572;62408;64164
+9174;      Dachau, Landkreis;75 Jahre und mehr;14266;6032;8234
+9174;      Dachau, Landkreis;Insgesamt;152703;76431;76272
+9175;      Ebersberg, Landkreis;75 Jahre und mehr;13984;6017;7967
+9175;      Ebersberg, Landkreis;Insgesamt;140800;70285;70515
+9176;      Eichstätt, Landkreis;75 Jahre und mehr;12034;5066;6968
+9176;      Eichstätt, Landkreis;Insgesamt;131646;66929;64717
+9177;      Erding, Landkreis;75 Jahre und mehr;11461;4839;6622
+9177;      Erding, Landkreis;Insgesamt;136884;69075;67809
+9178;      Freising, Landkreis;75 Jahre und mehr;14027;5995;8032
+9178;      Freising, Landkreis;Insgesamt;177997;90805;87192
+9179;      Fürstenfeldbruck, Landkreis;75 Jahre und mehr;24692;10481;14211
+9179;      Fürstenfeldbruck, Landkreis;Insgesamt;217831;106671;111160
+9180;      Garmisch-Partenkirchen, Landkreis;75 Jahre und mehr;11866;4869;6997
+9180;      Garmisch-Partenkirchen, Landkreis;Insgesamt;88155;42755;45400
+9181;      Landsberg am Lech, Landkreis;75 Jahre und mehr;11820;5030;6790
+9181;      Landsberg am Lech, Landkreis;Insgesamt;119141;59673;59468
+9182;      Miesbach, Landkreis;75 Jahre und mehr;11902;4965;6937
+9182;      Miesbach, Landkreis;Insgesamt;99189;48558;50631
+9183;      Mühldorf a.Inn, Landkreis;75 Jahre und mehr;11503;4723;6780
+9183;      Mühldorf a.Inn, Landkreis;Insgesamt;114486;57961;56525
+9184;      München, Landkreis;75 Jahre und mehr;38092;16492;21600
+9184;      München, Landkreis;Insgesamt;346433;172236;174197
+9185;      Neuburg-Schrobenhausen, Landkreis;75 Jahre und mehr;9337;3829;5508
+9185;      Neuburg-Schrobenhausen, Landkreis;Insgesamt;96164;48421;47743
+9186;      Pfaffenhofen a.d.Ilm, Landkreis;75 Jahre und mehr;11592;4947;6645
+9186;      Pfaffenhofen a.d.Ilm, Landkreis;Insgesamt;126244;64299;61945
+9187;      Rosenheim, Landkreis;75 Jahre und mehr;27675;11705;15970
+9187;      Rosenheim, Landkreis;Insgesamt;259449;128537;130912
+9188;      Starnberg, Landkreis;75 Jahre und mehr;16467;7158;9309
+9188;      Starnberg, Landkreis;Insgesamt;135545;65703;69842
+9189;      Traunstein, Landkreis;75 Jahre und mehr;20840;8730;12110
+9189;      Traunstein, Landkreis;Insgesamt;176290;87177;89113
+9190;      Weilheim-Schongau, Landkreis;75 Jahre und mehr;15002;6496;8506
+9190;      Weilheim-Schongau, Landkreis;Insgesamt;134252;66767;67485
+92;    Niederbayern, Regierungsbezirk;75 Jahre und mehr;126065;50887;75178
+92;    Niederbayern, Regierungsbezirk;Insgesamt;1230037;616309;613728
+9261;      Landshut;75 Jahre und mehr;7700;3023;4677
+9261;      Landshut;Insgesamt;71193;34617;36576
+9262;      Passau;75 Jahre und mehr;5846;2233;3613
+9262;      Passau;Insgesamt;51781;24864;26917
+9263;      Straubing;75 Jahre und mehr;5215;1977;3238
+9263;      Straubing;Insgesamt;47586;23956;23630
+9271;      Deggendorf, Landkreis;75 Jahre und mehr;11839;4738;7101
+9271;      Deggendorf, Landkreis;Insgesamt;118741;59193;59548
+9272;      Freyung-Grafenau, Landkreis;75 Jahre und mehr;8328;3298;5030
+9272;      Freyung-Grafenau, Landkreis;Insgesamt;78345;39111;39234
+9273;      Kelheim, Landkreis;75 Jahre und mehr;11262;4671;6591
+9273;      Kelheim, Landkreis;Insgesamt;121119;61529;59590
+9274;      Landshut, Landkreis;75 Jahre und mehr;14353;6057;8296
+9274;      Landshut, Landkreis;Insgesamt;157239;79866;77373
+9275;      Passau, Landkreis;75 Jahre und mehr;20739;8360;12379
+9275;      Passau, Landkreis;Insgesamt;190504;94605;95899
+9276;      Regen, Landkreis;75 Jahre und mehr;8505;3259;5246
+9276;      Regen, Landkreis;Insgesamt;77489;38679;38810
+9277;      Rottal-Inn, Landkreis;75 Jahre und mehr;13415;5495;7920
+9277;      Rottal-Inn, Landkreis;Insgesamt;120371;60157;60214
+9278;      Straubing-Bogen, Landkreis;75 Jahre und mehr;9658;3934;5724
+9278;      Straubing-Bogen, Landkreis;Insgesamt;99838;50276;49562
+9279;      Dingolfing-Landau, Landkreis;75 Jahre und mehr;9205;3842;5363
+9279;      Dingolfing-Landau, Landkreis;Insgesamt;95831;49456;46375
+93;    Oberpfalz, Regierungsbezirk;75 Jahre und mehr;114844;45747;69097
+93;    Oberpfalz, Regierungsbezirk;Insgesamt;1104407;550060;554347
+9361;      Amberg;75 Jahre und mehr;5342;1970;3372
+9361;      Amberg;Insgesamt;42248;20809;21439
+9362;      Regensburg;75 Jahre und mehr;14017;5314;8703
+9362;      Regensburg;Insgesamt;150894;73121;77773
+9363;      Weiden i.d.OPf.;75 Jahre und mehr;5267;2013;3254
+9363;      Weiden i.d.OPf.;Insgesamt;42543;20506;22037
+9371;      Amberg-Sulzbach, Landkreis;75 Jahre und mehr;11452;4656;6796
+9371;      Amberg-Sulzbach, Landkreis;Insgesamt;102836;51452;51384
+9372;      Cham, Landkreis;75 Jahre und mehr;13563;5459;8104
+9372;      Cham, Landkreis;Insgesamt;127339;63910;63429
+9373;      Neumarkt i.d.OPf., Landkreis;75 Jahre und mehr;12888;5205;7683
+9373;      Neumarkt i.d.OPf., Landkreis;Insgesamt;132644;67037;65607
+9374;      Neustadt a.d.Waldnaab, Landkreis;75 Jahre und mehr;10150;4066;6084
+9374;      Neustadt a.d.Waldnaab, Landkreis;Insgesamt;94486;46967;47519
+9375;      Regensburg, Landkreis;75 Jahre und mehr;17875;7442;10433
+9375;      Regensburg, Landkreis;Insgesamt;192200;96350;95850
+9376;      Schwandorf, Landkreis;75 Jahre und mehr;15544;6168;9376
+9376;      Schwandorf, Landkreis;Insgesamt;146487;73653;72834
+9377;      Tirschenreuth, Landkreis;75 Jahre und mehr;8746;3454;5292
+9377;      Tirschenreuth, Landkreis;Insgesamt;72730;36255;36475
+94;    Oberfranken, Regierungsbezirk;75 Jahre und mehr;125379;49310;76069
+94;    Oberfranken, Regierungsbezirk;Insgesamt;1066840;524731;542109
+9461;      Bamberg;75 Jahre und mehr;8179;3054;5125
+9461;      Bamberg;Insgesamt;77179;37165;40014
+9462;      Bayreuth;75 Jahre und mehr;8503;3235;5268
+9462;      Bayreuth;Insgesamt;73999;36035;37964
+9463;      Coburg;75 Jahre und mehr;5294;2049;3245
+9463;      Coburg;Insgesamt;41236;20065;21171
+9464;      Hof;75 Jahre und mehr;5839;2124;3715
+9464;      Hof;Insgesamt;45950;22055;23895
+9471;      Bamberg, Landkreis;75 Jahre und mehr;13940;5714;8226
+9471;      Bamberg, Landkreis;Insgesamt;146584;73417;73167
+9472;      Bayreuth, Landkreis;75 Jahre und mehr;11984;4781;7203
+9472;      Bayreuth, Landkreis;Insgesamt;103805;51359;52446
+9473;      Coburg, Landkreis;75 Jahre und mehr;10522;4255;6267
+9473;      Coburg, Landkreis;Insgesamt;86885;42927;43958
+9474;      Forchheim, Landkreis;75 Jahre und mehr;11830;4856;6974
+9474;      Forchheim, Landkreis;Insgesamt;115681;57412;58269
+9475;      Hof, Landkreis;75 Jahre und mehr;13315;5216;8099
+9475;      Hof, Landkreis;Insgesamt;95773;46782;48991
+9476;      Kronach, Landkreis;75 Jahre und mehr;8700;3389;5311
+9476;      Kronach, Landkreis;Insgesamt;67474;33301;34173
+9477;      Kulmbach, Landkreis;75 Jahre und mehr;8939;3464;5475
+9477;      Kulmbach, Landkreis;Insgesamt;72012;35394;36618
+9478;      Lichtenfels, Landkreis;75 Jahre und mehr;7931;3212;4719
+9478;      Lichtenfels, Landkreis;Insgesamt;66777;33001;33776
+9479;      Wunsiedel i.Fichtelgebirge, Landkreis;75 Jahre und mehr;10403;3961;6442
+9479;      Wunsiedel i.Fichtelgebirge, Landkreis;Insgesamt;73485;35818;37667
+95;    Mittelfranken, Regierungsbezirk;75 Jahre und mehr;188372;75547;112825
+95;    Mittelfranken, Regierungsbezirk;Insgesamt;1759643;866773;892870
+9561;      Ansbach;75 Jahre und mehr;4840;1871;2969
+9561;      Ansbach;Insgesamt;41652;19930;21722
+9562;      Erlangen;75 Jahre und mehr;10886;4328;6558
+9562;      Erlangen;Insgesamt;110998;55200;55798
+9563;      Fürth;75 Jahre und mehr;11715;4511;7204
+9563;      Fürth;Insgesamt;126526;61962;64564
+9564;      Nürnberg;75 Jahre und mehr;55511;21503;34008
+9564;      Nürnberg;Insgesamt;515201;250702;264499
+9565;      Schwabach;75 Jahre und mehr;4648;1842;2806
+9565;      Schwabach;Insgesamt;40781;19885;20896
+9571;      Ansbach, Landkreis;75 Jahre und mehr;19269;7781;11488
+9571;      Ansbach, Landkreis;Insgesamt;183256;92126;91130
+9572;      Erlangen-Höchstadt, Landkreis;75 Jahre und mehr;13602;5822;7780
+9572;      Erlangen-Höchstadt, Landkreis;Insgesamt;135334;67259;68075
+9573;      Fürth, Landkreis;75 Jahre und mehr;13528;5530;7998
+9573;      Fürth, Landkreis;Insgesamt;116193;56410;59783
+9574;      Nürnberger Land, Landkreis;75 Jahre und mehr;19617;8167;11450
+9574;      Nürnberger Land, Landkreis;Insgesamt;169752;83755;85997
+9575;      Neustadt a.d.Aisch-Bad Windsheim, Landkreis;75 Jahre und mehr;10649;4348;6301
+9575;      Neustadt a.d.Aisch-Bad Windsheim, Landkreis;Insgesamt;99641;49888;49753
+9576;      Roth, Landkreis;75 Jahre und mehr;13376;5545;7831
+9576;      Roth, Landkreis;Insgesamt;126101;62701;63400
+9577;      Weißenburg-Gunzenhausen, Landkreis;75 Jahre und mehr;10731;4299;6432
+9577;      Weißenburg-Gunzenhausen, Landkreis;Insgesamt;94208;46955;47253
+96;    Unterfranken, Regierungsbezirk;75 Jahre und mehr;148406;60893;87513
+96;    Unterfranken, Regierungsbezirk;Insgesamt;1313375;650316;663059
+9661;      Aschaffenburg;75 Jahre und mehr;7540;2930;4610
+9661;      Aschaffenburg;Insgesamt;69928;33899;36029
+9662;      Schweinfurt;75 Jahre und mehr;7216;2784;4432
+9662;      Schweinfurt;Insgesamt;53437;26150;27287
+9663;      Würzburg;75 Jahre und mehr;14404;5340;9064
+9663;      Würzburg;Insgesamt;126635;60447;66188
+9671;      Aschaffenburg, Landkreis;75 Jahre und mehr;19091;8134;10957
+9671;      Aschaffenburg, Landkreis;Insgesamt;173969;86382;87587
+9672;      Bad Kissingen, Landkreis;75 Jahre und mehr;13501;5437;8064
+9672;      Bad Kissingen, Landkreis;Insgesamt;103265;50790;52475
+9673;      Rhön-Grabfeld, Landkreis;75 Jahre und mehr;9222;3795;5427
+9673;      Rhön-Grabfeld, Landkreis;Insgesamt;79796;39702;40094
+9674;      Haßberge, Landkreis;75 Jahre und mehr;8797;3576;5221
+9674;      Haßberge, Landkreis;Insgesamt;84464;42398;42066
+9675;      Kitzingen, Landkreis;75 Jahre und mehr;9631;3967;5664
+9675;      Kitzingen, Landkreis;Insgesamt;90429;45526;44903
+9676;      Miltenberg, Landkreis;75 Jahre und mehr;14109;5955;8154
+9676;      Miltenberg, Landkreis;Insgesamt;128484;64035;64449
+9677;      Main-Spessart, Landkreis;75 Jahre und mehr;14922;6155;8767
+9677;      Main-Spessart, Landkreis;Insgesamt;126523;63088;63435
+9678;      Schweinfurt, Landkreis;75 Jahre und mehr;12974;5483;7491
+9678;      Schweinfurt, Landkreis;Insgesamt;115105;57657;57448
+9679;      Würzburg, Landkreis;75 Jahre und mehr;16999;7337;9662
+9679;      Würzburg, Landkreis;Insgesamt;161340;80242;81098
+97;    Schwaben, Regierungsbezirk;75 Jahre und mehr;201674;83234;118440
+97;    Schwaben, Regierungsbezirk;Insgesamt;1873368;931713;941655
+9761;      Augsburg;75 Jahre und mehr;30847;11986;18861
+9761;      Augsburg;Insgesamt;292851;143867;148984
+9762;      Kaufbeuren;75 Jahre und mehr;5479;2183;3296
+9762;      Kaufbeuren;Insgesamt;43478;21384;22094
+9763;      Kempten (Allgäu);75 Jahre und mehr;8126;3355;4771
+9763;      Kempten (Allgäu);Insgesamt;68330;33789;34541
+9764;      Memmingen;75 Jahre und mehr;5088;2029;3059
+9764;      Memmingen;Insgesamt;43470;21478;21992
+9771;      Aichach-Friedberg, Landkreis;75 Jahre und mehr;13373;5672;7701
+9771;      Aichach-Friedberg, Landkreis;Insgesamt;132596;66182;66414
+9772;      Augsburg, Landkreis;75 Jahre und mehr;26066;10867;15199
+9772;      Augsburg, Landkreis;Insgesamt;249838;123993;125845
+9773;      Dillingen a.d.Donau, Landkreis;75 Jahre und mehr;9820;4030;5790
+9773;      Dillingen a.d.Donau, Landkreis;Insgesamt;95159;47663;47496
+9774;      Günzburg, Landkreis;75 Jahre und mehr;12371;5126;7245
+9774;      Günzburg, Landkreis;Insgesamt;124519;62851;61668
+9775;      Neu-Ulm, Landkreis;75 Jahre und mehr;18130;7525;10605
+9775;      Neu-Ulm, Landkreis;Insgesamt;172546;85562;86984
+9776;      Lindau (Bodensee), Landkreis;75 Jahre und mehr;9856;4122;5734
+9776;      Lindau (Bodensee), Landkreis;Insgesamt;81148;39965;41183
+9777;      Ostallgäu, Landkreis;75 Jahre und mehr;14884;6374;8510
+9777;      Ostallgäu, Landkreis;Insgesamt;139278;69419;69859
+9778;      Unterallgäu, Landkreis;75 Jahre und mehr;15766;6586;9180
+9778;      Unterallgäu, Landkreis;Insgesamt;142544;71769;70775
+9779;      Donau-Ries, Landkreis;75 Jahre und mehr;13788;5694;8094
+9779;      Donau-Ries, Landkreis;Insgesamt;133043;67559;65484
+9780;      Oberallgäu, Landkreis;75 Jahre und mehr;18080;7685;10395
+9780;      Oberallgäu, Landkreis;Insgesamt;154568;76232;78336
+10;  Saarland;75 Jahre und mehr;123626;48874;74752
+10;  Saarland;Insgesamt;994187;487895;506292
+10041;      Saarbrücken, Regionalverband;75 Jahre und mehr;39345;15368;23977
+10041;      Saarbrücken, Regionalverband;Insgesamt;330150;162107;168043
+10041100;      Saarbrücken, Landeshauptstadt;75 Jahre und mehr;20129;7901;12228
+10041100;      Saarbrücken, Landeshauptstadt;Insgesamt;180966;89755;91211
+10042;      Merzig-Wadern, Landkreis;75 Jahre und mehr;12242;4832;7410
+10042;      Merzig-Wadern, Landkreis;Insgesamt;103656;51207;52449
+10043;      Neunkirchen, Landkreis;75 Jahre und mehr;17192;6795;10397
+10043;      Neunkirchen, Landkreis;Insgesamt;133297;65487;67810
+10044;      Saarlouis, Landkreis;75 Jahre und mehr;24494;9609;14885
+10044;      Saarlouis, Landkreis;Insgesamt;195815;95872;99943
+10045;      Saarpfalz-Kreis;75 Jahre und mehr;19142;7649;11493
+10045;      Saarpfalz-Kreis;Insgesamt;143402;69768;73634
+10046;      St. Wendel, Landkreis;75 Jahre und mehr;11211;4621;6590
+10046;      St. Wendel, Landkreis;Insgesamt;87867;43454;44413
+11;  Berlin;75 Jahre und mehr;359805;144122;215683
+11;  Berlin;Insgesamt;3613495;1776267;1837228
+11001001;      Berlin-Mitte;75 Jahre und mehr;.;.;.
+11001001;      Berlin-Mitte;Insgesamt;.;.;.
+11002002;      Berlin-Friedrichshain-Kreuzberg;75 Jahre und mehr;.;.;.
+11002002;      Berlin-Friedrichshain-Kreuzberg;Insgesamt;.;.;.
+11003003;      Berlin-Pankow;75 Jahre und mehr;.;.;.
+11003003;      Berlin-Pankow;Insgesamt;.;.;.
+11004004;      Berlin-Charlottenburg-Wilmersdorf;75 Jahre und mehr;.;.;.
+11004004;      Berlin-Charlottenburg-Wilmersdorf;Insgesamt;.;.;.
+11005005;      Berlin-Spandau;75 Jahre und mehr;.;.;.
+11005005;      Berlin-Spandau;Insgesamt;.;.;.
+11006006;      Berlin-Steglitz-Zehlendorf;75 Jahre und mehr;.;.;.
+11006006;      Berlin-Steglitz-Zehlendorf;Insgesamt;.;.;.
+11007007;      Berlin-Tempelhof-Schöneberg;75 Jahre und mehr;.;.;.
+11007007;      Berlin-Tempelhof-Schöneberg;Insgesamt;.;.;.
+11008008;      Berlin-Neukölln;75 Jahre und mehr;.;.;.
+11008008;      Berlin-Neukölln;Insgesamt;.;.;.
+11009009;      Berlin-Treptow-Köpenick;75 Jahre und mehr;.;.;.
+11009009;      Berlin-Treptow-Köpenick;Insgesamt;.;.;.
+11010010;      Berlin-Marzahn-Hellersdorf;75 Jahre und mehr;.;.;.
+11010010;      Berlin-Marzahn-Hellersdorf;Insgesamt;.;.;.
+11011011;      Berlin-Lichtenberg;75 Jahre und mehr;.;.;.
+11011011;      Berlin-Lichtenberg;Insgesamt;.;.;.
+11012012;      Berlin-Reinickendorf;75 Jahre und mehr;.;.;.
+11012012;      Berlin-Reinickendorf;Insgesamt;.;.;.
+12;  Brandenburg;75 Jahre und mehr;328842;132057;196785
+12;  Brandenburg;Insgesamt;2504040;1235971;1268069
+12051;      Brandenburg an der Havel, Kreisfreie Stadt;75 Jahre und mehr;11380;4548;6832
+12051;      Brandenburg an der Havel, Kreisfreie Stadt;Insgesamt;71886;35522;36364
+12052;      Cottbus, Kreisfreie Stadt;75 Jahre und mehr;13929;5479;8450
+12052;      Cottbus, Kreisfreie Stadt;Insgesamt;101036;49792;51244
+12053;      Frankfurt (Oder), Kreisfreie Stadt;75 Jahre und mehr;8185;3136;5049
+12053;      Frankfurt (Oder), Kreisfreie Stadt;Insgesamt;58237;28167;30070
+12054;      Potsdam, Kreisfreie Stadt;75 Jahre und mehr;19123;7540;11583
+12054;      Potsdam, Kreisfreie Stadt;Insgesamt;175710;85046;90664
+12060;      Barnim, Landkreis;75 Jahre und mehr;22150;9196;12954
+12060;      Barnim, Landkreis;Insgesamt;180864;89684;91180
+12061;      Dahme-Spreewald, Landkreis;75 Jahre und mehr;22091;9189;12902
+12061;      Dahme-Spreewald, Landkreis;Insgesamt;167319;83022;84297
+12062;      Elbe-Elster, Landkreis;75 Jahre und mehr;15724;6143;9581
+12062;      Elbe-Elster, Landkreis;Insgesamt;103455;51354;52101
+12063;      Havelland, Landkreis;75 Jahre und mehr;18893;7726;11167
+12063;      Havelland, Landkreis;Insgesamt;160710;79527;81183
+12064;      Märkisch-Oderland, Landkreis;75 Jahre und mehr;24578;10032;14546
+12064;      Märkisch-Oderland, Landkreis;Insgesamt;192921;95718;97203
+12065;      Oberhavel, Landkreis;75 Jahre und mehr;25339;10322;15017
+12065;      Oberhavel, Landkreis;Insgesamt;209893;103414;106479
+12066;      Oberspreewald-Lausitz, Landkreis;75 Jahre und mehr;17577;6766;10811
+12066;      Oberspreewald-Lausitz, Landkreis;Insgesamt;111122;54614;56508
+12067;      Oder-Spree, Landkreis;75 Jahre und mehr;25248;10247;15001
+12067;      Oder-Spree, Landkreis;Insgesamt;178347;87583;90764
+12068;      Ostprignitz-Ruppin, Landkreis;75 Jahre und mehr;13325;5280;8045
+12068;      Ostprignitz-Ruppin, Landkreis;Insgesamt;99368;49521;49847
+12069;      Potsdam-Mittelmark, Landkreis;75 Jahre und mehr;24644;10108;14536
+12069;      Potsdam-Mittelmark, Landkreis;Insgesamt;213214;105612;107602
+12070;      Prignitz, Landkreis;75 Jahre und mehr;11893;4678;7215
+12070;      Prignitz, Landkreis;Insgesamt;77263;38443;38820
+12071;      Spree-Neiße, Landkreis;75 Jahre und mehr;16882;6667;10215
+12071;      Spree-Neiße, Landkreis;Insgesamt;115456;56845;58611
+12072;      Teltow-Fläming, Landkreis;75 Jahre und mehr;20246;8028;12218
+12072;      Teltow-Fläming, Landkreis;Insgesamt;166890;83093;83797
+12073;      Uckermark, Landkreis;75 Jahre und mehr;17635;6972;10663
+12073;      Uckermark, Landkreis;Insgesamt;120349;59014;61335
+13;  Mecklenburg-Vorpommern;75 Jahre und mehr;209593;81369;128224
+13;  Mecklenburg-Vorpommern;Insgesamt;1611119;794873;816246
+13001;      Kreisfreie Stadt Greifswald, Hansestadt;75 Jahre und mehr;-;-;-
+13001;      Kreisfreie Stadt Greifswald, Hansestadt;Insgesamt;-;-;-
+13002;      Kreisfreie Stadt Neubrandenburg, Stadt;75 Jahre und mehr;-;-;-
+13002;      Kreisfreie Stadt Neubrandenburg, Stadt;Insgesamt;-;-;-
+13003;      Kreisfreie Stadt Rostock, Hansestadt;75 Jahre und mehr;28275;11025;17250
+13003;      Kreisfreie Stadt Rostock, Hansestadt;Insgesamt;208409;102700;105709
+13004;      Kreisfreie Stadt Schwerin, Landeshauptstadt;75 Jahre und mehr;13429;5038;8391
+13004;      Kreisfreie Stadt Schwerin, Landeshauptstadt;Insgesamt;95797;46046;49751
+13005;      Kreisfreie Stadt Stralsund, Hansestadt;75 Jahre und mehr;-;-;-
+13005;      Kreisfreie Stadt Stralsund, Hansestadt;Insgesamt;-;-;-
+13006;      Kreisfreie Stadt Wismar, Hansestadt;75 Jahre und mehr;-;-;-
+13006;      Kreisfreie Stadt Wismar, Hansestadt;Insgesamt;-;-;-
+13051;      Landkreis Bad Doberan;75 Jahre und mehr;-;-;-
+13051;      Landkreis Bad Doberan;Insgesamt;-;-;-
+13052;      Landkreis Demmin;75 Jahre und mehr;-;-;-
+13052;      Landkreis Demmin;Insgesamt;-;-;-
+13053;      Landkreis Güstrow;75 Jahre und mehr;-;-;-
+13053;      Landkreis Güstrow;Insgesamt;-;-;-
+13054;      Landkreis Ludwigslust;75 Jahre und mehr;-;-;-
+13054;      Landkreis Ludwigslust;Insgesamt;-;-;-
+13055;      Landkreis Mecklenburg-Strelitz;75 Jahre und mehr;-;-;-
+13055;      Landkreis Mecklenburg-Strelitz;Insgesamt;-;-;-
+13056;      Landkreis Müritz;75 Jahre und mehr;-;-;-
+13056;      Landkreis Müritz;Insgesamt;-;-;-
+13057;      Landkreis Nordvorpommern;75 Jahre und mehr;-;-;-
+13057;      Landkreis Nordvorpommern;Insgesamt;-;-;-
+13058;      Landkreis Nordwestmecklenburg;75 Jahre und mehr;-;-;-
+13058;      Landkreis Nordwestmecklenburg;Insgesamt;-;-;-
+13059;      Landkreis Ostvorpommern;75 Jahre und mehr;-;-;-
+13059;      Landkreis Ostvorpommern;Insgesamt;-;-;-
+13060;      Landkreis Parchim;75 Jahre und mehr;-;-;-
+13060;      Landkreis Parchim;Insgesamt;-;-;-
+13061;      Landkreis Rügen;75 Jahre und mehr;-;-;-
+13061;      Landkreis Rügen;Insgesamt;-;-;-
+13062;      Landkreis Uecker-Randow;75 Jahre und mehr;-;-;-
+13062;      Landkreis Uecker-Randow;Insgesamt;-;-;-
+13071;      Landkreis Mecklenburgische Seenplatte;75 Jahre und mehr;35054;13362;21692
+13071;      Landkreis Mecklenburgische Seenplatte;Insgesamt;260574;127966;132608
+13072;      Landkreis Rostock;75 Jahre und mehr;25802;10339;15463
+13072;      Landkreis Rostock;Insgesamt;214635;106746;107889
+13073;      Landkreis Vorpommern-Rügen;75 Jahre und mehr;31094;12287;18807
+13073;      Landkreis Vorpommern-Rügen;Insgesamt;225123;110822;114301
+13074;      Landkreis Nordwestmecklenburg;75 Jahre und mehr;18868;7301;11567
+13074;      Landkreis Nordwestmecklenburg;Insgesamt;156993;78198;78795
+13075;      Landkreis Vorpommern-Greifswald;75 Jahre und mehr;31470;12162;19308
+13075;      Landkreis Vorpommern-Greifswald;Insgesamt;237066;116376;120690
+13076;      Landkreis Ludwigslust-Parchim;75 Jahre und mehr;25601;9855;15746
+13076;      Landkreis Ludwigslust-Parchim;Insgesamt;212522;106019;106503
+14;  Sachsen;75 Jahre und mehr;576913;225626;351287
+14;  Sachsen;Insgesamt;4081308;2010214;2071094
+141;    Chemnitz, Regierungsbezirk;75 Jahre und mehr;-;-;-
+141;    Chemnitz, Regierungsbezirk;Insgesamt;-;-;-
+14161;      Chemnitz, Kreisfreie Stadt;75 Jahre und mehr;-;-;-
+14161;      Chemnitz, Kreisfreie Stadt;Insgesamt;-;-;-
+14166;      Plauen, Kreisfreie Stadt;75 Jahre und mehr;-;-;-
+14166;      Plauen, Kreisfreie Stadt;Insgesamt;-;-;-
+14167;      Zwickau, Kreisfreie Stadt;75 Jahre und mehr;-;-;-
+14167;      Zwickau, Kreisfreie Stadt;Insgesamt;-;-;-
+14171;      Annaberg, Landkreis;75 Jahre und mehr;-;-;-
+14171;      Annaberg, Landkreis;Insgesamt;-;-;-
+14173;      Chemnitzer Land, Landkreis;75 Jahre und mehr;-;-;-
+14173;      Chemnitzer Land, Landkreis;Insgesamt;-;-;-
+14177;      Freiberg, Landkreis;75 Jahre und mehr;-;-;-
+14177;      Freiberg, Landkreis;Insgesamt;-;-;-
+14178;      Vogtlandkreis;75 Jahre und mehr;-;-;-
+14178;      Vogtlandkreis;Insgesamt;-;-;-
+14181;      Mittlerer Erzgebirgskreis;75 Jahre und mehr;-;-;-
+14181;      Mittlerer Erzgebirgskreis;Insgesamt;-;-;-
+14182;      Mittweida, Landkreis;75 Jahre und mehr;-;-;-
+14182;      Mittweida, Landkreis;Insgesamt;-;-;-
+14188;      Stollberg, Landkreis;75 Jahre und mehr;-;-;-
+14188;      Stollberg, Landkreis;Insgesamt;-;-;-
+14191;      Aue-Schwarzenberg, Landkreis;75 Jahre und mehr;-;-;-
+14191;      Aue-Schwarzenberg, Landkreis;Insgesamt;-;-;-
+14193;      Zwickauer Land, Landkreis;75 Jahre und mehr;-;-;-
+14193;      Zwickauer Land, Landkreis;Insgesamt;-;-;-
+142;    Dresden, Regierungsbezirk;75 Jahre und mehr;-;-;-
+142;    Dresden, Regierungsbezirk;Insgesamt;-;-;-
+14262;      Dresden, Kreisfreie Stadt;75 Jahre und mehr;-;-;-
+14262;      Dresden, Kreisfreie Stadt;Insgesamt;-;-;-
+14263;      Görlitz, Kreisfreie Stadt;75 Jahre und mehr;-;-;-
+14263;      Görlitz, Kreisfreie Stadt;Insgesamt;-;-;-
+14264;      Hoyerswerda, Kreisfreie Stadt;75 Jahre und mehr;-;-;-
+14264;      Hoyerswerda, Kreisfreie Stadt;Insgesamt;-;-;-
+14272;      Bautzen, Landkreis;75 Jahre und mehr;-;-;-
+14272;      Bautzen, Landkreis;Insgesamt;-;-;-
+14280;      Meißen, Landkreis;75 Jahre und mehr;-;-;-
+14280;      Meißen, Landkreis;Insgesamt;-;-;-
+14284;      Niederschlesischer Oberlausitzkreis;75 Jahre und mehr;-;-;-
+14284;      Niederschlesischer Oberlausitzkreis;Insgesamt;-;-;-
+14285;      Riesa-Großenhain, Landkreis;75 Jahre und mehr;-;-;-
+14285;      Riesa-Großenhain, Landkreis;Insgesamt;-;-;-
+14286;      Löbau-Zittau, Landkreis;75 Jahre und mehr;-;-;-
+14286;      Löbau-Zittau, Landkreis;Insgesamt;-;-;-
+14287;      Sächsische Schweiz, Landkreis;75 Jahre und mehr;-;-;-
+14287;      Sächsische Schweiz, Landkreis;Insgesamt;-;-;-
+14290;      Weißeritzkreis;75 Jahre und mehr;-;-;-
+14290;      Weißeritzkreis;Insgesamt;-;-;-
+14292;      Kamenz, Landkreis;75 Jahre und mehr;-;-;-
+14292;      Kamenz, Landkreis;Insgesamt;-;-;-
+143;    Leipzig, Regierungsbezirk;75 Jahre und mehr;-;-;-
+143;    Leipzig, Regierungsbezirk;Insgesamt;-;-;-
+14365;      Leipzig, Kreisfreie Stadt;75 Jahre und mehr;-;-;-
+14365;      Leipzig, Kreisfreie Stadt;Insgesamt;-;-;-
+14374;      Delitzsch, Landkreis;75 Jahre und mehr;-;-;-
+14374;      Delitzsch, Landkreis;Insgesamt;-;-;-
+14375;      Döbeln, Landkreis;75 Jahre und mehr;-;-;-
+14375;      Döbeln, Landkreis;Insgesamt;-;-;-
+14379;      Leipziger Land, Landkreis;75 Jahre und mehr;-;-;-
+14379;      Leipziger Land, Landkreis;Insgesamt;-;-;-
+14383;      Muldentalkreis;75 Jahre und mehr;-;-;-
+14383;      Muldentalkreis;Insgesamt;-;-;-
+14389;      Torgau-Oschatz, Landkreis;75 Jahre und mehr;-;-;-
+14389;      Torgau-Oschatz, Landkreis;Insgesamt;-;-;-
+145;    Chemnitz, Stat. Region;75 Jahre und mehr;218278;83906;134372
+145;    Chemnitz, Stat. Region;Insgesamt;1444953;709269;735684
+14511;      Chemnitz, Stadt;75 Jahre und mehr;36406;14184;22222
+14511;      Chemnitz, Stadt;Insgesamt;246855;121771;125084
+14521;      Erzgebirgskreis;75 Jahre und mehr;49994;18820;31174
+14521;      Erzgebirgskreis;Insgesamt;340373;166510;173863
+14522;      Mittelsachsen, Landkreis;75 Jahre und mehr;46138;18094;28044
+14522;      Mittelsachsen, Landkreis;Insgesamt;308153;153154;154999
+14523;      Vogtlandkreis;75 Jahre und mehr;36322;13809;22513
+14523;      Vogtlandkreis;Insgesamt;229584;111835;117749
+14524;      Zwickau, Landkreis;75 Jahre und mehr;49418;18999;30419
+14524;      Zwickau, Landkreis;Insgesamt;319988;155999;163989
+146;    Dresden, Stat. Region;75 Jahre und mehr;228049;90858;137191
+146;    Dresden, Stat. Region;Insgesamt;1598573;790350;808223
+14612;      Dresden, Stadt;75 Jahre und mehr;68088;27579;40509
+14612;      Dresden, Stadt;Insgesamt;551072;274513;276559
+14625;      Bautzen, Landkreis;75 Jahre und mehr;45433;17911;27522
+14625;      Bautzen, Landkreis;Insgesamt;302634;149377;153257
+14626;      Görlitz, Landkreis;75 Jahre und mehr;41382;16178;25204
+14626;      Görlitz, Landkreis;Insgesamt;256587;125660;130927
+14627;      Meißen, Landkreis;75 Jahre und mehr;36839;14594;22245
+14627;      Meißen, Landkreis;Insgesamt;242862;119693;123169
+14628;      Sächsische Schweiz-Osterzgebirge, Landkreis;75 Jahre und mehr;36307;14596;21711
+14628;      Sächsische Schweiz-Osterzgebirge, Landkreis;Insgesamt;245418;121107;124311
+147;    Leipzig, Stat. Region;75 Jahre und mehr;130586;50862;79724
+147;    Leipzig, Stat. Region;Insgesamt;1037782;510595;527187
+14713;      Leipzig, Stadt;75 Jahre und mehr;67310;26177;41133
+14713;      Leipzig, Stadt;Insgesamt;581980;285777;296203
+14729;      Leipzig, Landkreis;75 Jahre und mehr;35927;14051;21876
+14729;      Leipzig, Landkreis;Insgesamt;258008;126530;131478
+14730;      Nordsachsen, Landkreis;75 Jahre und mehr;27349;10634;16715
+14730;      Nordsachsen, Landkreis;Insgesamt;197794;98288;99506
+15;  Sachsen-Anhalt;75 Jahre und mehr;310409;119817;190592
+15;  Sachsen-Anhalt;Insgesamt;2223081;1094876;1128205
+15001;      Dessau-Roßlau, Kreisfreie Stadt;75 Jahre und mehr;14066;5668;8398
+15001;      Dessau-Roßlau, Kreisfreie Stadt;Insgesamt;82111;39933;42178
+15002;      Halle (Saale), Kreisfreie Stadt;75 Jahre und mehr;30590;11827;18763
+15002;      Halle (Saale), Kreisfreie Stadt;Insgesamt;239173;115771;123402
+15003;      Magdeburg, Kreisfreie Stadt;75 Jahre und mehr;31482;12133;19349
+15003;      Magdeburg, Kreisfreie Stadt;Insgesamt;238478;117677;120801
+15081;      Altmarkkreis Salzwedel;75 Jahre und mehr;10909;4175;6734
+15081;      Altmarkkreis Salzwedel;Insgesamt;84457;42152;42305
+15082;      Anhalt-Bitterfeld, Landkreis;75 Jahre und mehr;23796;9137;14659
+15082;      Anhalt-Bitterfeld, Landkreis;Insgesamt;161264;79166;82098
+15083;      Börde, Landkreis;75 Jahre und mehr;20407;7856;12551
+15083;      Börde, Landkreis;Insgesamt;172619;86111;86508
+15084;      Burgenlandkreis;75 Jahre und mehr;27545;10505;17040
+15084;      Burgenlandkreis;Insgesamt;181968;90410;91558
+15085;      Harz, Landkreis;75 Jahre und mehr;31504;12052;19452
+15085;      Harz, Landkreis;Insgesamt;216299;106135;110164
+15086;      Jerichower Land, Landkreis;75 Jahre und mehr;12254;4740;7514
+15086;      Jerichower Land, Landkreis;Insgesamt;90465;45071;45394
+15087;      Mansfeld-Südharz, Landkreis;75 Jahre und mehr;21348;8330;13018
+15087;      Mansfeld-Südharz, Landkreis;Insgesamt;138013;67923;70090
+15088;      Saalekreis;75 Jahre und mehr;23721;9253;14468
+15088;      Saalekreis;Insgesamt;185494;91867;93627
+15089;      Salzlandkreis;75 Jahre und mehr;28380;10793;17587
+15089;      Salzlandkreis;Insgesamt;192739;94262;98477
+15090;      Stendal, Landkreis;75 Jahre und mehr;15051;5843;9208
+15090;      Stendal, Landkreis;Insgesamt;113186;55930;57256
+15091;      Wittenberg, Landkreis;75 Jahre und mehr;19356;7505;11851
+15091;      Wittenberg, Landkreis;Insgesamt;126815;62468;64347
+151;    Dessau, Stat. Region;75 Jahre und mehr;-;-;-
+151;    Dessau, Stat. Region;Insgesamt;-;-;-
+15101;      Dessau, Kreisfreie Stadt;75 Jahre und mehr;-;-;-
+15101;      Dessau, Kreisfreie Stadt;Insgesamt;-;-;-
+15151;      Anhalt-Zerbst, Kreis;75 Jahre und mehr;-;-;-
+15151;      Anhalt-Zerbst, Kreis;Insgesamt;-;-;-
+15153;      Bernburg, Kreis;75 Jahre und mehr;-;-;-
+15153;      Bernburg, Kreis;Insgesamt;-;-;-
+15154;      Bitterfeld, Kreis;75 Jahre und mehr;-;-;-
+15154;      Bitterfeld, Kreis;Insgesamt;-;-;-
+15159;      Köthen, Kreis;75 Jahre und mehr;-;-;-
+15159;      Köthen, Kreis;Insgesamt;-;-;-
+15171;      Wittenberg, Kreis;75 Jahre und mehr;-;-;-
+15171;      Wittenberg, Kreis;Insgesamt;-;-;-
+152;    Halle, Stat. Region;75 Jahre und mehr;-;-;-
+152;    Halle, Stat. Region;Insgesamt;-;-;-
+15202;      Halle (Saale), Kreisfreie Stadt;75 Jahre und mehr;-;-;-
+15202;      Halle (Saale), Kreisfreie Stadt;Insgesamt;-;-;-
+15256;      Burgenlandkreis;75 Jahre und mehr;-;-;-
+15256;      Burgenlandkreis;Insgesamt;-;-;-
+15260;      Mansfelder Land, Kreis;75 Jahre und mehr;-;-;-
+15260;      Mansfelder Land, Kreis;Insgesamt;-;-;-
+15261;      Merseburg-Querfurt, Kreis;75 Jahre und mehr;-;-;-
+15261;      Merseburg-Querfurt, Kreis;Insgesamt;-;-;-
+15265;      Saalkreis;75 Jahre und mehr;-;-;-
+15265;      Saalkreis;Insgesamt;-;-;-
+15266;      Sangerhausen, Kreis;75 Jahre und mehr;-;-;-
+15266;      Sangerhausen, Kreis;Insgesamt;-;-;-
+15268;      Weißenfels, Kreis;75 Jahre und mehr;-;-;-
+15268;      Weißenfels, Kreis;Insgesamt;-;-;-
+153;    Magdeburg, Stat. Region;75 Jahre und mehr;-;-;-
+153;    Magdeburg, Stat. Region;Insgesamt;-;-;-
+15303;      Magdeburg, Kreisfreie Stadt;75 Jahre und mehr;-;-;-
+15303;      Magdeburg, Kreisfreie Stadt;Insgesamt;-;-;-
+15352;      Aschersleben-Staßfurt, Kreis;75 Jahre und mehr;-;-;-
+15352;      Aschersleben-Staßfurt, Kreis;Insgesamt;-;-;-
+15355;      Bördekreis;75 Jahre und mehr;-;-;-
+15355;      Bördekreis;Insgesamt;-;-;-
+15357;      Halberstadt, Kreis;75 Jahre und mehr;-;-;-
+15357;      Halberstadt, Kreis;Insgesamt;-;-;-
+15358;      Jerichower Land, Kreis;75 Jahre und mehr;-;-;-
+15358;      Jerichower Land, Kreis;Insgesamt;-;-;-
+15362;      Ohrekreis;75 Jahre und mehr;-;-;-
+15362;      Ohrekreis;Insgesamt;-;-;-
+15363;      Stendal, Kreis;75 Jahre und mehr;-;-;-
+15363;      Stendal, Kreis;Insgesamt;-;-;-
+15364;      Quedlinburg, Kreis;75 Jahre und mehr;-;-;-
+15364;      Quedlinburg, Kreis;Insgesamt;-;-;-
+15367;      Schönebeck, Kreis;75 Jahre und mehr;-;-;-
+15367;      Schönebeck, Kreis;Insgesamt;-;-;-
+15369;      Wernigerode, Kreis;75 Jahre und mehr;-;-;-
+15369;      Wernigerode, Kreis;Insgesamt;-;-;-
+15370;      Altmarkkreis Salzwedel, Kreis;75 Jahre und mehr;-;-;-
+15370;      Altmarkkreis Salzwedel, Kreis;Insgesamt;-;-;-
+16;  Thüringen;75 Jahre und mehr;286854;112482;174372
+16;  Thüringen;Insgesamt;2151205;1065004;1086201
+16051;      Erfurt, krsfr. Stadt;75 Jahre und mehr;24376;9619;14757
+16051;      Erfurt, krsfr. Stadt;Insgesamt;212988;103683;109305
+16052;      Gera, krsfr. Stadt;75 Jahre und mehr;14681;5597;9084
+16052;      Gera, krsfr. Stadt;Insgesamt;94859;45890;48969
+16053;      Jena, krsfr. Stadt;75 Jahre und mehr;12774;5167;7607
+16053;      Jena, krsfr. Stadt;Insgesamt;111099;55472;55627
+16054;      Suhl, krsfr. Stadt;75 Jahre und mehr;5589;2270;3319
+16054;      Suhl, krsfr. Stadt;Insgesamt;35166;17131;18035
+16055;      Weimar, krsfr. Stadt;75 Jahre und mehr;7906;3029;4877
+16055;      Weimar, krsfr. Stadt;Insgesamt;64426;31231;33195
+16056;      Eisenach, krsfr. Stadt;75 Jahre und mehr;6193;2357;3836
+16056;      Eisenach, krsfr. Stadt;Insgesamt;42710;21060;21650
+16061;      Eichsfeld, Kreis;75 Jahre und mehr;11860;4815;7045
+16061;      Eichsfeld, Kreis;Insgesamt;100645;50582;50063
+16062;      Nordhausen, Kreis;75 Jahre und mehr;11725;4677;7048
+16062;      Nordhausen, Kreis;Insgesamt;84697;41963;42734
+16063;      Wartburgkreis;75 Jahre und mehr;16139;6444;9695
+16063;      Wartburgkreis;Insgesamt;123764;61925;61839
+16064;      Unstrut-Hainich-Kreis;75 Jahre und mehr;13618;5303;8315
+16064;      Unstrut-Hainich-Kreis;Insgesamt;103504;51373;52131
+16065;      Kyffhäuserkreis;75 Jahre und mehr;10464;4146;6318
+16065;      Kyffhäuserkreis;Insgesamt;75818;37707;38111
+16066;      Schmalkalden-Meiningen, Kreis;75 Jahre und mehr;16912;6733;10179
+16066;      Schmalkalden-Meiningen, Kreis;Insgesamt;122952;61444;61508
+16067;      Gotha, Kreis;75 Jahre und mehr;17495;6947;10548
+16067;      Gotha, Kreis;Insgesamt;135521;67505;68016
+16068;      Sömmerda, Kreis;75 Jahre und mehr;8150;3179;4971
+16068;      Sömmerda, Kreis;Insgesamt;70027;35002;35025
+16069;      Hildburghausen, Kreis;75 Jahre und mehr;8214;3107;5107
+16069;      Hildburghausen, Kreis;Insgesamt;63923;31974;31949
+16070;      Ilm-Kreis;75 Jahre und mehr;14468;5665;8803
+16070;      Ilm-Kreis;Insgesamt;108830;54698;54132
+16071;      Weimarer Land, Kreis;75 Jahre und mehr;9292;3705;5587
+16071;      Weimarer Land, Kreis;Insgesamt;82131;40769;41362
+16072;      Sonneberg, Kreis;75 Jahre und mehr;8366;3125;5241
+16072;      Sonneberg, Kreis;Insgesamt;56361;27726;28635
+16073;      Saalfeld-Rudolstadt, Kreis;75 Jahre und mehr;16695;6311;10384
+16073;      Saalfeld-Rudolstadt, Kreis;Insgesamt;107368;52876;54492
+16074;      Saale-Holzland-Kreis;75 Jahre und mehr;10655;4340;6315
+16074;      Saale-Holzland-Kreis;Insgesamt;82990;41320;41670
+16075;      Saale-Orla-Kreis;75 Jahre und mehr;11336;4305;7031
+16075;      Saale-Orla-Kreis;Insgesamt;81501;40376;41125
+16076;      Greiz, Kreis;75 Jahre und mehr;15440;5972;9468
+16076;      Greiz, Kreis;Insgesamt;99275;48901;50374
+16077;      Altenburger Land, Kreis;75 Jahre und mehr;14506;5669;8837
+16077;      Altenburger Land, Kreis;Insgesamt;90650;44396;46254
+__________;;;;;
+"zu ""gesamter Tabelle"":
+ab dem Berichtsjahr 2011: Ergebnisse auf Grundlage des
+Zensus 2011
+
+Alle Länder: Die Entwicklung des Bevölkerungsstandes ab dem
+Berichtsjahr 2016 ist aufgrund methodischer Änderungen in
+den zugrunde liegenden Bevölkerungsbewegungsstatistiken nur
+bedingt mit den Werten vor 2016 vergleichbar. Einschrän-
+kungen bei der Genauigkeit der Ergebnisse können aus der er-
+höhten Zuwanderung und den dadurch bedingten Problemen bei
+der melderechtlichen Erfassung Schutzsuchender resultieren.
+Baden-Württemberg (Berichtsjahr 2008-2010): Gebietsstand
+01.01.2009
+Baden-Württemberg (ab Berichtsjahr 2011): Gebietsstand
+01.01.2011
+Baden-Württemberg (31.12.2017): Abweichungen zu anderen
+Veröffentlichungen ergeben sich ggf. durch nachträgliche
+Korrekturen.
+Nordrhein-Westfalen (31.12.2016): Für sechs Kommunen ist
+das vorliegende Ergebnis, das u. a. auf Basis der von den
+Meldebehörden erhaltenen Nachrichten ermittelt wurde, un-
+plausibel. Daher ist die Genauigkeit der Ergebnisse der
+übergeordneten Verwaltungsbezirke eingeschränkt. Die Gründe
+hierfür liegen offenbar in der melderechtlichen Behandlung
+von Schutzsuchenden. Die Unstimmigkeiten konnten nicht ab-
+schließend aufgelöst werden.";;;;;
+"© Statistische Ämter des Bundes und der Länder, Deutschland, 2019.
+Dieses Werk ist lizenziert unter der Datenlizenz Deutschland
+- Namensnennung - Version 2.0.";;;;;
+Stand: 21.06.2019 / 14:55:17;;;;;
