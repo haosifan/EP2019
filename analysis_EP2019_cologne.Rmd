@@ -134,8 +134,15 @@ ggplot(cgn_ep19_election_long) +
 left_join(cgn_ep19_election %>% 
             select(name_des_wahlgebiets,turnout),
           cgn_data_alo_processed,
-          by = c("name_des_wahlgebiets" = "name")) %>% 
-  ggplot()+
+          by = c("name_des_wahlgebiets" = "name"))
+
+saveRDS(cgn_data_full, "mat/cgn_data_full.Rdata")
+
+cgn_data_full <- left_join(cgn_ep19_election,
+          cgn_data_alo_processed,
+          by = c("name_des_wahlgebiets" = "name")) 
+
+ggplot()+
   geom_point(aes(x = alo_quote_sgb_ii, y = turnout), alpha = .3)+
   geom_smooth(aes(x = alo_quote_sgb_ii, y = turnout), method = "lm", se = TRUE)
 ```
