@@ -30,6 +30,8 @@ d_bielefeld_raw <- read.xlsx("../../staedte/data_bielefeld.xlsx", sheet = 1)
 d_dortmund_raw <- read.xlsx("../../staedte/data_dortmund.xlsx", sheet = 1)
 d_duesseldorf_raw <- read.xlsx("../../staedte/data_duesseldorf.xlsx", sheet = 1)
 d_oberhausen_raw <- read_csv2("../../staedte/data_oberhausen.csv")
+
+d_cologne_tidy <- readRDS(file = "mat/cgn_data_full.Rdata")
 ```
 
 ## Aufbereitung Aachen
@@ -104,6 +106,25 @@ d_oberhausen_tidy <- d_oberhausen_raw %>%
   mutate(id = as.numeric(id)) %>% 
   arrange(id)
 d_oberhausen_tidy
+
+d_oberhausen_tidy %>% 
+  select(-anzahl_wahlberechtigte_2019, -wahlberechtigte_2017) %>% 
+  reshape2::melt(id.vars = c("id",
+                             "name",
+                             "wahlbeteiligung_2019",
+                             "wahlbeteiligung_2014",
+                             "wahlbeteiligung_2017")) %>%
+  tbl_df() %>% 
+  ggplot()+
+  geom_point(aes(x = value, y = wahlbeteiligung_2019))+
+  facet_wrap(~variable, scale = "free_x")
+```
+
+## Aufbereitung Köln
+
+```{r}
+d_cologne_tidy %>% 
+  rename(id = nummer)
 ```
 
 
