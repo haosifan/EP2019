@@ -31,7 +31,7 @@ d_dortmund_raw <- read.xlsx("../../staedte/data_dortmund.xlsx", sheet = 1)
 d_duesseldorf_raw <- read.xlsx("../../staedte/data_duesseldorf.xlsx", sheet = 1)
 d_oberhausen_raw <- read_csv2("../../staedte/data_oberhausen.csv")
 
-d_cologne_tidy <- readRDS(file = "mat/cgn_data_full.Rdata")
+d_cologne_raw <- readRDS(file = "mat/cgn_data_full.Rdata")
 ```
 
 ## Aufbereitung Aachen
@@ -114,17 +114,18 @@ d_oberhausen_tidy %>%
                              "wahlbeteiligung_2019",
                              "wahlbeteiligung_2014",
                              "wahlbeteiligung_2017")) %>%
-  tbl_df() %>% 
-  ggplot()+
-  geom_point(aes(x = value, y = wahlbeteiligung_2019))+
-  facet_wrap(~variable, scale = "free_x")
+  tbl_df()
 ```
 
 ## Aufbereitung Köln
 
 ```{r}
-d_cologne_tidy %>% 
-  rename(id = nummer)
+d_cologne_tidy <- d_cologne_raw %>% 
+  rename(id = nummer,
+         wahlbeteiligung_2019 = turnout,
+         name = name_des_wahlgebiets) %>% 
+  mutate(id = as.numeric(id))
+d_cologne_tidy
 ```
 
 
@@ -175,7 +176,15 @@ set_alo <- bind_rows(
          wahlbeteiligung_2017,
          wahlbeteiligung_2019,
          arbeitslosigkeit_BT = sgb_ii_quote_insgesamt_2016,
-         arbeitslosigkeit_EP = sgb_ii_quote_insgesamt_2016),
+         arbeitslosigkeit_EP = sgb_ii_quote_insgesamt_2016
+         ),
+  d_cologne_tidy %>% 
+    select(id,
+           name, 
+           wahlbeteiligung_2017,
+           wahlbeteiligung_2019,
+           arbeitslosigkeit_BT = alo_quote_sgb_ii,
+           arbeitslosigkeit_EP = alo_quote_sgb_ii),
   .id = "city"
   ) %>% 
   mutate(arbeitslosigkeit_BT = arbeitslosigkeit_EP,
@@ -183,7 +192,8 @@ set_alo <- bind_rows(
                           city == 2 ~ "Bielefeld",
                           city == 3 ~ "Dortmund",
                           city == 4 ~ "Düsseldorf",
-                          city == 5 ~ "Oberhausen"))
+                          city == 5 ~ "Oberhausen",
+                          city == 6 ~ "Köln"))
 
 ```
 
@@ -206,9 +216,23 @@ set_alo %>% reshape2::melt(id.vars = c("city","id","name")) %>%
 
 ```{r}
 ggplot(set_alo) +
-  geom_smooth(aes(x = arbeitslosigkeit_BT, y = wahlbeteiligung_2017), method = "lm")+
-  geom_smooth(aes(x = arbeitslosigkeit_EP, y = wahlbeteiligung_2019), method = "lm")+
-  facet_wrap(~city, scale = "free_x")
+  geom_smooth(aes(x = arbeitslosigkeit_BT, y = wahlbeteiligung_2017, color = "Federal election 2017"), 
+              method = "lm")+
+  geom_smooth(aes(x = arbeitslosigkeit_EP, y = wahlbeteiligung_2019, color = "European election 2019"), 
+              method = "lm")+
+  geom_point(aes(x = arbeitslosigkeit_BT, y = wahlbeteiligung_2017, color = "Federal election 2017"), 
+             alpha = .2)+
+  geom_point(aes(x = arbeitslosigkeit_EP, y = wahlbeteiligung_2019, color = "European election 2019"), 
+             alpha = .2)+
+  facet_wrap(~city, scale = "free_x") +
+  scale_color_manual(name = "", 
+                     values = c("Federal election 2017" = "red", "European election 2019" = "dodgerblue2"))+
+  labs(title = "Link between unemployment numbers and voter turnout in NRW-cities",
+       subtitle = "level of analysis: city districts",
+       x = "unemployment numbers (%)",
+       y = "turnout (%)") + 
+  theme_light()
+ggsave(plot = last_plot(), filename = "gfx/E/13_cities_nrw_unemployment.png", device = "png", dpi = 300, width = 10, height = 7)
   
 ```
 

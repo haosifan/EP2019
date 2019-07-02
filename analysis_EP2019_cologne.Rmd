@@ -77,7 +77,8 @@ cgn_bt17_election <- read_csv2("http://www.stadt-koeln.de/wahlen/bundestagswahl/
   select(-MaxSchnellmeldungen, -AnzSchnellmeldungen, -`gültigeStimmzettel`, -`ungültigeStimmzettel`) %>% 
   mutate_at(vars(Z_CDU:`Z_Einzelbewerber Werner`), funs(./`gültig`*100)) %>%
   rename_at(vars(Z_CDU:`Z_Einzelbewerber Werner`), funs(gsub("Z_","",.))) %>% 
-  select(-`Einzelbewerber Werner`)
+  select(-`Einzelbewerber Werner`) %>% 
+  janitor::clean_names()
 ```
 
 ## Socioeconomic indicators
@@ -136,11 +137,15 @@ left_join(cgn_ep19_election %>%
           cgn_data_alo_processed,
           by = c("name_des_wahlgebiets" = "name"))
 
-saveRDS(cgn_data_full, "mat/cgn_data_full.Rdata")
-
 cgn_data_full <- left_join(cgn_ep19_election,
           cgn_data_alo_processed,
-          by = c("name_des_wahlgebiets" = "name")) 
+          by = c("name_des_wahlgebiets" = "name")) %>% 
+  left_join(.,
+            cgn_bt17_election %>% select(name, wahlbeteiligung_2017 = wahlbeteiligung),
+            by = c("name_des_wahlgebiets" = "name"))
+saveRDS(cgn_data_full, "mat/cgn_data_full.Rdata")
+
+
 
 ggplot()+
   geom_point(aes(x = alo_quote_sgb_ii, y = turnout), alpha = .3)+
